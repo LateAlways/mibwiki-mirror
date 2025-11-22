@@ -1,0 +1,1 @@
+JTAG+USB recovery of wiped NOR chip

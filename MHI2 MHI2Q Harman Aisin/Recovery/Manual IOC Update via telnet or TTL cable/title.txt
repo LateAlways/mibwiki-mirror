@@ -1,0 +1,1 @@
+Manual IOC Update via telnet or TTL cable

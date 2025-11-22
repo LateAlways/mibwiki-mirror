@@ -1,0 +1,1 @@
+How to prepare mifs-stage1.img and eifs.img for flashing
