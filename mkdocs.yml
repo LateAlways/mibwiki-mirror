@@ -1,0 +1,32 @@
+site_name: MIB2 WIKI - Mirror
+site_url: https://mibwiki.latealways.dev/
+repo_url: https://github.com/LateAlways/mibwiki-mirror
+edit_uri: edit/main/docs/
+plugins:
+  - search
+  - offline
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+theme: 
+  name: material
+  icon: simple/volkswagen
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.indexes
+    - navigation.path
+
+    - toc.follow
+
+    - search.suggest
+    - search.highlight
+
+    - content.action.view
+
+  palette:
+    scheme: slate
+    primary: black
+    accent: indigo
