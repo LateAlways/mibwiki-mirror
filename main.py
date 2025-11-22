@@ -193,8 +193,11 @@ def downloadDocument(document: dict, startPath: str) -> dict:
         downloadDocument(children, startPath=os.path.join(startPath, sanitize_folder_name(document["title"])))
 
 if __name__ == "__main__":
-    shutil.rmtree(OUTPUT, ignore_errors=True)
-    os.makedirs(OUTPUT)
+    os.makedirs(OUTPUT, exist_ok=True)
+    for x in os.listdir(OUTPUT):
+        if x != "index.md":
+            shutil.rmtree(os.path.join(OUTPUT, x), ignore_errors=True)
+
     collections_l = getCollections()
     hierarchy = {}
     for collection in collections_l:
