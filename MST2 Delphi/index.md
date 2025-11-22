@@ -1,0 +1,1 @@
+Use the Delphi MST2 SD Activator by Congo & Duke and enjoy

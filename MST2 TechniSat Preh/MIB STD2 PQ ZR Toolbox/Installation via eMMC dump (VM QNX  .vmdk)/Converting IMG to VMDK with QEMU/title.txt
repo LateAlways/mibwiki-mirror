@@ -1,0 +1,1 @@
+Converting IMG to VMDK with QEMU

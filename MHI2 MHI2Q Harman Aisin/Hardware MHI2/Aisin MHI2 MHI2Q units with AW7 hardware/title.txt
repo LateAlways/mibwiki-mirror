@@ -1,0 +1,1 @@
+Aisin MHI2/MHI2Q units with AW7 hardware

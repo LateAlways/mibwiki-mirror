@@ -1,0 +1,1 @@
+Installation via eMMC dump (VM QNX *.vmdk)

@@ -1,0 +1,176 @@
+
+fdisk mnand0 show ->
+
+
+     _____OS_____     Start      End     ______Number______   Size    Boot  
+     name    type    Cylinder  Cylinder  Cylinders   Blocks                 
+
+1.   QNX6     177          0        485       486     1990592    971 MB
+2.   Extd'd     5        486      28005     27520   112721920  55040 MB
+2.1  QNX6     178        486        997       512     2097088   1023 MB
+2.2  QNX6     178        998       2277      1280     5242816   2559 MB
+2.3  QNX6     178       2278       4325      2048     8388544   4095 MB
+2.4  QNX6     178       4326       4453       128      524224    255 MB
+2.5  QNX6     178       4454       4965       512     2097088   1023 MB
+2.6  QNX6     178       4966       5477       512     2097088   1023 MB
+2.7  QNX6     178       5478       6501      1024     4194240   2047 MB
+2.8  QNX6     178       6502       6757       256     1048512    511 MB
+2.9  QNX6     178       6758      22731     15974    65429440  31947 MB
+2.10 QNX6     178      22732      27851      5120    20971456  10239 MB
+2.11 QNX6     178      27852      28005       154      630720    307 MB
+3.   QNX6     179      28006      30315      2310     9461760   4620 MB
+4.   ------   ---   --------   --------   -------  --------  -----          
+
+fdisk mnand0 info ->
+
+Physical disk characteristics: (/net/mmx/dev/mnand0)
+    Disk type        : Direct Access (0)
+    Cylinders        : 30320
+    Heads            : 64
+    Sectors/Track    : 64
+    Total Sectors    : 124190720
+Partition table information:
+    0: (177) beg(h=1,s=1,c=0) end(h=63,s=64,c=485) off=64, size=1990592
+    1: (5) beg(h=0,s=1,c=486) end(h=63,s=64,c=28005) off=1990656, size=112721920
+     1.1  : LBA=1990656
+     1.1.0: (178) beg(h=1,s=1,c=486) end(h=63,s=64,c=997) off=1990720, size=2097088
+     1.1.1: (5) beg(h=0,s=1,c=998) end(h=63,s=64,c=2277) off=4087808, size=5242880
+
+     1.2  : LBA=4087808
+     1.2.0: (178) beg(h=1,s=1,c=998) end(h=63,s=64,c=2277) off=4087872, size=5242816
+     1.2.1: (5) beg(h=0,s=1,c=2278) end(h=63,s=64,c=4325) off=9330688, size=8388608
+
+     1.3  : LBA=9330688
+     1.3.0: (178) beg(h=1,s=1,c=2278) end(h=63,s=64,c=4325) off=9330752, size=8388544
+     1.3.1: (5) beg(h=0,s=1,c=4326) end(h=63,s=64,c=4453) off=17719296, size=524288
+
+     1.4  : LBA=17719296
+     1.4.0: (178) beg(h=1,s=1,c=4326) end(h=63,s=64,c=4453) off=17719360, size=524224
+     1.4.1: (5) beg(h=0,s=1,c=4454) end(h=63,s=64,c=4965) off=18243584, size=2097152
+
+     1.5  : LBA=18243584
+     1.5.0: (178) beg(h=1,s=1,c=4454) end(h=63,s=64,c=4965) off=18243648, size=2097088
+     1.5.1: (5) beg(h=0,s=1,c=4966) end(h=63,s=64,c=5477) off=20340736, size=2097152
+
+     1.6  : LBA=20340736
+     1.6.0: (178) beg(h=1,s=1,c=4966) end(h=63,s=64,c=5477) off=20340800, size=2097088
+     1.6.1: (5) beg(h=0,s=1,c=5478) end(h=63,s=64,c=6501) off=22437888, size=4194304
+
+     1.7  : LBA=22437888
+     1.7.0: (178) beg(h=1,s=1,c=5478) end(h=63,s=64,c=6501) off=22437952, size=4194240
+     1.7.1: (5) beg(h=0,s=1,c=6502) end(h=63,s=64,c=6757) off=26632192, size=1048576
+
+     1.8  : LBA=26632192
+     1.8.0: (178) beg(h=1,s=1,c=6502) end(h=63,s=64,c=6757) off=26632256, size=1048512
+     1.8.1: (5) beg(h=0,s=1,c=6758) end(h=63,s=64,c=22731) off=27680768, size=65429504
+
+     1.9  : LBA=27680768
+     1.9.0: (178) beg(h=1,s=1,c=6758) end(h=63,s=64,c=22731) off=27680832, size=65429440
+     1.9.1: (5) beg(h=0,s=1,c=22732) end(h=63,s=64,c=27851) off=93110272, size=20971520
+
+     1.10  : LBA=93110272
+     1.10.0: (178) beg(h=1,s=1,c=22732) end(h=63,s=64,c=27851) off=93110336, size=20971456
+     1.10.1: (5) beg(h=0,s=1,c=27852) end(h=63,s=64,c=28005) off=114081792, size=630784
+
+     1.11  : LBA=114081792
+     1.11.0: (178) beg(h=1,s=1,c=27852) end(h=63,s=64,c=28005) off=114081856, size=630720
+     1.11.1: (0) beg(h=0,s=0,c=0) end(h=0,s=0,c=0) off=0, size=0
+
+    2: (179) beg(h=0,s=1,c=28006) end(h=63,s=64,c=30315) off=114712576, size=9461760
+    3: (0) beg(h=0,s=0,c=0) end(h=0,s=0,c=0) off=0, size=0
+signature1=0x55, signature2=0xAA
+fstab MMX mount ->
+
+## /etc/fstab: static file system information.
+##
+## Important note:the comment at the end of each entry will be parsed by SW and
+## used for reformatting.
+## Change with care and keep in sync with all esol_mNAND_fs_create.sh versions.
+##
+##<specialdevice>   <mountpoint>     <type> <mountoptions> <fsusagetype>
+/dev/mnand0t177    /mnt/app         qnx6   ro
+## /mnt/boardbook is mounted readwritable for Fahrtenbuch and Radio Station Logos
+/dev/mnand0t178    /mnt/boardbook   qnx6   rw             #-T media -b 32768 -i 1024
+/dev/mnand0t178.1  /mnt/speech      qnx6   rw             #-T media -b 32768 -i 2048
+/dev/mnand0t178.2  /mnt/gracenotedb qnx6   ro             #-T media -b 32768 -i 256
+/dev/mnand0t178.3  /mnt/mmebackup   qnx6   ro             #-T media -b 32768 -i 2048
+/dev/mnand0t178.4  /mnt/icab        qnx6   rw             #-T runtime -b 32768 -i 65536
+/dev/mnand0t178.5  /mnt/adb         qnx6   rw             #-T media -b 4096 -i 32768
+/dev/mnand0t178.6  /mnt/gecache     qnx6   rw             #-T runtime -b 16384 -i 8192
+/dev/mnand0t178.7  /mnt/ols         qnx6   rw             #-T media -b 1024 -i 32768
+/dev/mnand0t178.8  /mnt/navdb       qnx6   ro             #-T media -b 32768 -i 8192
+/dev/mnand0t178.9  /mnt/media       qnx6   ro             #-T media -b 32768 -i 16384
+/dev/mnand0t179    /mnt/ota         qnx6   rw             #-T runtime -b 32768 -i 16384
+
+df MMX mount ->
+
+/dev/hd130t77              71679       150     71529       1%  /fs/tmpfs/      
+/dev/sda0t12            62480384     10592  62469792       1%  /fs/sda0/       
+/dev/organizer0t77         20479        31     20448       1%  /organizerdisk/ 
+/dev/sysramdisk0t77        40959       143     40816       1%  /ramdisk/       
+/mnt/navdb/speech/s         5648      5648         0     100%  /mnt/speech-sr-v
+/mnt/navdb/speech/s          740       740         0     100%  /mnt/speech-sr-v
+/mnt/navdb/speech/s       122124    122124         0     100%  /mnt/speech-sr-v
+/mnt/speech/tts/voi       105404    105404         0     100%  /mnt/speech-tts-
+/mnt/speech/tts/voi       233024    233024         0     100%  /mnt/speech-tts-
+/mnt/speech/tts/voi       516080    516080         0     100%  /mnt/speech-tts-
+/mnt/speech/tts/voi       167296    167296         0     100%  /mnt/speech-tts-
+/mnt/speech/tts/voi        87056     87056         0     100%  /mnt/speech-tts-
+/mnt/speech/tts/voi        90800     90800         0     100%  /mnt/speech-tts-
+/dev/mnand0t178.10        630528     16128    614400       3%  /mnt/aw-persiste
+/dev/mnand0t179          9461568    294208   9167360       4%  /mnt/ota/       
+/dev/mnand0t178.9       20971264    218368  20752896       2%  /mnt/media/     
+/dev/fs0p2                 16128      1724     14403      11%  /mnt/persist    
+/dev/mnand0t178.8       65429248  33518592  31910656      52%  /mnt/navdb/     
+/mnt/navdb/db/SPOT/       869708    869708         0     100%  /mnt/navdb/spot/
+/mnt/navdb/db/SPOT/         2888      2888         0     100%  /mnt/navdb/spot/
+/mnt/navdb/db/SPOT/         2664      2664         0     100%  /mnt/navdb/spot/
+/mnt/navdb/db/SPOT/         4904      4904         0     100%  /mnt/navdb/spot/
+/mnt/navdb/db/SPOT/        29600     29600         0     100%  /mnt/navdb/spot/
+/mnt/navdb/db/SPOT/         6368      6368         0     100%  /mnt/navdb/spot/
+/mnt/navdb/db/SPOT/         3016      3016         0     100%  /mnt/navdb/spot/
+/mnt/navdb/db/SPOT/        34364     34364         0     100%  /mnt/navdb/spot/
+/mnt/navdb/db/SPOT/         3124      3124         0     100%  /mnt/navdb/spot/
+/mnt/navdb/db/SPOT/        29964     29964         0     100%  /mnt/navdb/spot/
+/mnt/navdb/db/SPOT/        13136     13136         0     100%  /mnt/navdb/spot/
+/mnt/navdb/db/SPOT/         9664      9664         0     100%  /mnt/navdb/spot/
+/mnt/navdb/db/SPOT/        24980     24980         0     100%  /mnt/navdb/spot/
+/mnt/navdb/db/SPOT/       185520    185520         0     100%  /mnt/navdb/spot/
+/mnt/navdb/db/SPOT/        17688     17688         0     100%  /mnt/navdb/spot/
+/mnt/navdb/db/SPOT/        33164     33164         0     100%  /mnt/navdb/spot/
+/mnt/navdb/db/SPOT/        24524     24524         0     100%  /mnt/navdb/spot/
+/mnt/navdb/db/SPOT/        48852     48852         0     100%  /mnt/navdb/spot/
+/mnt/navdb/db/SPOT/        16388     16388         0     100%  /mnt/navdb/spot/
+/mnt/navdb/db/SPOT/        49992     49992         0     100%  /mnt/navdb/spot/
+/mnt/navdb/db/SPOT/        17948     17948         0     100%  /mnt/navdb/spot/
+/mnt/navdb/db/SPOT/       129196    129196         0     100%  /mnt/navdb/spot/
+/mnt/navdb/db/SPOT/       146388    146388         0     100%  /mnt/navdb/spot/
+/mnt/navdb/db/SPOT/       106924    106924         0     100%  /mnt/navdb/spot/
+/mnt/navdb/db/SPOT/        45756     45756         0     100%  /mnt/navdb/spot/
+/mnt/navdb/db/SPOT/        24448     24448         0     100%  /mnt/navdb/spot/
+/mnt/navdb/db/SPOT/        46836     46836         0     100%  /mnt/navdb/spot/
+/mnt/navdb/db/SPOT/         5992      5992         0     100%  /mnt/navdb/spot/
+/mnt/navdb/db/SPOT/        10132     10132         0     100%  /mnt/navdb/spot/
+/mnt/navdb/db/SPOT/        22104     22104         0     100%  /mnt/navdb/spot/
+/mnt/navdb/db/SPOT/        20960     20960         0     100%  /mnt/navdb/spot/
+/mnt/navdb/db/SPOT/        22148     22148         0     100%  /mnt/navdb/spot/
+/mnt/navdb/db/SPOT/        38380     38380         0     100%  /mnt/navdb/spot/
+/mnt/navdb/db/SPOT/       214580    214580         0     100%  /mnt/navdb/spot/
+/mnt/navdb/db/DBICO         5700      5700         0     100%  /mnt/navdb/dbico
+/dev/mnand0t178.7        1048480     27300   1021180       3%  /mnt/ols/       
+/dev/mnand0t178.6        4194144    130112   4064032       4%  /mnt/gecache/   
+/dev/mnand0t178.5        2097056     44640   2052416       3%  /mnt/adb/       
+/dev/fs0p1                  3840      2252      1587      59%  /mnt/system     
+/dev/mnand0t178.4        2096896     96128   2000768       5%  /mnt/icab/      
+/dev/mnand0t178.3         524032      7040    516992       2%  /mnt/mmebackup/ 
+/dev/mnand0t178.2        8388352   4424256   3964096      53%  /mnt/gracenotedb
+/dev/mnand0t178.1        5242624   1456128   3786496      28%  /mnt/speech/    
+/dev/mnand0t178          2096896     21696   2075200       2%  /mnt/boardbook/ 
+/dev/mnand0t177          1990560    920692   1069868      47%  /mnt/app/       
+/mnt/app/eso/lib/ic        51168     51168         0     100%  /mnt/app/eso/lib
+/dev/hd130                 71680     71680         0     100%                  
+/dev/cd0                       0         0         0     100%                  
+/dev/organizer0            20480     20480         0     100%                  
+/dev/sda0               62521344  62521344         0     100%                  
+/dev/sysramdisk0           40960     40960         0     100%                  
+/dev/mnand0            124190720 124190720         0     100%                  

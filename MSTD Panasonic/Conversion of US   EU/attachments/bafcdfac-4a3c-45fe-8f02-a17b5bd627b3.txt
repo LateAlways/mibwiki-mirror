@@ -1,0 +1,929 @@
+@@1|0878000c|100
+@@1|0878000c|100
+@@1|0878000c|100
+@@1|0878000c|100
+118211 - INFO  [0x200, 0x2, 0xe03ac78] - protocol.version:=1.1;;skin.short.version:=<not set>;;hmisoftware.version:=13.15.17_H15.10.133_STDPlus_EU;;hmisoftware.cgrun.version:=H15.10.133-201304121659_STDPlus_EU_201304121802;;hmisoftware.base.version:=H15.10.133-201304121603
+Thread "unnamed" started, ThreadId is 2B8DF152
+PASE ExtStartupSPI : wakeupThread[MAIN_THREAD,6,main]
+DebugSPI: activateLogSink: 1
+131586 - INFO  [0x4000, 0x2, 0xf272cf50] - resume HMI ...
+DebugSPI: activateLogSink: 1
+Thread Exit, ThreadID 97C970E
+[SimpleTcpServer] Creating server socket for port 16556
+131587 - INFO  [0x4000, 0x2, 0xf272cf50] - Starting autostart bundles ...
+131587 - INFO  [0x4000, 0x2, 0xf272cf50] - Starting bundle 10-Log4MIB ...
+131590 - INFO  [0x200, 0x1, 0xf272cf50] - new LogWriter registered: de.vw.mib.log4mib.internal.DebugSPIService@7a7c7a7c
+131593 - INFO  [0x4000, 0x2, 0xf272cf50] - Starting bundle 11-ErrorHandler ...
+131593 - INFO  [0x4000, 0x2, 0xf272cf50] - Starting bundle 16-ThreadManager ...
+131593 - INFO  [0x4000, 0x2, 0xf272cf50] - Starting bundle 18-Framework4U ...
+131594 - INFO  [0x4000, 0x2, 0xf272cf50] - Starting bundle 12-ConfigurationManager ...
+131594 - INFO  [0x4000, 0x2, 0xf272cf50] - Starting bundle 13-Timer ...
+131595 - INFO  [0x10000, 0x2, 0x3e60e9d2] - MIBThread 'Timer-Thread' started!
+131597 - INFO  [0x20000, 0x2, 0xf272cf50] - Timer thread started!
+131597 - INFO  [0x4000, 0x2, 0xf272cf50] - Starting bundle 14-EventDispatcher ...
+132143 - INFO  [0x4000, 0x2, 0xf272cf50] - Starting bundle 72-PerformanceTracing ...
+132144 - INFO  [0x4000, 0x2, 0xf272cf50] - Starting bundle 17-FixFormatter ...
+132144 - INFO  [0x4000, 0x2, 0xf272cf50] - Starting bundle 15-StartupManager ...
+132144 - INFO  [0x4000, 0x4, 0xf272cf50] - Managed bundles startup ...
+132145 - INFO  [0x4000, 0x4, 0xf272cf50] - Starting bundle 1-JDSI ...
+132235 - INFO  [0x4000, 0x4, 0xf272cf50] - Starting bundle 20-GenericEvents ...
+132261 - INFO  [0x4000, 0x4, 0xf272cf50] - Starting bundle 21-ASL ...
+132262 - INFO  [0x4000, 0x4, 0xf272cf50] - Starting bundle 30-LscTNG ...
+132262 - INFO  [0x4000, 0x4, 0xf272cf50] - Starting bundle 31-SoundWaveplayer ...
+132262 - INFO  [0x4000, 0x4, 0xf272cf50] - Starting bundle 32-ImageManager ...
+132262 - INFO  [0x4000, 0x4, 0xf272cf50] - Starting bundle 33-FontManager ...
+132263 - INFO  [0x4000, 0x4, 0xf272cf50] - Starting bundle 34-GraphicsManager ...
+132263 - INFO  [0x4000, 0x4, 0xf272cf50] - Starting bundle 35-DisplayManager ...
+132264 - INFO  [0x4000, 0x4, 0xf272cf50] - Starting bundle 36-AnimationManager ...
+132264 - INFO  [0x4000, 0x4, 0xf272cf50] - Starting bundle 37-RepaintManager ...
+132265 - INFO  [0x4000, 0x4, 0xf272cf50] - Starting bundle 40-Datapool ...
+132265 - INFO  [0x4000, 0x4, 0xf272cf50] - Starting bundle 50-InstrumentCluster ...
+132265 - INFO  [0x2, 0x1, 0xf272cf50] - Persistence service doesn't exist.
+132267 - INFO  [0x4000, 0x4, 0xf272cf50] - Starting bundle 38-Widgets ...
+132278 - INFO  [0x1000000, 0x1, 0xf272cf50] - AnimationManager started
+132278 - INFO  [0x4000, 0x4, 0xf272cf50] - Starting bundle 41-Views ...
+132278 - INFO  [0x4000, 0x4, 0xf272cf50] - Starting bundle 42-StatemachineManager ...
+132279 - INFO  [0x4000, 0x4, 0xf272cf50] - Starting bundle 43-ViewManager ...
+132292 - INFO  [0x4000, 0x4, 0xf272cf50] - Starting bundle 70-DebugProbes ...
+132319 - INFO  [0x100000, 0x200, 0xf272cf50] - [DebugProbeManager] Deactivating all debug probes (given by the configuration manager)
+132321 - INFO  [0x4000, 0x4, 0xf272cf50] - Starting bundle 71-DebugInterface ...
+132392 - INFO  [0x10000, 0x4, 0xf272cf50] - create MIBThread - id: 7, runnable: de.vw.mib.genericevents.impl.a@fa60fa6
+132394 - INFO  [0x100000, 0x20, 0xf272cf50] - [DebugInterface] - Can not load Testinterface functions. Class not found.
+132397 - INFO  [0x100000, 0x20, 0xf272cf50] - --- DebugInterface ready to rumble! ---
+132422 - INFO  [0x1, 0x1, 0xe6c15f22] - [ASLStartup v7R]VARIANT STDPlus_EU_DAB loading...
+132624 - INFO  [0x1, 0x1, 0xe6c15f22] - [ASLStartup v7R]Powerstate detected by Startup Manager: 9
+132665 - INFO  [0x1, 0x20, 0xe6c15f22] - Persistence: Pre-Load Namespace 5000
+132673 - WARN  [0x80, 0x1, 0xe6c15f22] - Access to an empty parameter (index: 4) in EventGeneric Event{[0.5122.100001]-->[0.5120.1700008][Index 0:int:5000][Index 1:long:200]}!
+132701 - INFO  [0x1, 0x20, 0xe6c15f22] - Persistence: Pre-Load Namespace 5000 done, Time: 30 ms
+132710 - INFO  [0x1, 0x1, 0xe6c15f22] - Domain(s) already reached requested state or higher, moving on...
+132771 - ERROR [0x80, 0x8, 0xe6c15f22] - Error registering Service: ServiceId=40472 RouterId=0 TargetId=5604 EventId=0 Cause=Already registered
+132797 - INFO  [0x1, 0x1000000, 0xe6c15f22] - CAR: requesting diagnostic ... opened zip @ 31
+ zip entry inited @ 31
+ zip entry retrieved @ 32
+
+132984 - INFO  [0x1, 0x800, 0xe6c15f22] - [AslTargetSystemPowerManagementHandling] Update Power State: POWERSTATE_STANDBY_PWR_SAVE
+132990 - INFO  [0x1, 0x800, 0xe6c15f22] - [AslTargetSystemPowerManagementHandling] dsiPowerManagementUpdateBEMState 0
+133029 - WARN  [0x80, 0x1, 0xe6c15f22] - Access to an empty parameter (index: 4) in EventGeneric Event{[0.7300.100002]-->[0.5120.1700008][Index 0:int:28180695][Index 1:long:1]}!
+133032 - WARN  [0x80, 0x1, 0xe6c15f22] - Access to an empty parameter (index: 4) in EventGeneric Event{[0.7300.100002]-->[0.5120.1700008][Index 0:int:28442848][Index 1:long:101]}!
+133034 - WARN  [0x80, 0x1, 0xe6c15f22] - Access to an empty parameter (index: 4) in EventGeneric Event{[0.7300.100002]-->[0.5120.1700008][Index 0:int:52166966][Index 1:long:200]}!
+133040 - WARN  [0x80, 0x1, 0xe6c15f22] - Access to an empty parameter (index: 4) in EventGeneric Event{[0.7300.100002]-->[0.5120.1700008][Index 0:int:28442848][Index 1:long:103]}!
+133045 - WARN  [0x80, 0x1, 0xe6c15f22] - Access to an empty parameter (index: 4) in EventGeneric Event{[0.7300.100002]-->[0.5120.1700008][Index 0:int:46924065][Index 1:long:400]}!
+133048 - WARN  [0x80, 0x1, 0xe6c15f22] - Access to an empty parameter (index: 4) in EventGeneric Event{[0.7300.100002]-->[0.5120.1700008][Index 0:int:28442848][Index 1:long:100]}!
+133053 - INFO  [0x1, 0x20, 0xe6c15f22] - Persistence: Pre-Load Namespace 5010
+133066 - WARN  [0x80, 0x1, 0xe6c15f22] - Access to an empty parameter (index: 4) in EventGeneric Event{[0.5122.100001]-->[0.5120.1700008][Index 0:int:5010][Index 1:long:200]}!
+133081 - INFO  [0x1, 0x400000, 0xe6c15f22] - DIAGNOSTIC CAR BRAND: VW CLASS: 3 GENERATION: 7 DERIVATE: 0 SUPPLEMENT: 0
+133095 - WARN  [0x1, 0x20, 0xe6c15f22] - Persistence: DSI UP|DISPLAY      |0xc8(200)        |DISPLAY_SHARED                          |invalid key         |byte[] |byte[]: len=1: 00
+133108 - INFO  [0x1, 0x1000000, 0xe6c15f22] - Car Parkingsystem: OPS
+133113 - INFO  [0x1, 0x400000, 0xe6c15f22] - DIAGNOSTIC VW brand is true
+133114 - INFO  [0x1, 0x400000, 0xe6c15f22] - DIAGNOSTIC Seat brand is false
+Thread Exit, ThreadID 89F20EE2
+133114 - INFO  [0x1, 0x400000, 0xe6c15f22] - DIAGNOSTIC Skoda brand is false
+133117 - INFO  [0x1, 0x400000, 0xe6c15f22] - DIAGNOSTIC SDS is active
+133131 - INFO  [0x1, 0x400000, 0xe6c15f22] - DIAGNOSTIC Navigation is not active
+133133 - INFO  [0x1, 0x1000000, 0xe6c15f22] - CAR: diagnostic ... Done!
+133136 - INFO  [0x1, 0x20, 0xe6c15f22] - Persistence: Pre-Load Namespace 5010 done, Time: 83 ms
+133137 - INFO  [0x1, 0x400000, 0xe6c15f22] - DIAGNOSTIC Car Functions BAP List:
+133138 - INFO  [0x1, 0x400000, 0xe6c15f22] - Clock is true
+133138 - INFO  [0x1, 0x400000, 0xe6c15f22] - Unitmaster is true
+133138 - INFO  [0x1, 0x400000, 0xe6c15f22] - DIAGNOSTIC RVC is not active
+133147 - INFO  [0x1, 0x400000, 0xe6c15f22] - DIAGNOSTIC Developer Test Mode is Activated
+133148 - INFO  [0x1, 0x400000, 0xe6c15f22] - DIAGNOSTIC WLAN is not active
+133151 - INFO  [0x1, 0x400000, 0xe6c15f22] - DIAGNOSTIC BLUETOOTH PHONE is coded and not yet detected via DSI
+133168 - WARN  [0x1, 0x20, 0xe6c15f22] - Calling clear() because data not found or not valid (e.g. due to uncompressing error) Obj: [namespace=5010][key=0xc8(200)]
+133174 - INFO  [0x1, 0x1000000, 0xe6c15f22] - [HsmTargetRvcOps] ASL_SYSTEM_SET_HMI_READY received, sendDSICarParkingSystem.setHMIStateIsReady
+133191 - INFO  [0x1, 0x20, 0xe6c15f22] - Persistence: Pre-Load Namespace 1101
+133198 - WARN  [0x80, 0x1, 0xe6c15f22] - Access to an empty parameter (index: 4) in EventGeneric Event{[0.5122.100001]-->[0.5120.1700008][Index 0:int:1101][Index 1:long:10]}!
+133208 - INFO  [0x1, 0x20, 0xe6c15f22] - Persistence: Pre-Load Namespace 1101 done, Time: 17 ms
+133210 - INFO  [0x400, 0x2, 0xe6c15f22] - new listener: type=1, language=NO_LANGUAGE, skin=-1, skinmode=-1
+133234 - INFO  [0x400, 0x4, 0xe6c15f22] - call: de.vw.mib.lsctng.internal.k.turnOn( Simple-Listener_e0000001_TTT )
+133236 - INFO  [0x400, 0x2, 0xe6c15f22] - new listener: type=2, language=NO_LANGUAGE, skin=-2, skinmode=-2
+133236 - INFO  [0x400, 0x4, 0xe6c15f22] - call: de.vw.mib.lsctng.internal.k.turnOn( Simple-Listener_80000002_FTF )
+133243 - INFO  [0x400, 0x2, 0xe6c15f22] - new listener: type=2, language=NOT_INTERESTED, skin=-2, skinmode=-1
+133243 - INFO  [0x400, 0x4, 0xe6c15f22] - call: de.vw.mib.lsctng.internal.k.turnOn( Simple-Listener_20000002_FFT )
+133244 - INFO  [0x400, 0x2, 0xe6c15f22] - new listener: type=0, language=NO_LANGUAGE, skin=-1, skinmode=-2
+133244 - INFO  [0x400, 0x4, 0xe6c15f22] - call: de.vw.mib.lsctng.internal.k.turnOn( Simple-Listener_c0000000_TTF )
+133250 - INFO  [0x400, 0x40000000, 0xe6c15f22] - Get default language from NS(1101) KEY(10):en_US
+133289 - INFO  [0x1, 0x1, 0xe6c15f22] - [ASLStartup v7R]lastUserMode is:0
+133290 - WARN  [0x80, 0x1, 0xe6c15f22] - Access to an empty parameter (index: 4) in EventGeneric Event{[0.7300.100002]-->[0.5120.1700008][Index 0:int:52166966][Index 1:long:201]}!
+133292 - WARN  [0x80, 0x1, 0xe6c15f22] - Access to an empty parameter (index: 4) in EventGeneric Event{[0.7300.100002]-->[0.5120.1700008][Index 0:int:52166966][Index 1:long:202]}!
+133311 - INFO  [0x1, 0x20, 0xe6c15f22] - Persistence: Pre-Load Namespace 5011
+133315 - WARN  [0x80, 0x1, 0xe6c15f22] - Access to an empty parameter (index: 4) in EventGeneric Event{[0.5122.100001]-->[0.5120.1700008][Index 0:int:5011][Index 1:long:200]}!
+133320 - ERROR [0x1, 0x400000, 0xe6c15f22] - DIAGNOSTIC testLanguageIsAllowed - Selectable Language 2 = fr_CA is not allowed!
+133320 - ERROR [0x1, 0x400000, 0xe6c15f22] - DIAGNOSTIC System Languages Error - USING DEFAULT VALUES!!!
+133341 - INFO  [0x400, 0x40000000, 0xe6c15f22] - Persisting language data for Instrument Cluster
+133351 - INFO  [0x10000, 0x4, 0xe6c15f22] - create thread - id: 12, runnable: de.vw.mib.lsctng.internal.h@2a0d2a0d
+133352 - INFO  [0x1, 0x20, 0xe6c15f22] - Persistence: Pre-Load Namespace 5011 done, Time: 41 ms
+133353 - INFO  [0x400, 0x2, 0xc9eb0801] - Start of LSC thread.
+133372 - INFO  [0x400, 0x400, 0xc9eb0801] - skin strategy = [1, -1]
+133373 - INFO  [0x400, 0x4, 0xc9eb0801] - Change Simple-Listener_e0000001_TTT with changeId 0 to skin 1
+133378 - INFO  [0x200, 0x2, 0xc9eb0801] - protocol.version:=1.1;;skin.short.version:=STD_VW_Skin_Radio-BTHRRQ;;hmisoftware.version:=13.15.17_H15.10.133_STDPlus_EU;;hmisoftware.cgrun.version:=H15.10.133-201304121659_STDPlus_EU_201304121802;;hmisoftware.base.version:=H15.10.133-201304121603;;car.time:=946684800799
+133380 - INFO  [0x400, 0x400, 0xc9eb0801] - skin change result: changeId=0, result=true, skin=1
+133380 - INFO  [0x400, 0x4, 0xc9eb0801] - Change Simple-Listener_c0000000_TTF with changeId 1 to skin 1
+133929 - INFO  [0x400, 0x400, 0xc9eb0801] - skin change result: changeId=1, result=true, skin=1
+133929 - INFO  [0x400, 0x400, 0xc9eb0801] - de.vw.mib.lsctng.internal.l All changes ready: true
+133954 - INFO  [0x400, 0x400, 0xc9eb0801] - language strategy = [en_US, en_GB]
+133955 - INFO  [0x400, 0x4, 0xc9eb0801] - Change Simple-Listener_e0000001_TTT with changeId 2 to language en_US
+133957 - INFO  [0x400, 0x400, 0xc9eb0801] - language change result: changeId=2, result=true, language=en_US
+133958 - INFO  [0x400, 0x4, 0xc9eb0801] - Change Simple-Listener_80000002_FTF with changeId 3 to language en_US
+133958 - INFO  [0x400, 0x400, 0xc9eb0801] - language change result: changeId=3, result=true, language=en_US
+133958 - INFO  [0x400, 0x4, 0xc9eb0801] - Change Simple-Listener_c0000000_TTF with changeId 4 to language en_US
+134043 - INFO  [0x400, 0x4000, 0xc9eb0801] - send STARTUP_SKIN_READY
+134043 - INFO  [0x400, 0x400, 0xc9eb0801] - language change result: changeId=4, result=true, language=en_US
+134044 - INFO  [0x400, 0x400, 0xc9eb0801] - de.vw.mib.lsctng.internal.f All changes ready: true
+134057 - INFO  [0x400, 0x400, 0xc9eb0801] - skinmode strategy = [0, -1]
+134058 - INFO  [0x400, 0x4, 0xc9eb0801] - Change Simple-Listener_e0000001_TTT with changeId 5 to skinmode 0
+134058 - INFO  [0x400, 0x400, 0xc9eb0801] - skinmode change result: changeId=5, result=true, skinmode=0
+134059 - INFO  [0x400, 0x4, 0xc9eb0801] -result=true, skinmode=0
+134071 - INFO  [0x400, 0x400, 0xc9eb0801] - de.vw.mib.lsctng.internal.n All changes ready: true
+134079 - INFO  [0x400, 0x2, 0xc9eb0801] - End of LSC thread.
+134617 - INFO  [0x10000, 0x2, 0xb0fdac31] - MIBThread 'DEBUG_Task' started!
+136155 - ERROR [0x80, 0x8, 0xe6c15f22] - Error registering Observer: ServiceId=40134 RouterId=0 TargetId=1390000 EventId=0 Cause=Service is not registered
+136155 - ERROR [0x80, 0x8, 0xe6c15f22] - Error registering Observer: ServiceId=40133 RouterId=0 TargetId=1390000 EventId=0 Cause=Service is not registered
+136240 - WARN  [0x1, 0x10, 0xe6c15f22] - SoundWaveplayerHandlingIdle: Unexpected player state 1!
+136256 - INFO  [0x1, 0x10, 0xe6c15f22] -  Sound detected Amplifier: 13, Known as INTERNAL
+136279 - INFO  [0x1, 0x20, 0xe6c15f22] - Persistence: Pre-Load Namespace 5005
+136285 - WARN  [0x80, 0x1, 0xe6c15f22] - Access to an empty parameter (index: 4) in EventGeneric Event{[0.5122.100001]-->[0.5120.1700008][Index 0:int:5005][Index 1:long:300]}!
+136291 - WARN  [0x80, 0x1, 0xe6c15f22] - Access to an empty parameter (index: 4) in EventGeneric Event{[0.5122.100001]-->[0.5120.1700008][Index 0:int:5005][Index 1:long:320]}!
+136296 - WARN  [0x80, 0x1, 0xe6c15f22] - Access to an empty parameter (index: 4) in EventGeneric Event{[0.5122.100001]-->[0.5120.1700008][Index 0:int:5005][Index 1:long:321]}!
+136300 - WARN  [0x80, 0x1, 0xe6c15f22] - Access to an empty parameter (index: 4) in EventGeneric Event{[0.5122.100001]-->[0.5120.1700008][Index 0:int:5005][Index 1:long:330]}!
+136305 - INFO  [0x1, 0x20, 0xe6c15f22] - Persistence: Pre-Load Namespace 5005 done, Time: 25 ms
+****
+ SYS_HW_ErrorLongInfo
+PID : 2102
+CODE: 11
+ ****
+
+ *** PASE: Write Postmortem start ***
+SYS_ERROR
+PID        : 2102
+ErrorCode  : 11
+Fielname   : c:\temp\mib\c0-eu-sop1_b3-19425-141120-68544\targets\cpu_hmi\hmi_packages\hmi_run\hmi_run_hsm.c
+FileLine   : 1622
+TargetTime : 136346
+SyncTime : 28522
+SyncID     : 5283
+CPU Software Version : C0-HMI-EU-SOP1_B3-19425-141120-68544
+Software Version : 0450
+
+ *** PASE: Copy 86861 Bytes to AER (compressed PMD)***
+
+ *** PASE: Write Postmortem end ***
+
+ *** PASE: Send Error Event to Navigation ***
+
+ *** PASE: Timeout Error Event from Navigation ***
+
+ *** PASE: Trigger DSI Error ***
+
+ *** PASE: Trigger Speech Errorlog ***
+
+ *** PASE: Trigger HMI Errorlog ***
+############### DSIDispatcher: Error triggered from PASE
+JVM: entered getThreadInfo
+IPCDLL: Connect TCP/I Port
+JVM: leaving getThreadInfo
+Thread informations for 20 threads (Wed Jan 01 04:02:19 PST 2003)
+ThreadInfo: Watchdog, 10, 0xc9ef6e22
+                                    Status: running
+                                                        com/elektrobit/mib/ipc/IPC.sendMsg(III[BI)V
+                                                                                                        com/elektrobit/mib/ipc/IPC.send(III[BI)V
+                                                                                                                                                        com/elektrobit/mib/dsi/dispatcher/DSIDispatcher.run()V
+ThreadInfo: Thread-3, 10, 0xb472966
+                                   Status: running
+ThreadInfo: DSIWorkerThread (idle), 7, 0x29ef2186
+                                                 Status: waiting on Monitor "Thread[DSIWorkerThread (idle),7,main]" (com.elektrobit.mib.dsi.dispatcher.a.c)
+                                                                                                                                                                java/lang/Object.wait(JI)V
+                                                                                                                                                                                                java/lang/Object.wait()V
+                com/elektrobit/mib/dsi/dispatcher/a/c.run()V
+ThreadInfo: DSIWorkerThread (idle), 7, 0x29ef29fa
+                                                 Status: waiting on Monitor "Thread[DSIWorkerThread (idle),7,main]" (com.elektrobit.mib.dsi.dispatcher.a.c)
+                                                                                                                                                                java/lang/Object.wait(JI)V
+                                                                                                                                                                                                java/lang/Object.wait()V
+                com/elektrobit/mib/dsi/dispatcher/a/c.run()V
+ThreadInfo: DSIWorkerThread (idle), 7, 0x29ee989a
+                                                 Status: waiting on Monitor "Thread[DSIWorkerThread (idle),7,main]" (com.elektrobit.mib.dsi.dispatcher.a.c)
+                                                                                                                                                                java/lang/Object.wait(JI)V
+                                                                                                                                                                                                java/lang/Object.wait()V
+                com/elektrobit/mib/dsi/dispatcher/a/c.run()V
+ThreadInfo: DSIWorkerThread (idle), 7, 0xe9ee4fc6
+                                                 Status: waiting on Monitor "Thread[DSIWorkerThread (idle),7,main]" (com.elektrobit.mib.dsi.dispatcher.a.c)
+                                                                                                                                                                java/lang/Object.wait(JI)V
+                                                                                                                                                                                                java/lang/Object.wait()V
+                com/elektrobit/mib/dsi/dispatcher/a/c.run()V
+ThreadInfo: DSIWorkerThread (idle), 7, 0x69ee427e
+                                                 Status: waiting on Monitor "Thread[DSIWorkerThread (idle),7,main]" (com.elektrobit.mib.dsi.dispatcher.a.c)
+                                                                                                                                                                java/lang/Object.wait(JI)V
+                                                                                                                                                                                                java/lang/Object.wait()V
+                com/elektrobit/mib/dsi/dispatcher/a/c.run()V
+ThreadInfo: Finalizer thread, 5, 0xa97c7f8e
+                                           Status: waiting
+ThreadInfo: Logging-Thread, 2, 0x497c774e
+                                         Status: waiting on Monitor "edu.emory.mathcs.backport.java.util.concurrent.LinkedBlockingQueue$SerializableLock@4bd84bd8" (edu.emory.mathcs.backport.java.util.concurrent.LinkedBlockingQueue$SerializableLock)
+                                                java/lang/Object.wait(JI)V
+                                                                                edu/emory/mathcs/backport/java/util/concurrent/TimeUnit.timedWait(Ljava/lang/Object;J)V
+                                                                                                                                                                        edu/emory/mathcs/backport/java/util/concurrent/LinkedBlockingQueue.poll(JLedu/emory/mathcs/backport/java/util/concurrent/TimeUnit;)Ljava/lang/Object;
+                                                                                                                de/vw/mib/log4mib/internal/MainLogger.run()V
+                                                                                                                                                                java/lang/Thread.run()V
+ThreadInfo: LoggingWatchdog, 10, 0xe97c1fda
+                                           Status: sleeping
+                                                                java/lang/Thread.sleep(JI)V
+                                                                                                java/lang/Thread.sleep(J)V
+                                                                                                                                de/vw/mib/log4mib/internal/h.run()V
+ThreadInfo: Thread-7, 6, 0x897bdfd6
+                                   Status: running
+                                                        com/panasonic/eu/mib/spi/extstartup/MessageListenerThread._registerIPCAndListen()V
+                                                                                                                                                com/panasonic/eu/mib/spi/extstartup/MessageListenerThread.run()V
+ThreadInfo: WATCHDOG, 5, 0xa97c77de
+                                   Status: sleeping
+                                                        java/lang/Thread.sleep(JI)V
+                                                                                        java/lang/Thread.sleep(J)V
+                                                                                                                        de/vw/mib/threads/internal/Watchdog.run()V
+ThreadInfo: Startup-Thread, 5, 0x6b4efa5e
+                                         Status: waiting on Monitor "java.lang.Object@41724172" (java.lang.Object)
+                                                                                                                        java/lang/Object.wait(JI)V
+                                                                                                                                                        java/lang/Object.wait()V
+                                                                                                                                                                                        de/vw/mib/threads/internal/g.run()V
+                java/lang/Thread.run()V
+ThreadInfo: HSM_Task, 5, 0x2ce83cfe
+                                   Status: waiting on Monitor "java.lang.Object@18921892" (java.lang.Object)
+                                                                                                                java/lang/Object.wait(JI)V
+                                                                                                                                                java/lang/Object.wait()V
+                                                                                                                                                                                de/vw/mib/threads/internal/f.run()V
+        java/lang/Thread.run()V
+ThreadInfo: de.vw.mib.graphics.image.internal.DynamicImageLoader, 4, 0x697b6fc2
+                                                                               Status: waiting on Monitor "java.lang.Object@ec70ec7" (java.lang.Object)
+                                                                                                                                                        java/lang/Object.wait(JI)V
+                                                                                                                                                                                        java/lang/Object.wait()V
+        de/vw/mib/threads/internal/g.run()V
+                                                java/lang/Thread.run()V
+ThreadInfo: Timer-Thread, 10, 0x4cbaffaa
+                                        Status: waiting on Monitor "[]" (java.util.ArrayList)
+                                                                                                java/lang/Object.wait(JI)V
+                                                                                                                                java/lang/Object.wait(J)V
+                                                                                                                                                                de/vw/mib/timer/internal/c.operate()V
+                                                                                                                                                                                                        de/vw/mib/threads/internal/g.run()V
+                                java/lang/Thread.run()V
+ThreadInfo: DEBUG_Task, 1, 0xb48a482
+                                    Status: waiting on Monitor "java.lang.Object@12041204" (java.lang.Object)
+                                                                                                                java/lang/Object.wait(JI)V
+                                                                                                                                                java/lang/Object.wait()V
+                                                                                                                                                                                de/vw/mib/threads/internal/g.run()V
+        java/lang/Thread.run()V
+ThreadInfo: DebugInterfaceServer, 5, 0x8b4efd52
+                                               Status: running
+                                                                java/net/SocketImpl.acceptStreamSocketImpl(Ljava/io/FileDescriptor;Ljava/net/SocketImpl;Ljava/io/FileDescriptor;I)V
+                                                                                                                                                                                        java/net/PlainSocketImpl.accept(Ljava/net/SocketImpl;)V
+                                        java/net/ServerSocket.implAccept(Ljava/net/Socket;)V
+                                                                                                java/net/ServerSocket.accept()Ljava/net/Socket;
+                                                                                                                                                de/vw/mib/debug/connection/SimpleTcpServer.run()V
+ThreadInfo: main, 5, 0x8b441492
+                               Status: waiting owned by Thread-2, 10
+ThreadInfo: Thread Dump - Socket listener, 5, 0x9f4d9fe
+                                                       Status: running
+                                                                        java/net/SocketImpl.acceptStreamSocketImpl(Ljava/io/FileDescriptor;Ljava/net/SocketImpl;Ljava/io/FileDescriptor;I)V
+                                                                                                                                                                                                java/net/PlainSocketImpl.accept(Ljava/net/SocketImpl;)V
+                                                java/net/ServerSocket.implAccept(Ljava/net/Socket;)V
+                                                                                                        java/net/ServerSocket.accept()Ljava/net/Socket;
+                                                                                                                                                        com/microdoc/j9/Tools.runServerSocket(I)V
+[DSIDispatcher] start state dumping
+[DSIDispatcher] state dumping finished
+############### dump finished
+IPC_PROCESS IPCDLL_API_ThreadFatalErrorObserver: Listening to 7
+149332 - ERROR [0x1, 0x4000000, 0xe6c15f22] - DSI-Timeout occurred. Timeout: 10000 ms. Service: org.dsi.ifc.keypanel.DSIKeyPanel. Instance: 0. Method: "setGenericSetting". ["genericSettingResponse" did not arrive.]
+149335 - INFO  [0x200, 0x2, 0xe03ac78] - current.gui.language:=en_US;;protocol.version:=1.1;;skin.short.version:=STD_VW_Skin_Radio-BTHRRQ;;hmisoftware.version:=13.15.17_H15.10.133_STDPlus_EU;;hmisoftware.cgrun.version:=H15.10.133-201304121659_STDPlus_EU_201304121802;;hmisoftware.base.version:=H15.10.133-201304121603;;car.time:=946684800799
+[150087]SetEvent(IPC_EVENT_PMD_FINISHED)
+[150087] calling RaiseException()
+Exception ffffffe0 Thread=8b8facc0 Proc=0cb13d22 'CPU_HMI.EXE'
+AKY=00000041 PC=00017af4(CPU_HMI.EXE+0x00007af4) RA=84424486(NK.EXE+0x00014486) TEA=84d6efa0
+1-Process 84D6F760 PID 0CB13D22 ProcessName: CPU_HMI.EXE     b2ndChance(0)
+ErrorHandling : 1stChance Exception
+Drop 1st chance exception dump
+1-Process 84D6F760 PID 0CB13D22 ProcessName: CPU_HMI.EXE     b2ndChance(1)
+ErrorHandling : Call ErrorAnalyzing_Exception
+ErrorHandling : print_montecarlo_buffer
+--- init_montecarlo_buffer Start---
+--- g_dwLogBuffer:0x84d85fc0, size:49152 [byte]
+--- pg_dwPointer :0x84d68ac8
+--- init_montecarlo_buffer Done ---
+2-Process 84D6F760 PID 0CB13D22 ProcessName: CPU_HMI.EXE     b2ndChance(1)
+3-ChkIfReboot-ProcessName: [    CPU_HMI.EXE]
+3-ChkIfReboot-done
+ErrorHandling : ERROR_ACTION_REBOOT
+ErrorHandling : Exit ErrorAnalyzing_Exception
+
+Microsoft Windows CE Ethernet Bootloader Common Library Version 1.1 Built Nov 20 2014 16:38:47
+#################################
+# eMMC Revision 1.5(eMMC v4.41) #
+# Product Revision 2.8          #
+# eMMC capacity is 3.6GB        #
+#################################
+StoreEmmcLogData Write OK
+
+
+ERROR: <<<<< SPINFOREVER >>>>>
+
+
+Microsoft Windows CE Ethernet Bootloader Common Library Version 1.1 Built Nov 20 2014 16:38:47
+EBOOT : OEMPlatformInit : Initialize NK area in SDRAM. (from 84410000 / 16777216 byte)
+EBOOT : OEMPlatformInit : Initialize ETH area in SDRAM. (from A412F800 / 256 byte)
+EBOOT : OEMPlatformInit : Initialize EBOOT flag area in SDRAM. (from A412F63C / 96 byte)
++OEMPlatformInit
+Microsoft Windows CE Ethernet Bootloader 3.6
+Copyright(C) Renesas Technology Corp. 1999-2009.
+
+GPIO initialization complete
+Start HMI CPU in normal mode
+
+Last selected menu number : 1
+Display type              : 1
+Is take snaphot           : 1
+Is store snapshot image   : 0
+Raw nk boot mode          : 0
+USB                       : 0
+DLink                     : 0
+Using side of partiton    : 0
+SwdlMirrorFlag            : 0
+Menu mode                 : -1
+version                   : 2011110101
+
+EBOOT_FLAGS: Source is NOR
+
+ 0x00000002 0x00001176 0x00001176 0x00000060
+ 0x5F42494D 0x4F4F4245 0x45535F54 0x524F5443
+ 0x00000001 0x00000001 0x00000001 0x00000000
+ 0x00000000 0xFFFFFFFF 0x00000000 0x00000000
+ 0x00000000 0x00000000 0x00000000 0xFFFFFFFE
+ 0xFFFFFFFF 0x0000C000 0x00000000 0x00000000
+ 0x00000000 0x00000000 0x00000001 0x77DF1AD5
+ 0x5F42494D 0x4F4F4245 0x45535F54 0x524F5443
+ 0x00000001 0x00000001 0x00000001 0x00000000
+ 0x00000000 0xFFFFFFFF 0x00000000 0x00000000
+ 0x00000000 0x00000000 0x00000000 0xFFFFFFF1
+ 0xFFFFFFFF 0x0000C000 0x00000000 0x00000000
+ 0x00000000 0x00000000 0x00000001 0x77DF1AD5
+ 0x5F42494D 0x4F4F4245 0x45535F54 0x524F5443
+ 0x00000001 0x00000001 0x00000001 0x00000000
+ 0x00000000 0xFFFFFFFF 0x00000000 0x00000000
+ 0x00000000 0x00000000 0x00000000 0xFFFFFFF1
+ 0xFFFFFFFF 0x0000C000 0x00000000 0x00000000
+ 0x00000000 0x00000000 0x00000001 0x77DF1AD5
+
+PASE local version  : $Rev: 63271 $
+Target hardware     : C1
+Target memory model : 256MB
+[0000000123] EBOOT : OEMPlatformInit : show startup screen start
+STSTILLIMG: Initialize the startup screen ...
+startscreen : VRAM address B3E80000
+STSTILLIMG: Configured display settings -- ABT (Touchpanel Display)
+#################################
+# eMMC Revision 1.5(eMMC v4.41) #
+# Product Revision 2.8          #
+# eMMC capacity is 3.6GB        #
+#################################
+STSTILLIMG: A background image of the startup animation will be loaded from eMMC..
+[0000000596] EBOOT : OEMPlatformInit : show startup screen finish
+[0000000602] EBOOT : OEMPlatformInit : show menu
+## Snapshot booting          ##
+[0000000609] EBOOT : OEMPlatformInit : out of menu
+OEMPlatformInit: gbJumpToFlash is (1)
+-OEMPlatformInit(rc=1)
+System ready!
+Preparing for download...
+OEMLaunch: Image=0 length=0 launch=0
+[0000000626] EBOOT : OEMPlatformInit : Load SSB image from eMMC
+[----------] EBOOT : BLEmmcReadSSBImg : Try to init eMMC
+INFO:SD card is not found
+[----------] EBOOT : BLEmmcReadSSBImg : read size info ... 48225307
+[0000000000] EBOOT : BLEmmcReadSSBImg : copy snapshot data from eMMC (00022000) to SDRAM (8DD40000). Size : 48225307
+[0000002304] EBOOT : OEMPlatformInit : SnapshotBootInit
+[----------] EBOOT : SnapshotBootInit : Start to restore
+[----------] EBOOT : SnapshotBootInit : Start SSB_RestoreMemInfo (Header : 0x8DD40000 / Memory image : 0x8DD50000)
+[----------] EBOOT : SnapshotBootInit : Finished SSB_RestoreMemInfo
+  Calling device manager power proc.
+  Calling OEMPowerOff...
++OEMPowerOff
+Entry address 0x84459bf8 <<<<-----
+Clear SSB temporary buffer(8dd40000-91d40000)
+step11
+[SaveMemInfo]: pDirtyList 0x0 CleanThread finished
+[SaveMemInfo]: pTOC->physfirst  0x84410000
+[SaveMemInfo]: pTOC->physlast   0x84D48F4C
+[SaveMemInfo]: Kernel static RAM area
+[SaveMemInfo]: pTOC->ulRAMStart 0x84D49000
+[SaveMemInfo]: pTOC->ulRAMFree  0x84D95000
+[Raw data  ]: 0x84D49000 - 0x84D95000 (size 0x0004C000)
+[Compressed]: 0x8DD50080 - 0x8DD5947C (size 0x000093FC)
+[Compression ratio]: 12 %
+[SaveMemInfo]: Reserved area
+[SaveMemInfo]: pTOC->ulRAMFree  0x84D95000
+[SaveMemInfo]: pFi->pUseMap     0x84D96000
+[Raw data  ]: 0x84D95000 - 0x84D96000 (size 0x00001000)
+[Compressed]: 0x8DD5947C - 0x8DD596F4 (size 0x00000278)
+[Compression ratio]: 15 %
+[SaveMemInfo]: pTOC->ulRAMEnd   0x8AC60000
+RAM save --- Total 24260 pages
+RAM save --- Used  9084 pages
+RAM save --- Free  15176 pages
+RAM save --- Total 24558 pages
+RAM save --- Used  9382 pages
+RAM save --- Free  15176 pages
+RAM save --- Total 24573 pages
+RAM save --- Used  9397 pages
+RAM save --- Free  15176 pages
+RAM save --- Total 33280 pages
+RAM save --- Used  18104 pages
+RAM save --- Free  15176 pages
+RAM save --- Total 33280 pages
+RAM save --- Used  18104 pages
+RAM save --- Free  15176 pages
+[SaveMemInfo]: OEM Save area[3] (Driver global area etc)
+[Raw data  ]: 0x84150000 - 0x84200000 (size 0x000B0000)
+step10
+step12
+OEMPowerOff : call OEMInit (SSB)
+OEMPowerOff : call OEMInit done (SSB)
+OEMPowerOff : init system log tool (SSB)
+OEMPowerOff : init system log tool done (SSB)
+Back from OEMPowerOff
+  Calling device manager power proc.
+  Calling GWES power proc.
+  Returning to normally scheduled programming.
+OALIoCtlHalSnapshotGetmode: 0x1012728
+OALIoCtlHalSnapshotExpandRAM: 0x1012724
+##### StartCleanDirtyPagesThread_Bug5678Fix #####
+pDirtyList = 92201000
+##### StartCleanDirtyPagesThread Succeeded (g_hThCleanDirtyPage = 0xa8ae5f2e / Prio:255) #####
+DWL_Init Initialize start.
+SH-4A Built-in DU GDISUB [HWR] display driver 0.6.3.20100312 built on Nov 20 2014 at 16:39:48
+GDISUB_NCG : Initialize : 256MB model
+GDISUB_NCG: description - For RG3 Dislay. WQVGA(400x240)
+GDISUB_NCG: 400x240@60Hz (8192000Hz), RGB : ARGB8888
+GDISUB_NCG: mode:5 scan:17655 hc:464 hsw:10 xs:6 vc:294 vsw:4 ys:14 DSMR:0x60000 ESCR:0x100015
+gdisub_ncg_driver : DDDIAllocDrvMem : dwSize            0x000E9A98
+gdisub_ncg_driver : DDDIAllocDrvMem : g_uDDExMemoryBase 0xB2100000
+gdisub_ncg_driver : DDDIAllocDrvMem : g_uDDExMemorySize 0x00100000
+spusrv - DLL_PROCESS_ATTACH
+                           FSIB PFC_IPSR1  : 0x05be9300
+Sound I/F Middlerware Version :: 20020116
+AudDrv.dll: CDriverContext::OpenStream - format not supported
+spu - DLL_PROCESS_ATTACH
+                        AudDrv.dll: CDriverContext::OpenStream - format not supported
+!!!!!!!!!! 112489 +CHub(tier 0)::HubStatusChangeThread has been created !!!!!!!!!!
+@@2|MD5_9ba0945bf9d7922b5897fff0e3102158
+@@1|83670079|113064startingDBG_KERNEL
+@@1|0267007a|DBG_KERNEL
+@@1|0267007b|RUN_SLEEPING
+@@1|00670051|
+@@1|0267005b|sleeping
+@@1|00670082|
+@@1|02670083|RUN_APP_rl_established_hndlr
+@@1|00670084|
+@@1|0067008e|
+@@1|00670091|
+@@1|00670097|
+@@1|00670098|
+@@1|0267007f|sleeping
+@@1|01670018|113069
+@@1|00670019|
+@@1|0167001d|113069
+@@1|0067001f|
+@@1|0b670021|113069FALSE
+@@1|00670023|
+@@1|00670082|
+@@1|02670083|RUN_APP_rl_established_hndlr
+@@1|00670084|
+@@1|00670091|
+@@1|00670096|
+@@1|00670097|
+@@1|00670098|
+@@1|0267007f|sleeping
+@@1|0878000f|100
+@@1|0878000d|100
+@@1|0878000c|101
+@@1|3228048a|0INACTIVE
+@@1|81670025|113111normal
+@@1|06670026|113111
+@@1|82670060|1131119
+@@1|06670066|113111
+@@1|06670073|113111
+@@1|81670074|113111C0-NET-EU-SOP1_B3-19425-141120-68544
+@@1|81670028|113111C0-HMI-EU-SOP1_B3-19425-141120-68544
+@@1|00670082|
+@@1|02670083|RUN_APP_rl_established_hndlr
+@@1|00670084|
+@@1|00670091|
+@@1|00670096|
+@@1|00670097|
+@@1|00670098|
+@@1|0267007f|runlevel04
+@@1|04670080|28
+@@1|83670079|113116startingHMI Watchdog
+@@1|0267007a|HMI Watchdog
+@@1|0267007b|RUN_SYNC
+@@1|00670082|
+@@1|02670083|RUN_APP_changing_rl_hndlr
+@@1|00670084|
+@@1|00670091|
+@@1|00670096|
+@@1|00670097|
+@@1|00670098|
+@@1|0267007f|runlevel04
+@@1|04670080|21
+@@1|0267007c|HMI PWR
+@@1|83670079|113117startingHMI_GPIO
+@@1|0267007a|HMI PWR
+@@1|83670079|113117startingHMI PWR
+@@1|0267007a|HMI PWR
+@@1|0267007b|HMI MMC
+@@1|83670079|113118startingFSYS
+@@1|0267007a|HMI MMC
+@@1|83670079|113118startingFSWINCE
+@@1|0267007a|HMI MMC
+@@1|83670079|113118startingFSCDDA
+@@1|0267007a|HMI MMC
+@@1|83670079|113119startingFSISO
+@@1|0267007a|HMI MMC
+@@1|83670079|113119startingFSUDF
+@@1|0267007a|HMI MMC
+@@1|23030001|HMIDisableRadio (AM/FM)
+@@1|23030001|HMIDisableRadio (DAB)
+@@1|23030001|HMIDisableMedia
+@@1|23030001|HMIDisableDiagnose
+@@1|23030001|HMIDisableNET
+@@1|23030001|HMIDisableTelephone
+@@1|23030001|HMIDisableTIM
+@@1|23030001|HMIDisableAudio
+@@1|23030001|HMIEnableSWDL
+@@1|23030001|HMIDisablePower Battery
+@@1|23030001|HMIDisablePower Startup Management
+@@1|23030001|HMIDisableInfotainmentrecorder
+@@1|23030001|HMIDisableCar Combi
+@@1|23030001|HMIDisableRadio Tmc
+@@1|23030001|HMIDisableNavigation
+@@1|23030001|HMIDisableSpeech
+@@1|23030001|HMIDisableSDARS
+@@1|23030001|HMIEnableERRORS
+@@1|23030001|HMIEnableWARNINGS
+@@1|23030001|HMIDisableDisplay
+@@1|0267007a|HMI MMC
+@@1|0267007b|HMI_GPIO
+@@1|0267007b|FSYS
+@@1|0267007b|FSWINCE
+@@1|0267007b|FSCDDA
+@@1|0267007b|FSISO
+@@1|0267007b|FSUDF
+@@1|0267007b|RUN_SYNC
+@@1|0267007c|LMA
+@@1|0267007a|LMA
+@@1|804d000b|8113125
+@@1|0267007a|LMA
+@@1|0267007b|I2C
+@@1|0267007b|RUN_SYNC
+@@1|0267007c|HMI Watchdog
+@@1|0267007a|HMI Watchdog
+@@1|0267007b|VIDEOIN_DRVCTRL
+@@1|0179000d|0
+@@1|0178001b|0
+@@1|0078002e|
+@@1|0079004f|
+@@1|01790035|3
+@@1|0a79003e|20
+@@1|0267007a|VIDEOIN_DRVCTRL
+@@1|0267007b|VIDEOIN
+@@1|0179000e|2
+@@1|0267007a|VIDEOIN
+@@1|0267007b|VIDEODEC_STEP_1
+@@1|00790011|
+@@1|01780030|2
+@@1|0267007a|VIDEODEC_STEP_1
+@@1|0267007b|NVM_STEP_1
+@@1|9a5801a6|0(null)
+@@1|0258010f|NVMIntValues_001_ext
+@@1|0258010f|NVMStringValues_001_ext
+@@1|0258010f|NVMIntArray_001_ext
+@@1|0258010f|NVMBuffer_001_ext
+@@1|0258010f|NVMIDValues_001_ext
+@@1|0258010f|NVMStringArray_001_ext
+@@1|0267007a|NVM_STEP_1
+@@1|0267007b|RUN_SYNC
+@@1|0267007c|HMI Watchdog
+@@1|0267007a|HMI Watchdog
+@@1|0267007b|MMC_STEP_2
+@@1|06510004|113313
+@@1|0267007a|MMC_STEP_2
+@@1|0267007b|RUN_RUNLEVEL04 pmd dl
+@@1|06510005|113320
+[0000113636] MAIN : MMC : Delete PMD File: \MMC3\PMD\30_pmd_hmi_aer_0000_00_00-00_00_00-000.log
+[0000113689] MAIN : MMC : Delete PMD File: \MMC3\PMD\30_pmd_net_short_0000_00_00-00_00_00_000.log
+[0000113753] MAIN : MMC : Delete PMD File: \MMC3\PMD\30_pmd_net_long_0000_00_00-00_00_00_000.log
+@@1|06510025|113754
+@@1|0878000c|100
+@@1|0878000c|100
+@@1|0878000c|100
+@@1|0878000c|100
+@@1|0878000c|100
+118212 - INFO  [0x200, 0x2, 0xe03ac78] - protocol.version:=1.1;;skin.short.version:=<not set>;;hmisoftware.version:=13.15.17_H15.10.133_STDPlus_EU;;hmisoftware.cgrun.version:=H15.10.133-201304121659_STDPlus_EU_201304121802;;hmisoftware.base.version:=H15.10.133-201304121603
+Thread "unnamed" started, ThreadId is 2B8DF152
+PASE ExtStartupSPI : wakeupThread[MAIN_THREAD,6,main]
+DebugSPI: activateLogSink: 1
+131025 - INFO  [0x4000, 0x2, 0xf272cf50] - resume HMI ...
+DebugSPI: activateLogSink: 1
+Thread Exit, ThreadID 97C970E
+[SimpleTcpServer] Creating server socket for port 16556
+131025 - INFO  [0x4000, 0x2, 0xf272cf50] - Starting autostart bundles ...
+131025 - INFO  [0x4000, 0x2, 0xf272cf50] - Starting bundle 10-Log4MIB ...
+131030 - INFO  [0x200, 0x1, 0xf272cf50] - new LogWriter registered: de.vw.mib.log4mib.internal.DebugSPIService@7a7c7a7c
+131032 - INFO  [0x4000, 0x2, 0xf272cf50] - Starting bundle 11-ErrorHandler ...
+131032 - INFO  [0x4000, 0x2, 0xf272cf50] - Starting bundle 16-ThreadManager ...
+131032 - INFO  [0x4000, 0x2, 0xf272cf50] - Starting bundle 18-Framework4U ...
+131032 - INFO  [0x4000, 0x2, 0xf272cf50] - Starting bundle 12-ConfigurationManager ...
+131033 - INFO  [0x4000, 0x2, 0xf272cf50] - Starting bundle 13-Timer ...
+131035 - INFO  [0x10000, 0x2, 0x3e60e9d2] - MIBThread 'Timer-Thread' started!
+131037 - INFO  [0x20000, 0x2, 0xf272cf50] - Timer thread started!
+131037 - INFO  [0x4000, 0x2, 0xf272cf50] - Starting bundle 14-EventDispatcher ...
+131037 - INFO  [0x4000, 0x2, 0xf272cf50] - Starting bundle 72-PerformanceTracing ...
+131575 - INFO  [0x4000, 0x2, 0xf272cf50] - Starting bundle 17-FixFormatter ...
+131575 - INFO  [0x4000, 0x2, 0xf272cf50] - Starting bundle 15-StartupManager ...
+131576 - INFO  [0x4000, 0x4, 0xf272cf50] - Managed bundles startup ...
+131576 - INFO  [0x4000, 0x4, 0xf272cf50] - Starting bundle 1-JDSI ...
+131697 - INFO  [0x4000, 0x4, 0xf272cf50] - Starting bundle 20-GenericEvents ...
+131698 - INFO  [0x4000, 0x4, 0xf272cf50] - Starting bundle 21-ASL ...
+131699 - INFO  [0x4000, 0x4, 0xf272cf50] - Starting bundle 30-LscTNG ...
+131699 - INFO  [0x4000, 0x4, 0xf272cf50] - Starting bundle 31-SoundWaveplayer ...
+131699 - INFO  [0x4000, 0x4, 0xf272cf50] - Starting bundle 32-ImageManager ...
+131699 - INFO  [0x4000, 0x4, 0xf272cf50] - Starting bundle 33-FontManager ...
+131700 - INFO  [0x4000, 0x4, 0xf272cf50] - Starting bundle 34-GraphicsManager ...
+131700 - INFO  [0x4000, 0x4, 0xf272cf50] - Starting bundle 35-DisplayManager ...
+131702 - INFO  [0x4000, 0x4, 0xf272cf50] - Starting bundle 36-AnimationManager ...
+131702 - INFO  [0x4000, 0x4, 0xf272cf50] - Starting bundle 37-RepaintManager ...
+131702 - INFO  [0x4000, 0x4, 0xf272cf50] - Starting bundle 40-Datapool ...
+131702 - INFO  [0x4000, 0x4, 0xf272cf50] - Starting bundle 50-InstrumentCluster ...
+131703 - INFO  [0x2, 0x1, 0xf272cf50] - Persistence service doesn't exist.
+131704 - INFO  [0x4000, 0x4, 0xf272cf50] - Starting bundle 38-Widgets ...
+131710 - INFO  [0x1000000, 0x1, 0xf272cf50] - AnimationManager started
+131711 - INFO  [0x4000, 0x4, 0xf272cf50] - Starting bundle 41-Views ...
+131711 - INFO  [0x4000, 0x4, 0xf272cf50] - Starting bundle 42-StatemachineManager ...
+131711 - INFO  [0x4000, 0x4, 0xf272cf50] - Starting bundle 43-ViewManager ...
+131715 - INFO  [0x4000, 0x4, 0xf272cf50] - Starting bundle 70-DebugProbes ...
+131718 - INFO  [0x100000, 0x200, 0xf272cf50] - [DebugProbeManager] Deactivating all debug probes (given by the configuration manager)
+131721 - INFO  [0x4000, 0x4, 0xf272cf50] - Starting bundle 71-DebugInterface ...
+131780 - INFO  [0x10000, 0x4, 0xf272cf50] - create MIBThread - id: 7, runnable: de.vw.mib.genericevents.impl.a@fa60fa6
+131783 - INFO  [0x100000, 0x20, 0xf272cf50] - [DebugInterface] - Can not load Testinterface functions. Class not found.
+131808 - INFO  [0x100000, 0x20, 0xf272cf50] - --- DebugInterface ready to rumble! ---
+131857 - INFO  [0x1, 0x1, 0xe6c15f22] - [ASLStartup v7R]VARIANT STDPlus_EU_DAB loading...
+132066 - INFO  [0x1, 0x1, 0xe6c15f22] - [ASLStartup v7R]Powerstate detected by Startup Manager: 9
+132112 - INFO  [0x1, 0x20, 0xe6c15f22] - Persistence: Pre-Load Namespace 5000
+132121 - WARN  [0x80, 0x1, 0xe6c15f22] - Access to an empty parameter (index: 4) in EventGeneric Event{[0.5122.100001]-->[0.5120.1700008][Index 0:int:5000][Index 1:long:200]}!
+132148 - INFO  [0x1, 0x20, 0xe6c15f22] - Persistence: Pre-Load Namespace 5000 done, Time: 29 ms
+132159 - INFO  [0x1, 0x1, 0xe6c15f22] - Domain(s) already reached requested state or higher, moving on...
+132221 - ERROR [0x80, 0x8, 0xe6c15f22] - Error registering Service: ServiceId=40472 RouterId=0 TargetId=5604 EventId=0 Cause=Already registered
+132243 - INFO  [0x1, 0x1000000, 0xe6c15f22] - CAR: requesting diagnostic ...
+132423 - INFO  [0x1, 0x800, 0xe6c15f22] - [AslTargetSystemPowerManagementHandling] Update Power State: POWERSTATE_STANDBY_PWR_SAVE
+132429 - INFO  [0x1, 0x800, 0xe6c15f22] - [AslTargetSystemPowerManagementHandling] dsiPowerManagementUpdateBEMState 0
+132469 - WARN  [0x80, 0x1, 0xe6c15f22] - Access to an empty parameter (index: 4) in EventGeneric Event{[0.7300.100002]-->[0.5120.1700008][Index 0:int:28180695][Index 1:long:1]}!
+132472 - WARN  [0x80, 0x1, 0xe6c15f22] - Access to an empty parameter (index: 4) in EventGeneric Event{[0.7300.100002]-->[0.5120.1700008][Index 0:int:28442848][Index 1:long:101]}!
+132475 - WARN  [0x80, 0x1, 0xe6c15f22] - Access to an empty parameter (index: 4) in EventGeneric Event{[0.7300.100002]-->[0.5120.1700008][Index 0:int:52166966][Index 1:long:200]}!
+132481 - WARN  [0x80, 0x1, 0xe6c15f22] - Access to an empty parameter (index: 4) in EventGeneric Event{[0.7300.100002]-->[0.5120.1700008][Index 0:int:28442848][Index 1:long:103]}!
+132486 - WARN  [0x80, 0x1, 0xe6c15f22] - Access to an empty parameter (index: 4) in EventGeneric Event{[0.7300.100002]-->[0.5120.1700008][Index 0:int:46924065][Index 1:long:400]}!
+132503 - WARN  [0x80, 0x1, 0xe6c15f22] - Access to an empty parameter (index: 4) in EventGeneric Event{[0.7300.100002]-->[0.5120.1700008][Index 0:int:28442848][Index 1:long:100]}!
+132510 - INFO  [0x1, 0x20, 0xe6c15f22] - Persistence: Pre-Load Namespace 5010
+132529 - WARN  [0x80, 0x1, 0xe6c15f22] - Access to an empty parameter (index: 4) in EventGeneric Event{[0.5122.100001]-->[0.5120.1700008][Index 0:int:5010][Index 1:long:200]}!
+132538 - INFO  [0x1, 0x400000, 0xe6c15f22] - DIAGNOSTIC CAR BRAND: VW CLASS: 3 GENERATION: 7 DERIVATE: 0 SUPPLEMENT: 0
+132558 - WARN  [0x1, 0x20, 0xe6c15f22] - Persistence: DSI UP|DISPLAY      |0xc8(200)        |DISPLAY_SHARED                          |invalid key         |byte[] |byte[]: len=1: 00
+132566 - INFO  [0x1, 0x1000000, 0xe6c15f22] - Car Parkingsystem: OPS
+132568 - INFO  [0x1, 0x400000, 0xe6c15f22] - DIAGNOSTIC VW brand is true
+132569 - INFO  [0x1, 0x400000, 0xe6c15f22] - DIAGNOSTIC Seat brand is false
+132569 - INFO  [0x1, 0x400000, 0xe6c15f22] - DIAGNOSTIC Skoda brand is false
+132571 - INFO  [0x1, 0x400000, 0xe6c15f22] - DIAGNOSTIC SDS is active
+132579 - INFO  [0x1, 0x400000, 0xe6c15f22] - DIAGNOSTIC Navigation is not active
+132581 - INFO  [0x1, 0x1000000, 0xe6c15f22] - CAR: diagnostic ... Done!
+132584 - INFO  [0x1, 0x400000, 0xe6c15f22] - DIAGNOSTIC Car Functions BAP List:
+132584 - INFO  [0x1, 0x400000, 0xe6c15f22] - Clock is true
+132585 - INFO  [0x1, 0x400000, 0xe6c15f22] - Unitmaster is true
+132585 - INFO  [0x1, 0x400000, 0xe6c15f22] - DIAGNOSTIC RVC is not active
+132586 - INFO  [0x1, 0x20, 0xe6c15f22] - Persistence: Pre-Load Namespace 5010 done, Time: 76 ms
+132590 - INFO  [0x1, 0x400000, 0xe6c15f22] - DIAGNOSTIC Developer Test Mode is Activated
+132591 - INFO  [0x1, 0x400000, 0xe6c15f22] - DIAGNOSTIC WLAN is not active
+132594 - INFO  [0x1, 0x400000, 0xe6c15f22] - DIAGNOSTIC BLUETOOTH PHONE is coded and not yet detected via DSI opened zip @ 30
+ zip entry inited @ 30
+ zip entry retrieved @ 32
+
+132613 - WARN  [0x1, 0x20, 0xe6c15f22] - Calling clear() because data not found or not valid (e.g. due to uncompressing error) Obj: [namespace=5010][key=0xc8(200)]
+132619 - INFO  [0x1, 0x1000000, 0xe6c15f22] - [HsmTargetRvcOps] ASL_SYSTEM_SET_HMI_READY received, sendDSICarParkingSystem.setHMIStateIsReady
+132637 - INFO  [0x1, 0x20, 0xe6c15f22] - Persistence: Pre-Load Namespace 1101
+132643 - WARN  [0x80, 0x1, 0xe6c15f22] - Access to an empty parameter (index: 4) in EventGeneric Event{[0.5122.100001]-->[0.5120.1700008][Index 0:int:1101][Index 1:long:10]}!
+132653 - INFO  [0x1, 0x20, 0xe6c15f22] - Persistence: Pre-Load Namespace 1101 done, Time: 16 ms
+132656 - INFO  [0x400, 0x2, 0xe6c15f22] - new listener: type=1, language=NO_LANGUAGE, skin=-1, skinmode=-1
+132680 - INFO  [0x400, 0x4, 0xe6c15f22] - call: de.vw.mib.lsctng.internal.k.turnOn( Simple-Listener_e0000001_TTT )
+132682 - INFO  [0x400, 0x2, 0xe6c15f22] - new listener: type=2, language=NO_LANGUAGE, skin=-2, skinmode=-2
+132683 - INFO  [0x400, 0x4, 0xe6c15f22] - call: de.vw.mib.lsctng.internal.k.turnOn( Simple-Listener_80000002_FTF )
+132690 - INFO  [0x400, 0x2, 0xe6c15f22] - new listener: type=2, language=NOT_INTERESTED, skin=-2, skinmode=-1
+132690 - INFO  [0x400, 0x4, 0xe6c15f22] - call: de.vw.mib.lsctng.internal.k.turnOn( Simple-Listener_20000002_FFT )
+132691 - INFO  [0x400, 0x2, 0xe6c15f22] - new listener: type=0, language=NO_LANGUAGE, skin=-1, skinmode=-2
+132691 - INFO  [0x400, 0x4, 0xe6c15f22] - call: de.vw.mib.lsctng.internal.k.turnOn( Simple-Listener_c0000000_TTF )
+132696 - INFO  [0x400, 0x40000000, 0xe6c15f22] - Get default language from NS(1101) KEY(10):en_US
+132736 - INFO  [0x1, 0x1, 0xe6c15f22] - [ASLStartup v7R]lastUserMode is:0
+132737 - WARN  [0x80, 0x1, 0xe6c15f22] - Access to an empty parameter (index: 4) in EventGeneric Event{[0.7300.100002]-->[0.5120.1700008][Index 0:int:52166966][Index 1:long:201]}!
+132740 - WARN  [0x80, 0x1, 0xe6c15f22] - Access to an empty parameter (index: 4) in EventGeneric Event{[0.7300.100002]-->[0.5120.1700008][Index 0:int:52166966][Index 1:long:202]}!
+132759 - INFO  [0x1, 0x20, 0xe6c15f22] - Persistence: Pre-Load Namespace 5011
+132763 - WARN  [0x80, 0x1, 0xe6c15f22] - Access to an empty parameter (index: 4) in EventGeneric Event{[0.5122.100001]-->[0.5120.1700008][Index 0:int:5011][Index 1:long:200]}!
+132768 - ERROR [0x1, 0x400000, 0xe6c15f22] - DIAGNOSTIC testLanguageIsAllowed - Selectable Language 2 = fr_CA is not allowed!
+132769 - ERROR [0x1, 0x400000, 0xe6c15f22] - DIAGNOSTIC System Languages Error - USING DEFAULT VALUES!!!
+132791 - INFO  [0x400, 0x40000000, 0xe6c15f22] - Persisting language data for Instrument Cluster
+132801 - INFO  [0x10000, 0x4, 0xe6c15f22] - create thread - id: 12, runnable: de.vw.mib.lsctng.internal.h@22292229
+132802 - INFO  [0x1, 0x20, 0xe6c15f22] - Persistence: Pre-Load Namespace 5011 done, Time: 43 ms
+132803 - INFO  [0x400, 0x2, 0xc9eb0801] - Start of LSC thread.
+132826 - INFO  [0x400, 0x400, 0xc9eb0801] - skin strategy = [1, -1]
+132827 - INFO  [0x400, 0x4, 0xc9eb0801] - Change Simple-Listener_e0000001_TTT with changeId 0 to skin 1
+132832 - INFO  [0x200, 0x2, 0xc9eb0801] - protocol.version:=1.1;;skin.short.version:=STD_VW_Skin_Radio-BTHRRQ;;hmisoftware.version:=13.15.17_H15.10.133_STDPlus_EU;;hmisoftware.cgrun.version:=H15.10.133-201304121659_STDPlus_EU_201304121802;;hmisoftware.base.version:=H15.10.133-201304121603;;car.time:=946684800806
+132847 - INFO  [0x400, 0x400, 0xc9eb0801] - skin change result: changeId=0, result=true, skin=1
+Thread Exit, ThreadID A9EE98BE
+132848 - INFO  [0x400, 0x4, 0xc9eb0801] - Change Simple-Listener_c0000000_TTF with changeId 1 to skin 1
+133441 - INFO  [0x400, 0x400, 0xc9eb0801] - skin change result: changeId=1, result=true, skin=1
+133441 - INFO  [0x400, 0x400, 0xc9eb0801] - de.vw.mib.lsctng.internal.l All changes ready: true
+133461 - INFO  [0x400, 0x400, 0xc9eb0801] - language strategy = [en_US, en_GB]
+133462 - INFO  [0x400, 0x4, 0xc9eb0801] - Change Simple-Listener_e0000001_TTT with changeId 2 to language en_US
+133464 - INFO  [0x400, 0x400, 0xc9eb0801] - language change result: changeId=2, result=true, language=en_US
+133464 - INFO  [0x400, 0x4, 0xc9eb0801] - Change Simple-Listener_80000002_FTF with changeId 3 to language en_US
+133464 - INFO  [0x400, 0x400, 0xc9eb0801] - language change result: changeId=3, result=true, language=en_US
+133465 - INFO  [0x400, 0x4, 0xc9eb0801] - Change Simple-Listener_c0000000_TTF with changeId 4 to language en_US
+133590 - INFO  [0x400, 0x4000, 0xc9eb0801] - send STARTUP_SKIN_READY
+133591 - INFO  [0x400, 0x400, 0xc9eb0801] - language change result: changeId=4, result=true, language=en_US
+133591 - INFO  [0x400, 0x400, 0xc9eb0801] - de.vw.mib.lsctng.internal.f All changes ready: true
+133605 - INFO  [0x400, 0x400, 0xc9eb0801] - skinmode strategy = [0, -1]
+133606 - INFO  [0x400, 0x4, 0xc9eb0801] - Change Simple-Listener_e0000001_TTT with changeId 5 to skinmode 0
+133607 - INFO  [0x400, 0x400, 0xc9eb0801] - skinmode change result: changeId=5, result=true, skinmode=0
+133607 - INFO  [0x400, 0x4, 0xc9eb0801] - Change Simple-Listener_20000002_FFT with changeId 6 to skinmode 0
+133616 - INFO  [0x400, 0x400, 0xc9eb0801] - skinmode change result: changeId=6, result=true, skinmode=0
+133616 - INFO  [0x400, 0x400, 0xc9eb0801] - de.vw.mib.lsctng.internal.n All changes ready: true
+133620 - INFO  [0x400, 0x2, 0xc9eb0801] - End of LSC thread.
+134119 - INFO  [0x10000, 0x2, 0xb0fdac31] - MIBThread 'DEBUG_Task' started!
+135612 - ERROR [0x80, 0x8, 0xe6c15f22] - Error registering Observer: ServiceId=40134 RouterId=0 TargetId=1390000 EventId=0 Cause=Service is not registered
+135612 - ERROR [0x80, 0x8, 0xe6c15f22] - Error registering Observer: ServiceId=40133 RouterId=0 TargetId=1390000 EventId=0 Cause=Service is not registered
+135698 - WARN  [0x1, 0x10, 0xe6c15f22] - SoundWaveplayerHandlingIdle: Unexpected player state 1!
+135710 - INFO  [0x1, 0x10, 0xe6c15f22] -  Sound detected Amplifier: 13, Known as INTERNAL
+135733 - INFO  [0x1, 0x20, 0xe6c15f22] - Persistence: Pre-Load Namespace 5005
+135739 - WARN  [0x80, 0x1, 0xe6c15f22] - Access to an empty parameter (index: 4) in EventGeneric Event{[0.5122.100001]-->[0.5120.1700008][Index 0:int:5005][Index 1:long:300]}!
+135744 - WARN  [0x80, 0x1, 0xe6c15f22] - Access to an empty parameter (index: 4) in EventGeneric Event{[0.5122.100001]-->[0.5120.1700008][Index 0:int:5005][Index 1:long:320]}!
+135750 - WARN  [0x80, 0x1, 0xe6c15f22] - Access to an empty parameter (index: 4) in EventGeneric Event{[0.5122.100001]-->[0.5120.1700008][Index 0:int:5005][Index 1:long:321]}!
+135754 - WARN  [0x80, 0x1, 0xe6c15f22] - Access to an empty parameter (index: 4) in EventGeneric Event{[0.5122.100001]-->[0.5120.1700008][Index 0:int:5005][Index 1:long:330]}!
+135758 - INFO  [0x1, 0x20, 0xe6c15f22] - Persistence: Pre-Load Namespace 5005 done, Time: 25 ms
+****
+ SYS_HW_ErrorLongInfo
+PID : 2102
+CODE: 11
+ ****
+
+ *** PASE: Write Postmortem start ***
+SYS_ERROR
+PID        : 2102
+ErrorCode  : 11
+Fielname   : c:\temp\mib\c0-eu-sop1_b3-19425-141120-68544\targets\cpu_hmi\hmi_packages\hmi_run\hmi_run_hsm.c
+FileLine   : 1622
+TargetTime : 135799
+SyncTime : 28018
+SyncID     : 5325
+CPU Software Version : C0-HMI-EU-SOP1_B3-19425-141120-68544
+Software Version : 0450
+
+ *** PASE: Copy 86912 Bytes to AER (compressed PMD)***
+
+ *** PASE: Write Postmortem end ***
+
+ *** PASE: Send Error Event to Navigation ***
+
+ *** PASE: Timeout Error Event from Navigation ***
+
+ *** PASE: Trigger DSI Error ***
+
+ *** PASE: Trigger Speech Errorlog ***
+
+ *** PASE: Trigger HMI Errorlog ***
+############### DSIDispatcher: Error triggered from PASE
+JVM: entered getThreadInfo
+IPCDLL: Connect TCP/I Port
+JVM: leaving getThreadInfo
+Thread informations for 20 threads (Wed Jan 01 04:02:18 PST 2003)
+ThreadInfo: Watchdog, 10, 0xc9ef6e22
+                                    Status: running
+                                                        com/elektrobit/mib/ipc/IPC.sendMsg(III[BI)V
+                                                                                                        com/elektrobit/mib/ipc/IPC.send(III[BI)V
+                                                                                                                                                        com/elektrobit/mib/dsi/dispatcher/DSIDispatcher.run()V
+ThreadInfo: Thread-3, 10, 0xb472966
+                                   Status: running
+ThreadInfo: DSIWorkerThread (idle), 7, 0x29ef2186
+                                                 Status: waiting on Monitor "Thread[DSIWorkerThread (idle),7,main]" (com.elektrobit.mib.dsi.dispatcher.a.c)
+                                                                                                                                                                java/lang/Object.wait(JI)V
+                                                                                                                                                                                                java/lang/Object.wait()V
+                com/elektrobit/mib/dsi/dispatcher/a/c.run()V
+ThreadInfo: DSIWorkerThread (idle), 7, 0x29ef29fa
+                                                 Status: waiting on Monitor "Thread[DSIWorkerThread (idle),7,main]" (com.elektrobit.mib.dsi.dispatcher.a.c)
+                                                                                                                                                                java/lang/Object.wait(JI)V
+                                                                                                                                                                                                java/lang/Object.wait()V
+                com/elektrobit/mib/dsi/dispatcher/a/c.run()V
+ThreadInfo: DSIWorkerThread (idle), 7, 0x29ee989a
+                                                 Status: waiting on Monitor "Thread[DSIWorkerThread (idle),7,main]" (com.elektrobit.mib.dsi.dispatcher.a.c)
+                                                                                                                                                                java/lang/Object.wait(JI)V
+                                                                                                                                                                                                java/lang/Object.wait()V
+                com/elektrobit/mib/dsi/dispatcher/a/c.run()V
+ThreadInfo: DSIWorkerThread (idle), 7, 0xe9ee4fc6
+                                                 Status: waiting on Monitor "Thread[DSIWorkerThread (idle),7,main]" (com.elektrobit.mib.dsi.dispatcher.a.c)
+                                                                                                                                                                java/lang/Object.wait(JI)V
+                                                                                                                                                                                                java/lang/Object.wait()V
+                com/elektrobit/mib/dsi/dispatcher/a/c.run()V
+ThreadInfo: DSIWorkerThread (idle), 7, 0x69ee427e
+                                                 Status: waiting on Monitor "Thread[DSIWorkerThread (idle),7,main]" (com.elektrobit.mib.dsi.dispatcher.a.c)
+                                                                                                                                                                java/lang/Object.wait(JI)V
+                                                                                                                                                                                                java/lang/Object.wait()V
+                com/elektrobit/mib/dsi/dispatcher/a/c.run()V
+ThreadInfo: Finalizer thread, 5, 0xa97c7f8e
+                                           Status: waiting
+ThreadInfo: Logging-Thread, 2, 0x497c774e
+                                         Status: waiting on Monitor "edu.emory.mathcs.backport.java.util.concurrent.LinkedBlockingQueue$SerializableLock@4bd84bd8" (edu.emory.mathcs.backport.java.util.concurrent.LinkedBlockingQueue$SerializableLock)
+                                                java/lang/Object.wait(JI)V
+                                                                                edu/emory/mathcs/backport/java/util/concurrent/TimeUnit.timedWait(Ljava/lang/Object;J)V
+                                                                                                                                                                        edu/emory/mathcs/backport/java/util/concurrent/LinkedBlockingQueue.poll(JLedu/emory/mathcs/backport/java/util/concurrent/TimeUnit;)Ljava/lang/Object;
+                                                                                                                de/vw/mib/log4mib/internal/MainLogger.run()V
+                                                                                                                                                                java/lang/Thread.run()V
+ThreadInfo: LoggingWatchdog, 10, 0xe97c1fda
+                                           Status: sleeping
+                                                                java/lang/Thread.sleep(JI)V
+                                                                                                java/lang/Thread.sleep(J)V
+                                                                                                                                de/vw/mib/log4mib/internal/h.run()V
+ThreadInfo: Thread-7, 6, 0x897bdfd6
+                                   Status: running
+                                                        com/panasonic/eu/mib/spi/extstartup/MessageListenerThread._registerIPCAndListen()V
+                                                                                                                                                com/panasonic/eu/mib/spi/extstartup/MessageListenerThread.run()V
+ThreadInfo: WATCHDOG, 5, 0xa97c77de
+                                   Status: sleeping
+                                                        java/lang/Thread.sleep(JI)V
+                                                                                        java/lang/Thread.sleep(J)V
+                                                                                                                        de/vw/mib/threads/internal/Watchdog.run()V
+ThreadInfo: Startup-Thread, 5, 0x6b4efa5e
+                                         Status: waiting on Monitor "java.lang.Object@41724172" (java.lang.Object)
+                                                                                                                        java/lang/Object.wait(JI)V
+                                                                                                                                                        java/lang/Object.wait()V
+                                                                                                                                                                                        de/vw/mib/threads/internal/g.run()V
+                java/lang/Thread.run()V
+ThreadInfo: HSM_Task, 5, 0x2ce83cfe
+                                   Status: waiting on Monitor "java.lang.Object@18921892" (java.lang.Object)
+                                                                                                                java/lang/Object.wait(JI)V
+                                                                                                                                                java/lang/Object.wait()V
+                                                                                                                                                                                de/vw/mib/threads/internal/f.run()V
+        java/lang/Thread.run()V
+ThreadInfo: de.vw.mib.graphics.image.internal.DynamicImageLoader, 4, 0x697b6fc2
+                                                                               Status: waiting on Monitor "java.lang.Object@ec70ec7" (java.lang.Object)
+                                                                                                                                                        java/lang/Object.wait(JI)V
+                                                                                                                                                                                        java/lang/Object.wait()V
+        de/vw/mib/threads/internal/g.run()V
+                                                java/lang/Thread.run()V
+ThreadInfo: Timer-Thread, 10, 0x4cbaffaa
+                                        Status: waiting on Monitor "[]" (java.util.ArrayList)
+                                                                                                java/lang/Object.wait(JI)V
+                                                                                                                                java/lang/Object.wait(J)V
+                                                                                                                                                                de/vw/mib/timer/internal/c.operate()V
+                                                                                                                                                                                                        de/vw/mib/threads/internal/g.run()V
+                                java/lang/Thread.run()V
+ThreadInfo: DEBUG_Task, 1, 0xc97b63aa
+                                     Status: waiting on Monitor "java.lang.Object@12041204" (java.lang.Object)
+                                                                                                                java/lang/Object.wait(JI)V
+                                                                                                                                                java/lang/Object.wait()V
+                                                                                                                                                                                de/vw/mib/threads/internal/g.run()V
+        java/lang/Thread.run()V
+ThreadInfo: DebugInterfaceServer, 5, 0xc97bd67e
+                                               Status: running
+                                                                java/net/SocketImpl.acceptStreamSocketImpl(Ljava/io/FileDescriptor;Ljava/net/SocketImpl;Ljava/io/FileDescriptor;I)V
+                                                                                                                                                                                        java/net/PlainSocketImpl.accept(Ljava/net/SocketImpl;)V
+                                        ja
+                                          149332 - ERROR [0x1, 0x4000000, 0xe6c15f22] - DSI-Timeout occurred. Timeout: 10000 ms. Service: org.dsi.ifc.keypanel.DSIKeyPanel. Instance: 0. Method: "setGenericSetting". ["genericSettingResponse" did not arrive.]
+149335 - INFO  [0x200, 0x2, 0xe03ac78] - current.gui.language:=en_US;;protocol.version:=1.1;;skin.short.version:=STD_VW_Skin_Radio-BTHRRQ;;hmisoftware.version:=13.15.17_H15.10.133_STDPlus_EU;;hmisoftware.cgrun.version:=H15.10.133-201304121659_STDPlus_EU_201304121802;;hmisoftware.base.version:=H15.10.133-201304121603;;car.time:=946684800806
+[149542]SetEvent(IPC_EVENT_PMD_FINISHED)
+[149542] calling RaiseException()
+Exception ffffffe0 Thread=8b8facc0 Proc=0cb13d22 'CPU_HMI.EXE'
+AKY=00000041 PC=00017af4(CPU_HMI.EXE+0x00007af4) RA=84424486(NK.EXE+0x00014486) TEA=84d6efa0
+1-Process 84D6F760 PID 0CB13D22 ProcessName: CPU_HMI.EXE     b2ndChance(0)
+ErrorHandling : 1stChance Exception
+Drop 1st chance exception dump
+1-Process 84D6F760 PID 0CB13D22 ProcessName: CPU_HMI.EXE     b2ndChance(1)
+ErrorHandling : Call ErrorAnalyzing_Exception
+ErrorHandling : print_montecarlo_buffer
+--- init_montecarlo_buffer Start---
+--- g_dwLogBuffer:0x84d85fc0, size:49152 [byte]
+--- pg_dwPointer :0x84d68ac8
+--- init_montecarlo_buffer Done ---
+2-Process 84D6F760 PID 0CB13D22 ProcessName: CPU_HMI.EXE     b2ndChance(1)
+3-ChkIfReboot-ProcessName: [    CPU_HMI.EXE]
+3-ChkIfReboot-done
+ErrorHandling : ERROR_ACTION_REBOOT
+ErrorHandling : Exit ErrorAnalyzing_Exception
+
+Microsoft Windows CE Ethernet Bootloader Common Library Version 1.1 Built Nov 20 2014 16:38:47
+#################################
+# eMMC Revision 1.5(eMMC v4.41) #
+# Product Revision 2.8          #
+# eMMC capacity is 3.6GB        #
+#################################
+StoreEmmcLogData Write OK
+
+
+ERROR: <<<<< SPINFOREVER >>>>>

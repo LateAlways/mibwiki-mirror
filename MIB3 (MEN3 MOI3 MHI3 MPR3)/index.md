@@ -1,0 +1,1 @@
+MEN3=MIB3 Entry (LG), MOI3=MIB3 Standard (Preh or LG aka ), MHI3=MIB3 High (Aptiv), MPR3=MIB3 Premium (Aptiv)

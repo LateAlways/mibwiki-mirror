@@ -1,0 +1,17 @@
+# VW48x - G11/G13 mapping
+
+Just a collection of VW48x FW mapped to G11/G13 build
+
+| Train | MU | Build |
+|----|----|----|
+| MHI2_CN_AU57x_P0623 | 0623 | G11 |
+| MHI2_CN_VW48x_P0627 | 0627 | G11 |
+| MHI2_CN_VW48x_P0841 | 0841 | G13 |
+| MHI2_JP_VW48x_P0637 | 0637 | G11 |
+| MHI2_JP_VW48x_K0735 | 0734 | G13 |
+| MHI2_JP_VW48x_P0953 | 0843 | G13 |
+| MHI2_JP_VW48x_P1001 | 1001 | G13 |
+| MHI2_JP_VW48x_P1101 | 1101 | G13 |
+| MHI2_JP_VW48x_P1201 | 1201 | G13 |
+| MHI2_TW_VW48x_P0725 | 0752 | G13 |
+| MHI2_TW_VW48x_P0952 | 0952 | G13 |
