@@ -63,7 +63,7 @@ on -f rcc /net/rcc/sbin/mib_ioc_update -h
     ![](attachments/6fe9ce58-8537-4da3-bb79-04401dc6d956.png)
 
    In our case V850appMLB.bin and V850boloMLB.bin
-4. Rename the files you copied to IOC folder:
+4. Rename the files you copied to IOC folder: (REMOVE .bin EXTENTION)
 
    ```none
    V850app_MLB.bin > ioc_appl_bin

@@ -7,7 +7,7 @@ When MMI Radio Plus/Navigation (MHS2 unit) boots it runs`dlphi.sh` from the root
 
 
 1. Format [quality SD card](/General information/Bench Setup & Tools/SD card testing/) in FAT32 with the lowest `Allocation unit size`possible (usually 4096 bytes).*==(==****==NO==*** ==*micro sd card + adapter!)*==
-2. Unzip [activator](https://mega.nz/folder/skIyXTZD#xV0zbQP_ZkQOgcYei7nj2A) into the root of SD card so you see **dlphi.sh** there.
+2. Unzip activator into the root of SD card so you see **dlphi.sh** there.
 3. Turn the ignition on
 
    
@@ -31,7 +31,7 @@ Shortly after this, MIB will automatically reboot one more time.
 
  ![](attachments/0a61716d-5409-4ecc-b426-d375489f73b2.png)
 
-You can also check "Activation keys" list in the [RED menu](/General information/Audi MMI key combinations/) to see something like this:   ![025000F0 Lifetime EU maps025100F0 Lifetime NAR maps 
+You can also check "Activation keys" list in the [RED menu](/General information/Audi MMI Tastenkombinationen/) to see something like this:   ![025000F0 Lifetime EU maps025100F0 Lifetime NAR maps 
 025200F0 Lifetime China maps
 025D00F0 Lifetime RoW maps](attachments/247aef7d-d584-4a82-8109-a8655393cbc4.png)
 
@@ -39,7 +39,7 @@ You can also check "Activation keys" list in the [RED menu](/General information
 
 
 :::info
-Activator enables navigation functionality so all you need is just to change coding and adaptations by using your favourite OBD2 diagnostic tool
+Activator enables navigation functionality so all you need is just to change coding and adaptations by using your favourite OBD2 diagnostic t
 
 :::
 
@@ -65,7 +65,7 @@ Activator enables navigation functionality so all you need is just to change cod
 
 `5F` → Adaptation  → `vehicle configuration` → `Apple DIO` → `enable CarPlay`
 
-`5F` → Adaptation  → `vehicle configuration` → `Google GAL` → `enable Android Auto`` `
+`5F` → Adaptation  → `vehicle configuration` → `Google GAL` → `enable Android Auto `
 
 
 :::info
@@ -85,6 +85,6 @@ Audi Smartphone (CarPlay+Android Auto) will only work when proper USB hub is ins
 
 <https://www.a5oc.com/threads/mhs2-navigation-and-firmware-updates-currently-2022-2023.178538/>
 
-[SD card patch for MU0235](/MHS2 Delphi/SD card patch for MU0235/) old script details.
+[SD card patch for MU0235](/doc/sd-card-patch-for-mu0235-Lu9Txnxkp8) old script details.
 
-<https://www.digital-eliteboard.com/threads/delphi-audi-a4-a3-mhs2-patchen-patches-scripts-android-auto-apple-carplay-map-update-solution.493931/post-3987683>
+https://www.digital-eliteboard.com/threads/delphi-audi-a4-a3-mhs2-patchen-patches-scripts-android-auto-apple-carplay-map-update-solution.493931/post-3987683

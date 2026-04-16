@@ -25,11 +25,17 @@ RVC-HIGH is connected to CAN-BUS network and is accessible at address `0x6C`.
 
 
 :::info
-[RVC-LOW retrofit](/MQB CODING/5F - Rear View Camera (RVC-LOW) installation/) will be a little bit simpler and less expensive.
+[RVC-LOW retrofit](/doc/5f-rear-view-camera-rvc-low-installation-4Qw4oKwCAJ) will be a little bit simpler and less expensive.
 
 :::
 
 ## Parts
+
+Part numbers are hard to keep track of with VAG continuously superseding/changing part numbers. In general you need to look for a camera that fits the handle or with correct size swinging emblem or with mounting support (Seat Leon and Ibiza). 
+
+For Leon and Ibiza the bumper needs to be cut, see template
+
+ ![](attachments/adafb196-07b6-4b05-8fad-24f7f1cc2eb1.png)more info:  <https://www.seatia.com/secon-917.html>
 
 ### Camera
 
@@ -94,6 +100,13 @@ Some older cars will have parktronic module available at address `0x76` instead 
 
 :::
 
+
+:::info
+Cars with 4k pdc might need to be set as reverse camera not installed in pdc unit.
+
+:::
+
+
 ### Enable camera BAP communication
 
 * `6C` → Long Coding → Byte: `10`  → Bit `6` BAP for display data
@@ -123,6 +136,12 @@ Your car might not support all the features below. Only enable those that are ac
 * `6C` → Long Coding → Byte: `10`  → Bit `3` Trailer Towing Assistant (TTA/ARA) Optical installed
 * `6C` → Long Coding → Byte: `10`  → Bit `4` Tow Bar (AHK) installed
 * `6C` → Long Coding → Byte: `10`  → Bit `5` Rollback recognition
+
+
+:::info
+Cars with 4k pdc might need byte04bit0 not active
+
+:::
 
 ### Enable all 4 view modes in camera module
 
@@ -200,7 +219,15 @@ Not needed if installing used camera from the same model of vehicle.
 * Area view control unit is 5Q0-907-556_
 * There are datasets available on mibsolution for these cameras are other models
 * If mounting a brand new camera without dataset (virgin unit) it will give 3 errors (`B2013`, `B2010`, `U1013`). Long coding will be `00 00 00 00 00 00 00` (all zeros), and it will reject coding attempts. To see if wiring is proper it will be present as`6C` among modules. For vehicles with swinging logo it can also perform output tests: it pops out when triggered, but without dataset it won't show the video feed.
-* Once a dataset has been loaded a full long coding will be needed to activate the camera. Use e.g. `01 73 00 01 E6 00 23 1F 00 00 40` and then adjust it for your vehicle.
+* Once a dataset has been loaded a full long coding will be needed to activate the camera. Use coding from same model or from module whose dataset you loaded. 
+
+  \
+   e.g. for Golf with OE 5Q0980568 camera `01 73 00 01 E6 00 23 1F 00 00 40` and then adjust it for options present on the car.
+
+
+[5Q0980556B Dataset collection + coding example.zip 4485780](attachments/19f74fe8-ffa7-42ac-8225-98ef31acab99.zip)
+
+==In the archive there's a wide variety of datasets and some example codings for most MQB cars==
 
 ## Basic settings
 

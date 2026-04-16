@@ -1,7 +1,7 @@
 # JTAG connection to RCC or MMX
 
 :::info
-Look for this pins in the corner of the [small MMX board](/MHI2 MHI2Q Harman Aisin/Hardware MHI2/)
+Look for this pins in the corner of the [small MMX board](/MHI2 MHI2Q Harman Aisin/M.I.B. - More Incredible Bash/POG24 & BYG24 - AndroidAuto & CarPlay Widescreen Patch/Hardware MHI2/)
 
 :::
 
@@ -41,4 +41,4 @@ Using [10-pin 2x5 Socket-Socket 1.27mm IDC (SWD) Cable - 150mm long](https://www
 Sure you can make it all simpler by soldering directly to JTAG pins on the board or create a simple direct cable to the JTAG header.
 
 
-As soon as the connection is ready, proceed with the [recovery the MMX board if you've wiped your MMX NOR chip](/MHI2 MHI2Q Harman Aisin/Recovery/MMX/JTAG+USB recovery of wiped NOR chip/), or just want to debug the code!
+As soon as the connection is ready, proceed with the recovery the MMX board if you've wiped your MMX NOR chip, or just want to debug the code!

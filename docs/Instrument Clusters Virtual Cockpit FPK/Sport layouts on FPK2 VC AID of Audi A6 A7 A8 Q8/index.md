@@ -25,6 +25,6 @@ Variant 1 — Klassik (default) \n Variant 2 — S Performance \n Variant 3 — 
 **Good to know:** if you update from 0095 onto 0211 or 0216, you will automatically enable Klassik, Dynamic and Sport layout without need to change any adaptation.
 
 
-Reference: [https://www.drive2.com/b/645389137322470068/](https://www.drive2.ru/b/645389137322470068/)
+Reference: https://www.drive2.com/b/645389137322470068/
 
 Source: https://mhhauto.com/Thread-Solution-Audi-Virtual-Cockpit-Sport-Layout-Activation-GEN2

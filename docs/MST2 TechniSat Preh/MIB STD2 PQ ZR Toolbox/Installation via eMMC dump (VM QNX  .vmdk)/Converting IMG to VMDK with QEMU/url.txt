@@ -1,1 +1,0 @@
-/doc/converting-img-to-vmdk-with-qemu-pOUhxTGwJY

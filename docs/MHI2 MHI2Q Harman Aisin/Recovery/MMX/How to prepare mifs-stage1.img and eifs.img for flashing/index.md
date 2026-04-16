@@ -1,9 +1,9 @@
 # How to prepare mifs-stage1.img and eifs.img for flashing
 
 :::warning
-If on MHI2 you flash mifs-stage1.img or eifs.img without changing the header to ANDROID, MMX will stop booting and SD card access from RCC via /net/mmx/fs/sda0 will be lost. For recovery you'll need to flash NOR backup via [JTAG](/MHI2 MHI2Q Harman Aisin/Recovery/JTAG connection to RCC or MMX/) 😉
+If on MHI2 you flash mifs-stage1.img or eifs.img without changing the header to ANDROID, MMX will stop booting and SD card access from RCC via /net/mmx/fs/sda0 will be lost. For recovery you'll need to flash NOR backup via JTAG 😉
 
-On [MHI2Q](/MHI2 MHI2Q Harman Aisin/Hardware MHI2/MHI2Q - Qualcomm/) you don't need to do changes below!
+On [MHI2Q](/MHI2 MHI2Q Harman Aisin/M.I.B. - More Incredible Bash/MHI2Q - Qualcomm/) you don't need to do changes below!
 
 :::
 

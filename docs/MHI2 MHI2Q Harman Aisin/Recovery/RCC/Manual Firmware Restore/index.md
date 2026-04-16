@@ -17,7 +17,7 @@ Take files from stock FW update or extract out of RCC_fs0 and MMX_fs0 backup
 
 
 :::warning
-Stock **mifs-stage1.img** and **eifs.img** **MUST** be [edited with hex editor](/MHI2 MHI2Q Harman Aisin/Recovery/MMX/How to prepare mifs-stage1.img and eifs.img for flashing/) (first bytes of these files should start from ANDROID! string).
+Stock **mifs-stage1.img** and **eifs.img** **MUST** be edited with hex editor (first bytes of these files should start from ANDROID! string).
 
 If you ignore this and flash files starting from AÿDÿOÿDÿ you will brick the unit. Read how to change AÿDÿOÿDÿ→ANDROID! here.
 

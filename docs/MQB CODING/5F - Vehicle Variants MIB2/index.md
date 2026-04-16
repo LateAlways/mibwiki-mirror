@@ -79,6 +79,9 @@ This information is stored in module `5F`, long coding, bytes `00`, `01`, `02`.
 * `02 84 01` - Volkswagen Passat (B8) Sedan
 * `02 84 02` - Volkswagen Passat (B8) Variant/Estate
 * `02 84 03` - Volkswagen Arteon
+* `02 23 04` - Volkswagen Beetle
+* `02 23 05` - Volkswagen Beetle Cabrio
+* 02 63 04 - Volkswagen Scirocco 
 
 ## Skoda
 

@@ -69,7 +69,7 @@ Please create new line under the specific module. Add similar links to rows by p
 |    | Reverse cam retrofit |    |
 |    | <https://www.drive2.ru/l/2258629> | Reverse cam calibration |
 | 6D (Desk Lid) |    |    |
-|    | <https://www.drive2.ru/b/639294819247599097/> | Activation of the closure of the trunk with a button in the cabin and remotely from the keychain |
+|    | https://www.drive2.ru/b/639294819247599097/ | Activation of the closure of the trunk with a button in the cabin and remotely from the keychain |
 | 77 (mobile phone connection kit\*\*)\*\* |    |    |
 |    | <https://www.drive2.ru/l/478400259098149011/> | Bluetooth+MDI unit retrofit |
 | **A5** |    |    |

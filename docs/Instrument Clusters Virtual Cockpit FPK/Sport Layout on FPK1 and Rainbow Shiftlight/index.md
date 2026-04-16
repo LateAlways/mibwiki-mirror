@@ -72,7 +72,7 @@ work in progress
 
 ## Reference
 
-* Original post: <https://www.drive2.ru/l/637547970148977368/>
+* Original post: https://www.drive2.ru/l/637547970148977368/
 * CarScanner procedure: <https://www.drive2.ru/b/637736536393130752/>
 * <https://en.wikipedia.org/wiki/Unified_Diagnostic_Services>
 

@@ -1,7 +1,10 @@
 # JTAG connection to MMX
 
+# JTAG connection
+
+
 :::info
-Jtag pinout for MMX is the same as for any MHIG/MHI2 Harman/Aisin unit
+Jtag pinout for MMX is same as any MIB Harman unit
 
 :::
 

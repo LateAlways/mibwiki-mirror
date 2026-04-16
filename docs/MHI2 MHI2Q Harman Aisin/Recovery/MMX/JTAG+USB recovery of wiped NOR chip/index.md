@@ -2,7 +2,7 @@
 
 # USB+JTAG recovery of the erased MMX NOR chip
 
-The boot code of the MMX's Nvidia Tegra3 CPU is stored in the [64MB NOR flash chip](/MHI2 MHI2Q Harman Aisin/Hardware MHI2/) in specific format and consists from [a set of images (partitions)](/MHI2 MHI2Q Harman Aisin/Recovery/Manual FW update  50  vs  70  folders/). See <https://http.download.nvidia.com/tegra-public-appnotes/tegra-boot-flow.html>
+The boot code of the MMX's Nvidia Tegra3 CPU is stored in the [64MB NOR flash chip](/MHI2 MHI2Q Harman Aisin/M.I.B. - More Incredible Bash/POG24 & BYG24 - AndroidAuto & CarPlay Widescreen Patch/Hardware MHI2/) in specific format and consists from [a set of images (partitions)](/MHI2 MHI2Q Harman Aisin/Recovery/Manual FW update  50  vs  70  folders/). See <https://http.download.nvidia.com/tegra-public-appnotes/tegra-boot-flow.html>
 
 If MMX NOR chip is erased, the MMX board will not boot at all and make the RCC recovery useless as SD/USB will be not mapped to the /net/mmx/sda0 etc anymore.
 
@@ -25,7 +25,7 @@ At the moment there are only two known methods of the NOR recovery:
 You will need to:
 
 * Remove covers from the MIB unit
-* [Connect the yellow HSD USB port of the MIB to the USB-A port of the PC/Laptop](/MHI2 MHI2Q Harman Aisin/Recovery/MMX/JTAG+USB recovery of wiped NOR chip/USB Recovery Boot mode of MMX/)
+* [Connect the yellow HSD USB port of the MIB to the USB-A port of the PC/Laptop](/doc/usb-mmx-rcm-connection-sBOXLylrhT)
 * [Connect JTAG programmer to the MMX board pins](/MHI2 MHI2Q Harman Aisin/Recovery/JTAG connection to RCC or MMX/)
 * Use MMX_fs0.bin from the backup folder on the SD card, previously made with [M.I.B Advanced Backup](/MHI2 MHI2Q Harman Aisin/M.I.B. - More Incredible Bash/) on this particular unit.
 * [Connect a TTL cable to UART of RCC and MMX](/MHI2 MHI2Q Harman Aisin/Shell access via telnet and UART/Connecting TTL adapter to UART on quadlock/) to see in Putty the console output
@@ -76,7 +76,7 @@ nvflash.exe --bct BCT.bin --bl STAGE1_RECOVERY.bin --setentry 0x84008000 0x84008
 
 
 :::info
-If you have doubts about setentry params, see [BCT Decoding](/MHI2 MHI2Q Harman Aisin/Recovery/MMX/JTAG+USB recovery of wiped NOR chip/BCT Decoding/)
+If you have doubts about setentry params, see [BCT Decoding](/doc/bct-decoding-XjBbd7jSwC)
 
 :::
 
@@ -101,7 +101,7 @@ R8:0x8400eabc	R9:0x8400eab8	R10:0x0	R11:0x83fff000	R12:0x1c
 
 The Tegra3 starts running STAGE1_RECOVERY.bin loaded by nvflash and then tries to jump to the non-existent STAGE2_RECOVERY and crashes.
 
-The STAGE1_RECOVERY.bin can be merged with STAGE2_RECOVERY.bin with filling zero bytes between to keep correct memory offset (like both.bl), and then loaded with nvflash, alllowing both to run. You can merge recovery kernel in a similar fashion, but by unknown reason it does not boot correctly. If you want to try to figure out how to load all needed recovery partitions in one go see [MMX Tegra Boot Process Details](/MHI2 MHI2Q Harman Aisin/Recovery/MMX/JTAG+USB recovery of wiped NOR chip/MMX Tegra Boot Process Details/).
+The STAGE1_RECOVERY.bin can be merged with STAGE2_RECOVERY.bin with filling zero bytes between to keep correct memory offset (like both.bl), and then loaded with nvflash, alllowing both to run. You can merge recovery kernel in a similar fashion, but by unknown reason it does not boot correctly. If you want to try to figure out how to load all needed recovery partitions in one go see [MMX Tegra Boot Process Details](/doc/mmx-tegra-boot-process-details-UUHZm8fRFL).
 
 Seeing <.STARTUP> is enough to enable the JTAG port and give access to SDRAM at 0x84008000
 
@@ -141,7 +141,7 @@ Rename the backup file from `MU<version>-MMX_fs0.bin` to just `MMX_fs0.bin` then
 
 
 :::info
-RCC watchdog timer will be running in parallel and reboot the unit every minute or two. You can [enter to Emergency IFS on RCC Blue EFU](/MHI2 MHI2Q Harman Aisin/Recovery/RCC/How to boot ifs-emergency.ifs (start blue emergency EFU)/) to try to prevent the rebooting but will not really stop it. So when J-Link will fail due to the reboot, just re-run JLink again and it will skip already flashed block and will continue. It might take a few goes but will definately manage to finish this bothering task :grinning:
+RCC watchdog timer will be running in parallel and reboot the unit every minute or two. You can [enter to Emergency IFS on RCC Blue EFU](/MHI2 MHI2Q Harman Aisin/Recovery/RCC/How to mount RCC NOR (fs0)/How to boot ifs-emergency.ifs (start blue emergency EFU)/) to try to prevent the rebooting but will not really stop it. So when J-Link will fail due to the reboot, just re-run JLink again and it will skip already flashed block and will continue. It might take a few goes but will definately manage to finish this bothering task :grinning:
 
 :::
 
@@ -149,7 +149,7 @@ If the rebooting is really getting in the way, preventing the flash process from
 
 Either way, you'll want to now turn off power, remove the USB boot jumper, then boot it up again. Hopefully it powers on and is working properly good as new (remember to press the power button on the MIB Screen if it's still starting up black)
 
-If it looks like it's starting to boot on the MMX UART, but not properly, it's now time to switch to RCC UART and try out emergency mode. Use the instructions on  [Enter RCC BLUE EFU - EMERGENCY IFS](/MHI2 MHI2Q Harman Aisin/Recovery/RCC/How to boot ifs-emergency.ifs (start blue emergency EFU)/)  to get into emergency IFS mode; you'll need the emergency mode password that matches your firmware version for this.
+If it looks like it's starting to boot on the MMX UART, but not properly, it's now time to switch to RCC UART and try out emergency mode. Use the instructions on  [Enter RCC BLUE EFU - EMERGENCY IFS](/MHI2 MHI2Q Harman Aisin/Recovery/RCC/How to mount RCC NOR (fs0)/How to boot ifs-emergency.ifs (start blue emergency EFU)/)  to get into emergency IFS mode; you'll need the emergency mode password that matches your firmware version for this.
 
 Once you've got the RCC emergecy ifs console up, copy your MMX backup file onto a SD card and insert into SD1.
 

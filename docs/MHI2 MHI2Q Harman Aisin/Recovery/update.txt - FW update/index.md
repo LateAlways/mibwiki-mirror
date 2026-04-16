@@ -19,7 +19,7 @@ In case you want to stop a failing FW update you can delete it with
 :::
 
 
-1. Checking the content of update.txt, helps to identify why a [Audi TT FW update](/MHI2 MHI2Q Harman Aisin/unsorted - testing only/AUDI TT - stuck on blue EFU during FW update/) failed on the mid way from a very old FW to the latest.
+1. Checking the content of update.txt, helps to identify why a [Audi TT FW update](/MHI2 MHI2Q Harman Aisin/Recovery/Conversion & Cross-flashing/unsorted - testing only/AUDI TT - stuck on blue EFU during FW update/) failed on the mid way from a very old FW to the latest.
 2. You can manually generate or modify an `update.txt` to trigger:
 
    

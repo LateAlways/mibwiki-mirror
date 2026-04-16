@@ -11,7 +11,7 @@ Fake SD cards can brick main unit. Make sure you are using quality product to av
 ## Testing with H2testw
 
 
- 1. Download `H2testw` from <https://h2testw.en.lo4d.com/download/mirror-hs1-ssl>.
+ 1. Download `H2testw` from <https://h2testw.en.lo4d.com/download>.
  2. Unzip it.
  3. Insert SD card.
  4. Format the SD card with `FAT`, `FAT32`, or `exFAT` file system.

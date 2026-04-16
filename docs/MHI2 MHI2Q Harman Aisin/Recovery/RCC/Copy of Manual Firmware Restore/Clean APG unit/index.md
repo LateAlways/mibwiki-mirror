@@ -8,7 +8,7 @@ Never login to normal RCC and MMX. There are scripts and watchdogs running on th
 :::
 
 
-Log into [Emergency IFS](/MHI2 MHI2Q Harman Aisin/Recovery/RCC/How to boot ifs-emergency.ifs (start blue emergency EFU)/) and [manually flash complete RCC, MMX + APP](/MHI2 MHI2Q Harman Aisin/Recovery/RCC/Manual Firmware Restore/).
+Log into [Emergency IFS](/MHI2 MHI2Q Harman Aisin/Recovery/RCC/How to mount RCC NOR (fs0)/How to boot ifs-emergency.ifs (start blue emergency EFU)/) and [manually flash complete RCC, MMX + APP](/MHI2 MHI2Q Harman Aisin/Recovery/RCC/Manual Firmware Restore/).
 
 Full SDWL FW update is recommended after reboot to make sure that all components are up to date.
 

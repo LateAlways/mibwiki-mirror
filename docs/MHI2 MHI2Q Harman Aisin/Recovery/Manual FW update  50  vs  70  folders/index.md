@@ -128,7 +128,7 @@ cat /net/mmx/fs/sda0/MMX2/app/50/default/app.img > /net/mmx/dev/mnand0t177
 # you might need to clean SDWL from update.txt
 ```
 
-### [How to prepare mifs-stage1.img and eifs.img for flashing](/MHI2 MHI2Q Harman Aisin/Recovery/MMX/How to prepare mifs-stage1.img and eifs.img for flashing/)
+### How to prepare mifs-stage1.img and eifs.img for flashing
 
 
 :::warning

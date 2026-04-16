@@ -128,7 +128,7 @@ You  need the PopuiInfoId 329 to know that you will have to change the Entry 329
 
 More on that will follow soon, a tool to decode the popupinfo.res might be released in near future.
 
-## Method2:(to be verified, be the first…)
+## Method2:
 
 **Untested but should also work. Give feedback if you tried this one and it did the trick, or not. Make sure you have a root console access to restore a backup of the file in case it did break more/the HMI startup.**
 

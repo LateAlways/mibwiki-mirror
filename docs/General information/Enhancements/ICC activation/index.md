@@ -2,6 +2,8 @@
 
 ICC, in-car communication, voice enhancer, intercom… Basically rear speakers will play live audio feed from front microphone. Designed to improve communication between driver and passengers of large (or loud) vehicles.
 
+[https://youtu.be/tiLKxr9LMrM](https://youtu.be/tiLKxr9LMrM)
+
 ## Requirements
 
 
@@ -45,5 +47,5 @@ If you want to use CarScanner, here's a file ready for you:
 
 * [Parametrization with OBDeleven](/General information/RadioStationLogo (RSDB)/Parametrization with OBDeleven/)
 * [Parametrization with CarScanner](/General information/Parameterization Study/Parametrization with CarScanner/)
-* [MIB FEC/SWaP Code Generator](/MHI2 MHI2Q Harman Aisin/unsorted - testing only/MIB FEC SWaP Code Generator/)
+* [MIB FEC/SWaP Code Generator](/MHI2 MHI2Q Harman Aisin/Recovery/Conversion & Cross-flashing/unsorted - testing only/MIB FEC SWaP Code Generator/)
 * [Key combinations and shortcuts](/General information/Useful documents/Key combinations and shortcuts/)

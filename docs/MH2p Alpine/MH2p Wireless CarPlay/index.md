@@ -33,7 +33,7 @@ If you can't use CarPlay, make sure Siri is turned on. Also check out CarPlay co
 
 
 :::tip
-If, for some reason, you can't make Wireless CarPlay to work, you can use one of the [wired-to-wireless adapters](/General information/Enhancements/JAVA HMI PatchesV2/Wireless CarPlay adapters/).
+If, for some reason, you can't make Wireless CarPlay to work, you can use one of the [wired-to-wireless adapters](/General information/Wireless CarPlay adapters/).
 
 :::
 

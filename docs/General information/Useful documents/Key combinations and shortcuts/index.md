@@ -21,7 +21,7 @@ Hidden menus, bootloaders, etc… Don't use functions that you are not 100% sure
 
 
 :::tip
-Even more details about Audi key combinations can be found [here](/General information/Audi MMI key combinations/).
+Even more details about Audi key combinations can be found [here](/General information/Audi MMI Tastenkombinationen/).
 
 :::
 

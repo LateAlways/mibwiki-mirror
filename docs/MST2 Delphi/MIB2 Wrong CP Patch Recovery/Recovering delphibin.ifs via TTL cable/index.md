@@ -1,7 +1,7 @@
 # Recovering delphibin.ifs via TTL cable
 
 :::info
-The procedure below will only work if you installed [MST2 activator by Congo & Duke](https://mibwiki.one/doc/mst2-activator-by-congo-duke-BZSWMHrSq5) before
+The procedure below will only work if you installed [MST2 activator by Congo & Duke](/MST2 Delphi/ATTENTION! MST2 activator by Congo & Duke with autobackup  Unit could be bricked/) before
 
 :::
 

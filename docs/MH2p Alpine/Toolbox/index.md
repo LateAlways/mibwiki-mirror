@@ -1,6 +1,6 @@
 # Toolbox
 
-1. Download and unzip https://disk.yandex.com/d/7WKZix6ocBNLCw (the latest version is always here) onto FAT32 formatted SD card
+1. Download and unzip https://disk.yandex.com/d/7WKZix6ocBNLCw (the latest version is always here) onto FAT32 formatte SD card
  2. Insert SD card into any SD slot of MIB .
  3. Long press `MENU` button or press with two fingers in the right top corner of the touch screen. The unit will reboot into Engineering (aka RED or SWUP) mode.
  4. Update

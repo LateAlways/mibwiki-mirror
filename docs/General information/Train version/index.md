@@ -17,8 +17,8 @@ Also check most recent firmware version for your unit.
 | `MEN2_xx_xxxxx_xxxxxx` | `MIB2` | `Entry` \nLG | - | Composition Touch/Colour | Swing2/Swing3 |    |    |    |    |
 | `MST2_xx_xx_xxxxD CNS2_xx_xx_xxxxD` | `MIB2` | `Standard` Delphi | MMI Radio plus / MMI Low | Composition Media (CM) \n Discover Media (DM) | - | - |    |    |    |
 | `MST2_xx_xx_xxxxT` | `MIB2` | `Standard` Technisat/Preh | - | Composition Media (CM) \n Discover Media (DM) | Bolero/Amundsen | Navi System 6P0 |    |    |    |
-| `MHI2_xx_xxxxx_xxxxx` | `MIB2` | `High` [Harman](/MHI2 MHI2Q Harman Aisin/Hardware MHI2/), Aisin | MMI Navigation plus / MMI High | Discovery Pro | Columbus | Navi System Plus |    |    |    |
-| `MHI2Q_xx_xxxxx_xxxxx` | `MIB2` | `High` Harman, Aisin [(Qualcomm chipset)](/MHI2 MHI2Q Harman Aisin/Hardware MHI2/MHI2Q - Qualcomm/) | MMI Navigation plus / MMI High | - | - | - |    |    |    |
+| `MHI2_xx_xxxxx_xxxxx` | `MIB2` | `High` [Harman](/MHI2 MHI2Q Harman Aisin/M.I.B. - More Incredible Bash/POG24 & BYG24 - AndroidAuto & CarPlay Widescreen Patch/Hardware MHI2/), Aisin | MMI Navigation plus / MMI High | Discovery Pro | Columbus | Navi System Plus |    |    |    |
+| `MHI2Q_xx_xxxxx_xxxxx` | `MIB2` | `High` Harman, Aisin (Qualcomm chipset) | MMI Navigation plus / MMI High | - | - | - |    |    |    |
 | `MS2p_xx_xxxxx_xxxxxD` | `MIB2` | `Standard Plus` \nAptiv (Delphi) | MMI radio plus | - | - | - |    |    |    |
 | `MH2p_xx_xxxxx_xxxxx` | `MIB2` | `High Plus` Alpine | MMI navigation plus / MMI Plus | Discover Premium | - | - |    |    |    |
 | `MHS2_xx_xx_xxxxx` | `MIB2` | `High Scale` Delphi | MMI Radio Plus with Connectivity Package / MMI Navigation with Audi Connect | - | - | - |    |    |    |

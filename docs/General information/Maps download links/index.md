@@ -2,23 +2,29 @@
 
 ## MSTD (MIB1 Std)
 
-<https://mibsolution.one/#/1/15/MSTD>
+2023(P106) final: <https://mibsolution.one/#/1/19/MSTD>
 
-## MHS2 (MIB2 High Scale) 2024
+## MHS2 (MIB2 High Scale)
 
-https://mibsolution.one/#/1/15/MHS2
+2024(P350) final: [https://mibsolution.one/#/1/15/MHS2](https://mibsolution.one/#/1/19/MHS2)
 
 ## MH2P (MIB2 Premium)
 
 ### Europe
 
+2026: https://navigation-maps.volkswagen.com/vw-maps/Update_25_25/P0780_MIB2P_EU.7z
+
+2025/2026: <https://navigation-maps.volkswagen.com/vw-maps/P750_MIB2P_EU.7z>
+
 2025: <https://navigation-maps.volkswagen.com/vw-maps/P720_MIB2P_EU.7z>
 
-2024/2025: [https://navigation-maps.volkswagen.com/vw-maps/P690_MIB2P_EU.7z](https://navigation-maps.volkswagen.com/vw-maps/P690_MIB2P_CN.7z)
-
-2025/2026: <https://navigation-maps.volkswagen.com/vw-maps/Update_25_25/P0780_MIB2P_EU.7z>
+2024/2025: <https://navigation-maps.volkswagen.com/vw-maps/P690_MIB2P_EU.7z>
 
 ### ROW
+
+2026: …
+
+2025/2026: …
 
 2025: <https://navigation-maps.volkswagen.com/vw-maps/P723_MIB2P_RW.7z>
 
@@ -28,17 +34,17 @@ https://mibsolution.one/#/1/15/MHS2
 
 ### Europe
 
-2025/2026: https://updateportalmaps.blob.core.windows.net/maps/OI_P154_EU_202534_Offline_Update.zip
+[2025/2026: https://updateportalmaps.blob.core.windows.net/maps/OI_P154_EU_202534_Offline_Update.zip](https://updateportalmaps.blob.core.windows.net/maps/OI_P154_EU_202534_Offline_Update.zip)
 
 ## MHI3/MPR3 (MIB3 High/Premium)
 
 ### Europe
 
-2025/2026 https://navigation-maps.volkswagen.com/vw-maps/Update_25_25/P1420_MIB3_EU.7z
+2025/2026: <https://navigation-maps.volkswagen.com/vw-maps/Update_25_25/P1420_MIB3_EU.7z>
 
-2025 https://download04.audi.com/soko2-mapcare/packages/70001124234?token=ba2a3b69-6a80-47b4-a14d-ce5e8d3215b7
+2025: <https://download04.audi.com/soko2-mapcare/packages/70001124234?token=ba2a3b69-6a80-47b4-a14d-ce5e8d3215b7>
 
-2024 <https://disk.yandex.com/d/QHC3oDwJ_OIO_A>
+2024: <https://disk.yandex.com/d/QHC3oDwJ_OIO_A>
 
 ### NA
 
@@ -80,21 +86,25 @@ To understand which installed FEC is required for particular map version, take a
 
 This line shows which installed FECs is required: "FSC": "02300032,09300002,08300002,07300032,06300032,03300032.
 
-For MIB1 High see [here](/MHIG Harman (MIB1 HIGH)/Updating maps/).
+For MIB1 High see [here](/MQB CODING/Recovery when flashing of RCC ifs.root-stage2 failed/Updating maps/).
 
 :::
 
 ### ECE (Europe)
 
+2026: <https://updateportalmaps.blob.core.windows.net/maps/HIGH2_P430_EU_202545.zip>
+
 2025/2026 **MHI2(Q) only**: <https://navigation-maps.volkswagen.com/vw-maps/Update_25_25/P410_N60S5MIBH3_EU.7z>
 
-2025 **MHI2(Q) only:** https://navigation-maps.volkswagen.com/vw-maps/P390_N60S5MIBH3_EU.7z
+2025 **MHI2(Q) only:** <https://navigation-maps.volkswagen.com/vw-maps/P390_N60S5MIBH3_EU.7z>
 
 2024/2025 MHI2(Q) only: <https://navigation-maps.volkswagen.com/vw-maps/P370_N60S5MIBH3_EU.7z>
 
-2024 very last for MHIG: https://navigation-maps.volkswagen.com/vw-maps/P350_N60S5MIBH3_EU.7z
+2024 very last for MHIG: <https://navigation-maps.volkswagen.com/vw-maps/P350_N60S5MIBH3_EU.7z>
 
-2024/2023: <https://navigation-maps.volkswagen.com/vw-maps/P330_N60S5MIBH3_EU.7z>\n2023: <https://navigation-maps.volkswagen.com/vw-maps/P310_N60S5MIBH3_EU.7z>
+2024/2023: <https://navigation-maps.volkswagen.com/vw-maps/P330_N60S5MIBH3_EU.7z>
+
+2023: <https://navigation-maps.volkswagen.com/vw-maps/P310_N60S5MIBH3_EU.7z>
 
 ### ROW (Rest of the World)
 
@@ -104,7 +114,9 @@ For MIB1 High see [here](/MHIG Harman (MIB1 HIGH)/Updating maps/).
 
 2024 very last for MHIG: <https://navigation-maps.volkswagen.com/vw-maps/P353_N60S5MIBH3_ROW.7z>
 
-2023/2024: <https://navigation-maps.volkswagen.com/vw-maps/P333_N60S5MIBH3_ROW.7z>\n2023: <https://navigation-maps.volkswagen.com/vw-maps/P313_N60S5MIBH3_ROW.7z>
+2023/2024: <https://navigation-maps.volkswagen.com/vw-maps/P333_N60S5MIBH3_ROW.7z>
+
+2023: <https://navigation-maps.volkswagen.com/vw-maps/P313_N60S5MIBH3_ROW.7z>
 
 ### Japan
 

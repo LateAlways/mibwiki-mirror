@@ -14,7 +14,7 @@ M.I.B. for MHIG/MHI2/MHI2Q is GEM and VIM enabler, IFS-root Patcher and much muc
 
 
 :::warning
-ALWAYS download latest M.I.B. version from <https://github.com/Mr-MIBonk/M.I.B._More-Incredible-Bash/releases>
+ALWAYS download latest M.I.B. version from https://github.com/Mr-MIBonk/M.I.B._More-Incredible-Bash/releases
 
 It also contains latest "Password List" and "Compatibility Table".
 

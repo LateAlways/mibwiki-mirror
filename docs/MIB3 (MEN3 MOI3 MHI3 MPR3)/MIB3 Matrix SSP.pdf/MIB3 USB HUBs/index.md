@@ -29,4 +29,4 @@
 * IDE10480-MAS10742-Interface for external media: activation-Connection 2: **activated**
 
 
-Information about other MIB3, MIB2 and MIB1 USB hubs and ports can be found at [https://www.drive2.com/l/571244670214998859/](https://www.drive2.ru/l/571244670214998859/)
+Information about other MIB3, MIB2 and MIB1 USB hubs and ports can be found at https://www.drive2.com/l/571244670214998859/

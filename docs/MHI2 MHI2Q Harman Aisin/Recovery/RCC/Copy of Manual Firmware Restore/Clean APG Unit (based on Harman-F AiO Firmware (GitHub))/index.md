@@ -58,7 +58,7 @@ No FEC and SWaP Codes available (Navigation, Bluetooth, Voice Control, CarPlay a
 
 ## **Solution**
 
-Symbolic link of FEC folder in the RCC file system (`/mnt/efs-persist/FEC`) needs to be removed and newly created as normal folder. AiO firmware is not able to create patched FEC/SWaP-Codes because symbolic folder FEC is not available. See also here for information: </MHI2 MHI2Q Harman Aisin/Recovery/RCC/Manual Firmware Restore/Clean APG unit/>
+Symbolic link of FEC folder in the RCC file system (`/mnt/efs-persist/FEC`) needs to be removed and newly created as normal folder. AiO firmware is not able to create patched FEC/SWaP-Codes because symbolic folder FEC is not available. See also here for information: <https://mibwiki.one/doc/clean-apg-unit-weHgvX9raB>
 
  ![](attachments/08a27c48-4f90-4d30-aea0-c474aa8c0310.png)Connect PC via D-Link adapter and login into RCC port `123` with e.g. Putty or Windows Telnet. Execute both Telnet commands.
 

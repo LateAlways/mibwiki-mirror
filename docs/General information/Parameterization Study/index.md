@@ -67,9 +67,9 @@ When reading Dataset via ODIS E, you can find the dataset version of each datase
 
 * Video in motion: <https://www.drive2.ru/l/574649307970404656/>
 * MIB2 Sound parameter study: <https://www.drive2.ru/l/611261670785849626/>
-* MIB3 Sound parameter study: <https://www.drive2.ru/l/611148421088161236/>
+* MIB3 Sound parameter study: https://www.drive2.ru/l/611148421088161236/
 * MIB2 MQB Sound settings study: <https://github.com/NumberOneBot/mqb-mib2-sound-datasets>
-* MIB2 Toolbox VIM menu: <https://github.com/jilleb/mib2-toolbox/blob/master/Toolbox/GEM/mqb-vim_advanced.esd>
+* MIB2 Toolbox VIM menu: https://github.com/jilleb/mib2-toolbox/blob/master/Toolbox/GEM/mqb-vim_advanced.esd
 
 
 \

@@ -1,354 +1,45 @@
 # Current issues
 
-م
-
-no files downloadable not here and not on mibsolution
-
-
-\
-> Every Folder under: „mib\\MQB_Solutions\\MST2 – TechniSat Preh" is empty ☹/
-
-
-\
-Same here :( repositoy empty: mibsolution.one …\\MST2 - TechniSat Preh/Solution/Patches/PQ/VW/
-
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-هـ
-
-لا توجد مشاكل، كل شيء يعمل ؛)
-
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-N
-
-
-\
-
-\
-
-\
-
-\
-
-\
-M
-
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-هـ
-
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-N
-
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-2
-
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-_
-
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-هـ
-
-
-أنت
-
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-_
-
-
-\
-
-\
-
-\
-
-\
-
-\
-S
-
-
-\
-
-\
-
-K
-
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-ج
-
-
-\
-
-\
-ص
-
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-إكس
-
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-P
-
-
-\
-
-\
-
-\
-
-\
-
-\
-7
-
-
-\
-
-\
-
-3
-
-
-\
-
-8
-
-
-\
-1
-
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-L
-
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-\
-
-M
-
-
-\
-
-\
-
-\
-
-\
-
-\
-هـ
-
-
-\
-
-\
-
-\
-
-\
-# 
-
-
-\
+List of broken archives/files.
+
+
+* Software/MIB2 Stuff/MIB2_Delphi_FEC_Generator-XTR-V3.1.rar
+* Software/ODIS/ODIS E  17/ODIS-E 17.0.1.zip
+* Maps/BNav/Audi Bnav West 5.36.1 2023.zip
+* Software/Audi RSE III Android 7.0 Update/RseUpdate_Windows_v2.rar
+* Maps/MIB3H/MIB3_EU_02A00053_P1320.zip
+* MQB_Solution/CNS3/5DD035866/CNS3.0_37W-SK_CHN_sec-0367_RC2-MAIN-20230608.1-REL.tgz
+* MQB_Solution/CNS3/CNS3.0_37W-VW_CHN_sec-0773-RC2_update.zip
+* MQB_Solution/CNS3/CNS3.0_MQB_SOP2_BM-VW_CHN_sec-0695_RC9-MAIN-20230511.1-REL.gz
+* MQB_Solution/CNS3/CNS3_CN_VW37W_R75700J_MU0757_5HG035866.7z
+* MQB_Solution/MEN2 - LG/MEN2_EU_SKGPx_P0080L MU8755.zip
+* MQB_Solution/MH2P - ALPINE/AUDI/AS/MH2p_AS_AUG35_P2873 (4K0906961AD) SVMcode_MH2PAS2873.7z
+* MQB_Solution/MH2P - ALPINE/VW/MH2p_CN_VWG36_P2497 3G0919360EK.rar
+* MQB_Solution/MH2P - ALPINE/VW/MH2p_ER_VWG33_P2481 3G0919360DR.rar
+* MQB_Solution/MHI3 - APTIV/Firmware/MHI3_AS_AUASUV_P3873.3.3873.7z
+* MQB_Solution/MHI3 - APTIV/Firmware/MHI3_ER_AU_P4398 8W0906961DG.7z
+* MQB_Solution/MHI3 - APTIV/Firmware/MHI3_US_AU_P3696 8W0906961R.7z
+* MQB_Solution/MHI3 - APTIV/Firmware/corrupt MHI3_ER_AU_P4851 (4851) 8W0906961EL.rar
+* MQB_Solution/MHI3 - APTIV/Firmware/corrupt MHI3_ER_AU_P4398 8W0906961DG.7z
+* MQB_Solution/MHI3 - APTIV/Firmware/MHI3_ER_AU_P4851 (4851) 8W0906961EL.rar
+* MQB_Solution/MIB REGIO/VW_REGIO.SW0707_20231017-1506.zip
+* MQB_Solution/MOI3/LG/MK8 Golf Update - 1969 - 3G8919360P (Working as at 28NOV2024).7z
+* MQB_Solution/MOI3/LG/MOI3_EU_SE_R9690L_1969_5FA919360BC.zip
+* MQB_Solution/MOI3/LG/MOI3_EU_SK_R9410L MU1941.7z
+* MQB_Solution/MOI3/LG/MOI3_EU_SE_R9690L_MU1969_5FA919360BC.zip
+* MQB_Solution/MOI3/LG/MOI3_EU_VW_R9690L_MU1969_3G8919360P - Golf MK8.7z
+* MQB_Solution/MOI3/Preh/EU/Skoda/MOI3_EU_SKMQB_P30603P.zip
+* MQB_Solution/MOI3/Preh/RW/VW/MOI3_RW_VWMQB_P33000P_3G8919360CL.zip
+* MQB_Solution/MOI3/Preh/MOI3_EU_SKMQB_P30603P_0306.zip
+* MQB_Solution/MOI3/MOI3GP_EU_VW_R6500L (2650) 3G8919360DD.rar
+* MQB_Solution/MPR3/Firmware/MPR3_ER_AU_P3853_8W0906961BM.rar
+* MQB_Solution/MST2 - TechniSat Preh/Firmware/VW_PQ/EU/MST2_EU_VW_PQ_P0252T.7z
+* MQB_Solution/MST2 - TechniSat Preh/Firmware/VW_PQ/EU/MST2_EU_VW_PQ_P0253T.7z
+* MQB_Solution/MST2 - TechniSat Preh/Firmware/VW_PQ/EU/MST2_EU_VW_PQ_P0368T.7z
+* MQB_Solution/MST2 - TechniSat Preh/Firmware/VW_ZR/EU/MST2_EU_VW_ZR_P0480T-3G0919360QQ.7z
+* MQB_Solution/MST2 - TechniSat Preh/Solution/Patches/PQ/SKODA/MST2_EU_SK_PQ_P0359T/SK_PQ_P0359T_FEC_ALL_CID_OFF_CP_OFF_FIXED.zip
+* MQB_Solution/RadioStationDB/MQB3_OI_JND_Europe_v1.31.50.zip
+* MQB_Solution/VAG Stuff/Repair Manuals (ErWin)/VW/Touareg 2003-2017.7z
+* MQB_Solution/VAG Stuff/Repair Manuals (ErWin)/VW/Tiguan II.7z
+* MQB_Solution/VC-AID Updates/MQBVW_18S1_FPK_4191_S_MHI2_5G1920790B_5G1920791B.zip
+* MQB_Solution/_pre MIB2/MHIG - HARMAN/Firmware/VW/MHIG_EU_VW_K1540_1.7z

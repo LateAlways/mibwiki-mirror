@@ -4,7 +4,7 @@
 
 
  1. Format [quality SD card](/General information/Bench Setup & Tools/SD card testing/) (`4GB` or more) in `FAT32` file system with smallest `Allocation unit size` available (usually `4096 bytes`)
- 2. Unzip the Activator from Congo to sd card: <https://mega.nz/folder/VxY3VI6K#pgDAzX4dU4kf0eixp8fRhw>
+ 2. Unzip the Activator from Congo to sd card: https://mega.nz/folder/VxY3VI6K#pgDAzX4dU4kf0eixp8fRhw
  3. Turn the ignition on,
  4. Remove all SD cards from both SD slots
  5. Insert SD card with the activator into the `SD1` slot,

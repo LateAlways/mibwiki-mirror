@@ -1,6 +1,6 @@
 # NAR MIB SiriusXM Live Traffic
 
-• Coding - Using VCDS/ODIS/VCP/OBDEleven 
+• Coding - Using VCDS/ODIS/VCP/OBDEleven
 
 Enter 5F Infotainment \n Adaptations \n Fee-Based Traffic Information (TMC) Change Value to 34305
 

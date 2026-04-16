@@ -61,7 +61,7 @@ Before reading this,  check SD Activator by Congo & Duke.
  ![](attachments/83405590-6e06-4d6a-9949-9f381002fd5b.png)
 
 
- ![Delphi SW Train Scheme](attachments/0c0ef38b-8204-48c2-8355-7b8d9c80da75.png)
+ ![](attachments/0c0ef38b-8204-48c2-8355-7b8d9c80da75.png)
 
 
 
@@ -72,7 +72,7 @@ If there is a D at the end of your SW Train version, you have a Delphi Unit.
 
 
 :::tip
-If you see a `PQ` or `ZR` after the vehicle brand or a `T` at the end in your SW Train version, then you have a [Technisat Preh Unit.](/MST2 TechniSat Preh/MIB STD2 PQ ZR Toolbox/FW patch overview - newest available FW, Online approval SD Patch possibility/02xx to 04xx firmware update/)
+If you see a `PQ` or `ZR` after the vehicle brand or a `T` at the end in your SW Train version, then you have a [Technisat Preh Unit.](/doc/technisat-02xx-to-04xx-firmware-update-RZcERlnOpc)
 
 :::
 
@@ -81,7 +81,7 @@ If you see a `PQ` or `ZR` after the vehicle brand or a `T` at the end in your SW
 * Delphi MST2 unit,
 * Diagnostic tool to enable Developer Mode (`VCDS`, `VCP`, `OBD11`…),
 * Quality SD card (how to test SD card),
-* Ethernet-USB adapter supported by the unit ([D-Link DUB-E100](/General information/Bench Setup & Tools/D-Link DUB-100 Ver. D1 - 0x2001, 0x1a02/) or alternative),
+* Ethernet-USB adapter supported by the unit (D-Link DUB-E100 or alternative),
 * Ethernet cable,
 * Patch files from mibsolution.one.
 
@@ -119,7 +119,7 @@ In addition to the SW-Train mentioned in the first section, there is also the so
 
 Activate the Green Engineering Menu (GEM) with `VCDS`, `OBDEleven`, `VCP`, or any other diagnostic interface.
 
-Check: [5F - Enabling Developer Mode and Hidden Menu](/MQB CODING/5F - Enabling Developer Mode and Hidden Menu/) for more details.
+Check: 5F - Enabling Developer Mode and Hidden Menu for more details.
 
 # Update FW
 
@@ -553,7 +553,7 @@ Enter the commands exactly! Unintentionally set spaces can lead to bricking  of 
 
    `shutdown -S reboot`
 
-# [FEC Generator](https://www.digital-eliteboard.com/threads/mib2-delphi-fec-generator-by-xtr3m3.495976/)
+# FEC Generator
 
  ![](attachments/523b3a29-5274-4af4-9aa2-3b7d80ceb25f.png)
 

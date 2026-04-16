@@ -1,1 +1,0 @@
-Allow navigation maps from SD with any CID (aka CID patch)
