@@ -54,7 +54,7 @@ on -f rcc /usr/apps/modifyE2P w 3b0 35 32 36
 on -f rcc /usr/apps/modifyE2P w 3b9 31 34 34 30 
 ```
 
-## 4. [Enter Emergency IFS](/MHI2 MHI2Q Harman Aisin/Recovery/RCC/How to mount RCC NOR (fs0)/How to boot ifs-emergency.ifs (start blue emergency EFU)/)
+## 4. [Enter Emergency IFS](/MHI2 MHI2Q Harman Aisin/Recovery/RCC/How to mount RCC NOR  fs0/How to boot ifs-emergency.ifs  start blue emergency EFU/)
 
 Run the following commands step by step.
 

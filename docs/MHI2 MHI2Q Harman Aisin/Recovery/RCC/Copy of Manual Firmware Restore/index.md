@@ -5,7 +5,7 @@ title: "Copy of Manual Firmware Restore"
 # Copy of Manual Firmware Restore
 
 :::warning
-Proceed only if you know what you are doing and always flash only from [Emergency IFS](/MHI2 MHI2Q Harman Aisin/Recovery/RCC/How to mount RCC NOR (fs0)/How to boot ifs-emergency.ifs (start blue emergency EFU)/) !!!
+Proceed only if you know what you are doing and always flash only from [Emergency IFS](/MHI2 MHI2Q Harman Aisin/Recovery/RCC/How to mount RCC NOR  fs0/How to boot ifs-emergency.ifs  start blue emergency EFU/) !!!
 :::
 
 If some partitions of the RCC NOR or MMX NAND are damaged, mixed FW partitions are installed or unit is infected by APG it might be useful to restore it manually.

@@ -64,7 +64,7 @@ When reading Dataset via ODIS E, you can find the dataset version of each datase
 
 * ODIS
 * VCP
-* [OBDeleven](/General information/RadioStationLogo (RSDB)/Parametrization with OBDeleven/) for Android
+* [OBDeleven](/General information/RadioStationLogo  RSDB/Parametrization with OBDeleven/) for Android
 * CarScanner for iOS and Android
 
 ## Reference

@@ -16,7 +16,7 @@ It scans metainfo and does nothing. Inserting stock MHI2_ER_AU43x_P5098 SD does 
 
 ## Manually flash to fix
 
-To fix the unit you must enter into [Emergency IFS](/MHI2 MHI2Q Harman Aisin/Recovery/RCC/How to mount RCC NOR (fs0)/How to boot ifs-emergency.ifs (start blue emergency EFU)/) using [UART](/MHI2 MHI2Q Harman Aisin/Shell access via telnet and UART/Connecting TTL adapter to UART on quadlock/) connection and manually flash ifs-root and DSP binary. You can see them in the [update.txt](/MHI2 MHI2Q Harman Aisin/Recovery/Conversion & Cross-flashing/unsorted - testing only/AUDI TT - stuck on blue EFU during FW update//edit#h-updatetxt-from-unit-with-failed-fw-update-from-train-mhi2erau43xs10741) below with the TODO status that means that they are not updated yet: 
+To fix the unit you must enter into [Emergency IFS](/MHI2 MHI2Q Harman Aisin/Recovery/RCC/How to mount RCC NOR  fs0/How to boot ifs-emergency.ifs  start blue emergency EFU/) using [UART](/MHI2 MHI2Q Harman Aisin/Shell access via telnet and UART/Connecting TTL adapter to UART on quadlock/) connection and manually flash ifs-root and DSP binary. You can see them in the [update.txt](/MHI2 MHI2Q Harman Aisin/Recovery/Conversion & Cross-flashing/unsorted - testing only/AUDI TT - stuck on blue EFU during FW update//edit#h-updatetxt-from-unit-with-failed-fw-update-from-train-mhi2erau43xs10741) below with the TODO status that means that they are not updated yet: 
 
  ![manually flash ifs-root and DSP](attachments/736d482f-cf92-4dc5-b9ae-2c7376633254.png)
 

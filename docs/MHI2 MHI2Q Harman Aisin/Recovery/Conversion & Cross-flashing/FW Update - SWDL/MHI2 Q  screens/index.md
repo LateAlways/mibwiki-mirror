@@ -5,7 +5,7 @@ title: "MHI2(Q) screens"
 # MHI2(Q) screens
 
 :::info
-VW, Skoda and Seat MHI2 interfaces are very similar. Especially [Service Mode](/MHI2 MHI2Q Harman Aisin/Recovery/Conversion & Cross-flashing/FW Update - SWDL/MHI2(Q) screens//#h-service-mode-menu) Menu is identical
+VW, Skoda and Seat MHI2 interfaces are very similar. Especially [Service Mode](/MHI2 MHI2Q Harman Aisin/Recovery/Conversion & Cross-flashing/FW Update - SWDL/MHI2 Q  screens//#h-service-mode-menu) Menu is identical
 :::
 
 # Navigation Screen
@@ -49,7 +49,7 @@ Get **TRAIN** information MHI2…
 
 
 :::info
-Enter [Service Mode](/MHI2 MHI2Q Harman Aisin/Recovery/Conversion & Cross-flashing/FW Update - SWDL/MHI2(Q) screens//#h-service-mode-menu)  and select `Function enabling codes (FEC,SWaP)` will show all installed FECs and their status
+Enter [Service Mode](/MHI2 MHI2Q Harman Aisin/Recovery/Conversion & Cross-flashing/FW Update - SWDL/MHI2 Q  screens//#h-service-mode-menu)  and select `Function enabling codes (FEC,SWaP)` will show all installed FECs and their status
 :::
 
 | VW  (G13) | Skoda (G13) | Seat |
@@ -59,11 +59,11 @@ Enter [Service Mode](/MHI2 MHI2Q Harman Aisin/Recovery/Conversion & Cross-flashi
 |    |  ![list of all FEC codes and their status](attachments/e21b53f8-6831-46b9-b167-dc1902634b65.png) |    |
 |    |  ![click a FEC code to get details](attachments/decc0a15-0584-4697-80d9-3838a5524897.png) |    |
 
-## Testmode Menu: GEM, SWDL, etc via [Service Mode](/MHI2 MHI2Q Harman Aisin/Recovery/Conversion & Cross-flashing/FW Update - SWDL/MHI2(Q) screens//#h-service-mode-menu)
+## Testmode Menu: GEM, SWDL, etc via [Service Mode](/MHI2 MHI2Q Harman Aisin/Recovery/Conversion & Cross-flashing/FW Update - SWDL/MHI2 Q  screens//#h-service-mode-menu)
 
 
 :::info
-Enter [Service Mode](/MHI2 MHI2Q Harman Aisin/Recovery/Conversion & Cross-flashing/FW Update - SWDL/MHI2(Q) screens//#h-service-mode-menu) and select `Testmode`
+Enter [Service Mode](/MHI2 MHI2Q Harman Aisin/Recovery/Conversion & Cross-flashing/FW Update - SWDL/MHI2 Q  screens//#h-service-mode-menu) and select `Testmode`
 
 Access to Green Engineering Menu (GEM), SWDL - custom FW update and more
 :::
@@ -98,7 +98,7 @@ This is valid for FW updates, but also for Installation of maps, radio station d
 |  !['Select all' -> switch all packages to Y(es)](attachments/fb026ff2-8d1a-4faa-b8b6-76a5bd1c535a.png) |  !['Select all' -> switch all packages to Y(es)](attachments/bd6c53af-a647-4677-be78-c73cd026bf93.png) |  !['Select all' -> switch all packages to Y(es)](attachments/c6ddb52b-bc4a-4ea2-9b32-e131ba541cb0.png) |
 |  ![](attachments/50fdb30f-477c-48c0-a2f4-64fd2568a2bd.png) |  ![](attachments/bfcb5709-a3a8-4d2e-a815-920bebf5c263.png) |  ![](attachments/39b46668-30c5-4d03-bc4e-d33d2e348c16.png) |
 
-**[Continue with update and press](/MHI2 MHI2Q Harman Aisin/Recovery/Conversion & Cross-flashing/FW Update - SWDL/MHI2(Q) screens//#h-start-fw-update)** `START`
+**[Continue with update and press](/MHI2 MHI2Q Harman Aisin/Recovery/Conversion & Cross-flashing/FW Update - SWDL/MHI2 Q  screens//#h-start-fw-update)** `START`
 
 
 ### Select partial packages from collections

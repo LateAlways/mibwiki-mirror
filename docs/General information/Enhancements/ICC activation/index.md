@@ -48,7 +48,7 @@ If you want to use CarScanner, here's a file ready for you:
 
 ## Related content
 
-* [Parametrization with OBDeleven](/General information/RadioStationLogo (RSDB)/Parametrization with OBDeleven/)
+* [Parametrization with OBDeleven](/General information/RadioStationLogo  RSDB/Parametrization with OBDeleven/)
 * [Parametrization with CarScanner](/General information/Parameterization Study/Parametrization with CarScanner/)
 * [MIB FEC/SWaP Code Generator](/MHI2 MHI2Q Harman Aisin/Recovery/Conversion & Cross-flashing/unsorted - testing only/MIB FEC SWaP Code Generator/)
 * [Key combinations and shortcuts](/General information/Useful documents/Key combinations and shortcuts/)

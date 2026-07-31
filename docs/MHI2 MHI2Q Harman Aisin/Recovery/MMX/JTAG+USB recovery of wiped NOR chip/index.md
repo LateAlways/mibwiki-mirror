@@ -142,14 +142,14 @@ Rename the backup file from `MU<version>-MMX_fs0.bin` to just `MMX_fs0.bin` then
 
 
 :::info
-RCC watchdog timer will be running in parallel and reboot the unit every minute or two. You can [enter to Emergency IFS on RCC Blue EFU](/MHI2 MHI2Q Harman Aisin/Recovery/RCC/How to mount RCC NOR (fs0)/How to boot ifs-emergency.ifs (start blue emergency EFU)/) to try to prevent the rebooting but will not really stop it. So when J-Link will fail due to the reboot, just re-run JLink again and it will skip already flashed block and will continue. It might take a few goes but will definately manage to finish this bothering task :grinning:
+RCC watchdog timer will be running in parallel and reboot the unit every minute or two. You can [enter to Emergency IFS on RCC Blue EFU](/MHI2 MHI2Q Harman Aisin/Recovery/RCC/How to mount RCC NOR  fs0/How to boot ifs-emergency.ifs  start blue emergency EFU/) to try to prevent the rebooting but will not really stop it. So when J-Link will fail due to the reboot, just re-run JLink again and it will skip already flashed block and will continue. It might take a few goes but will definately manage to finish this bothering task :grinning:
 :::
 
 If the rebooting is really getting in the way, preventing the flash process from completing, you can try to leave it part done. Once the first third / half is done, it should be enough to get the emergency boot mode running and can complete the flash process there.
 
 Either way, you'll want to now turn off power, remove the USB boot jumper, then boot it up again. Hopefully it powers on and is working properly good as new (remember to press the power button on the MIB Screen if it's still starting up black)
 
-If it looks like it's starting to boot on the MMX UART, but not properly, it's now time to switch to RCC UART and try out emergency mode. Use the instructions on  [Enter RCC BLUE EFU - EMERGENCY IFS](/MHI2 MHI2Q Harman Aisin/Recovery/RCC/How to mount RCC NOR (fs0)/How to boot ifs-emergency.ifs (start blue emergency EFU)/)  to get into emergency IFS mode; you'll need the emergency mode password that matches your firmware version for this.
+If it looks like it's starting to boot on the MMX UART, but not properly, it's now time to switch to RCC UART and try out emergency mode. Use the instructions on  [Enter RCC BLUE EFU - EMERGENCY IFS](/MHI2 MHI2Q Harman Aisin/Recovery/RCC/How to mount RCC NOR  fs0/How to boot ifs-emergency.ifs  start blue emergency EFU/)  to get into emergency IFS mode; you'll need the emergency mode password that matches your firmware version for this.
 
 Once you've got the RCC emergecy ifs console up, copy your MMX backup file onto a SD card and insert into SD1.
 

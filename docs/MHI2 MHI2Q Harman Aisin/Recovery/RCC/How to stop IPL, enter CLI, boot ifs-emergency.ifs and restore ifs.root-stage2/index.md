@@ -50,7 +50,7 @@ you have about 30 seconds to enter CLI commands (see the reference at the end of
 
 
 :::info
-If [ifs-emergency.ifs](/MHI2 MHI2Q Harman Aisin/Recovery/RCC/How to mount RCC NOR (fs0)/How to boot ifs-emergency.ifs (start blue emergency EFU)/) partition is corrupted and does not boot, you can restore it via [zmodem](/MHI2 MHI2Q Harman Aisin/Recovery/RCC/How to boot ifs-emergency.ifs via zmodem in CLI/)
+If [ifs-emergency.ifs](/MHI2 MHI2Q Harman Aisin/Recovery/RCC/How to mount RCC NOR  fs0/How to boot ifs-emergency.ifs  start blue emergency EFU/) partition is corrupted and does not boot, you can restore it via [zmodem](/MHI2 MHI2Q Harman Aisin/Recovery/RCC/How to boot ifs-emergency.ifs via zmodem in CLI/)
 :::
 
 6. Login to ksh shell with root and password
@@ -64,7 +64,7 @@ then find the password by hash in **Password_List_V4.0.pdf** file located in the
 **Hint:** copy the password with Ctrl+C and paste into putty window with the right mouse click
 :::
 
-7. **IMORTANT!** Before you continue, make sure you are in the 2nd boot of Emergency IFS and [DevelperMode is enabled or MIBEmergency is slayed](/MHI2 MHI2Q Harman Aisin/Recovery/RCC/How to mount RCC NOR (fs0)/How to boot ifs-emergency.ifs (start blue emergency EFU)/)
+7. **IMORTANT!** Before you continue, make sure you are in the 2nd boot of Emergency IFS and [DevelperMode is enabled or MIBEmergency is slayed](/MHI2 MHI2Q Harman Aisin/Recovery/RCC/How to mount RCC NOR  fs0/How to boot ifs-emergency.ifs  start blue emergency EFU/)
 8. After you logged in, check if RCC filesystem is mounted
 
    `stfu ; ls /dev/fs*`

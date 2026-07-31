@@ -35,7 +35,7 @@ Depending on what you wnat to change, not all commands are required.
 :::
 
 :::warning
-In [Emergency Mode](/MHI2 MHI2Q Harman Aisin/Recovery/RCC/How to mount RCC NOR (fs0)/How to boot ifs-emergency.ifs (start blue emergency EFU)/) `modifyE2P`  binary is not available
+In [Emergency Mode](/MHI2 MHI2Q Harman Aisin/Recovery/RCC/How to mount RCC NOR  fs0/How to boot ifs-emergency.ifs  start blue emergency EFU/) `modifyE2P`  binary is not available
 :::
 
 Restart your unit afterwards to apply changes:

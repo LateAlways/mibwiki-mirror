@@ -79,7 +79,7 @@ On MHI2Q\* you cannot use this m.i.b function, so use any OBD2 adapter and softw
 ## Where do download the latest updates:
 
 * [EU maps](/General information/Maps download links/)
-* [RadioStationDB](/General information/RadioStationLogo (RSDB)/)
+* [RadioStationDB](/General information/RadioStationLogo  RSDB/)
 * GraceNote
 
 

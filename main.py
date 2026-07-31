@@ -17,7 +17,10 @@ def sanitize_folder_name(name: str) -> str:
     # "!" is stripped too: Docusaurus/webpack reserve "!" as a loader
     # delimiter in module request strings, so a folder name containing it
     # breaks the site build when something links to that document.
-    final = re.sub(r'[<>:"/\\|?*!]', ' ', name)
+    # "(" and ")" are stripped too: they have special regexp meaning to
+    # the path-to-regexp library Docusaurus's client-side router uses,
+    # so a folder name containing them 404s on client-side navigation.
+    final = re.sub(r'[<>:"/\\|?*!()]', ' ', name)
     # remove additional spaces at the end
     final = re.sub(r'\s+$', '', final)
     return final

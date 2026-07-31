@@ -62,7 +62,7 @@ Check more [key combinations and shortcuts](/General information/Useful document
 
 
 :::warning
-If you are stuck in bootscreen for a long time, check [this information](/MHI2 MHI2Q Harman Aisin/Recovery/Conversion & Cross-flashing/FW Update - SWDL/error - Stuck or Freeze in (old) Bootscreen after update/).
+If you are stuck in bootscreen for a long time, check [this information](/MHI2 MHI2Q Harman Aisin/Recovery/Conversion & Cross-flashing/FW Update - SWDL/error - Stuck or Freeze in  old  Bootscreen after update/).
 :::
 
 ## Features
