@@ -9,7 +9,7 @@ const config = {
 
   url: 'https://mibwiki.latealways.dev',
   baseUrl: '/',
-  trailingSlash: true,
+  trailingSlash: false,
 
   organizationName: 'LateAlways',
   projectName: 'mibwiki-mirror',
