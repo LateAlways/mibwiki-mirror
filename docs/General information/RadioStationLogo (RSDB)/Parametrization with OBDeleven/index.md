@@ -1,15 +1,13 @@
 # Parametrization with OBDeleven
 
-:::info
-This works only for Android version. iOS version does not support direct EEPROM access.
+!!! info
 
-:::
+    This works only for Android version. iOS version does not support direct EEPROM access.
 
 
-:::info
-In this example I'm going to show how to enable VIM under `0x240` address.
+!!! info
 
-:::
+    In this example I'm going to show how to enable VIM under `0x240` address.
 
 ## Requirements
 
@@ -37,10 +35,9 @@ In this example I'm going to show how to enable VIM under `0x240` address.
    You can see that couple `00` and `06` are changed to `ff`.  Basically this means that speed limits for certain features were changed from `0km/h` and `6km/h` to `255km/h`.
 
 
-:::info
-Last `4` bytes (`30 34 97 5b`) are version ID (`ASCII`) and checksum (`CRC-16 CCITT-FALSE`).
+!!! info
 
-:::
+    Last `4` bytes (`30 34 97 5b`) are version ID (`ASCII`) and checksum (`CRC-16 CCITT-FALSE`).
 
 ## How to read different parameters
 

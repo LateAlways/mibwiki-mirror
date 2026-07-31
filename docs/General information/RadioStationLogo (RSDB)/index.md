@@ -29,9 +29,8 @@ Nothing found so far
 ## Update and restore video tutorial
 
 
-:::info
-Update from `0:00`, restore from `3:26`.
+!!! info
 
-:::
+    Update from `0:00`, restore from `3:26`.
 
 [https://youtu.be/58Ry9F5nGnc](https://youtu.be/58Ry9F5nGnc)

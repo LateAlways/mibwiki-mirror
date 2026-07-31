@@ -10,16 +10,15 @@ Emergency IFS runs in two modes:
 * 2nd boot
 
 
-:::tip
-Stopping IOC watchdog in Emergency IFS on the 1st boot is not possible! After 60 seconds it will force the reboot of the Emergency IFS and log you off.
+!!! tip
 
-So the best you can do on the 1st boot is to login as root with RCC emergency password and enter:
+    Stopping IOC watchdog in Emergency IFS on the 1st boot is not possible! After 60 seconds it will force the reboot of the Emergency IFS and log you off.
 
-```
-echo dummy >/HBpersistence/DeveloperMode 
-```
+    So the best you can do on the 1st boot is to login as root with RCC emergency password and enter:
 
-:::
+    ```
+    echo dummy >/HBpersistence/DeveloperMode 
+    ```
 
 Example of the Emergency IFS 1st boot:
 
@@ -55,12 +54,11 @@ echo dummy > /HBpersistence/DeveloperMode
 ```
 
 
-:::tip
-DeveloperMode prevents 2nd boot Emergency IFS from running a countdown timer, so you do not need to enter "slay -9 MIBEmergency" anymore.
+!!! tip
 
-When DeveloperMode is enabled, Emergency IFS will not show a special banner anymore.
+    DeveloperMode prevents 2nd boot Emergency IFS from running a countdown timer, so you do not need to enter "slay -9 MIBEmergency" anymore.
 
-:::
+    When DeveloperMode is enabled, Emergency IFS will not show a special banner anymore.
 
 
  ![2nd boot sequence - with enabled DeveloperMode](attachments/55af4b04-4a14-4ebc-8a2e-b44df6b935e4.png)

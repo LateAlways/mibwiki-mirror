@@ -1,17 +1,15 @@
 # Wireless CarPlay adapters
 
-:::info
-Almost all MIB2 units does not support wireless CarPlay functionality (exception: Audi MH2p with firmware `P2470` or higher). But there are devices that will convert wired-to-wireless CarPlay. Some of them have extra features like video playback and AirPlay/Android Mirroring.
+!!! info
 
-:::
+    Almost all MIB2 units does not support wireless CarPlay functionality (exception: Audi MH2p with firmware `P2470` or higher). But there are devices that will convert wired-to-wireless CarPlay. Some of them have extra features like video playback and AirPlay/Android Mirroring.
 
 ## **Carplay Android Boxes**
 
 
-:::info
-Devices that bring full Android interface to cars navigation screen. Wireless CarPlay is available in them, but it's not required to be used.
+!!! info
 
-:::
+    Devices that bring full Android interface to cars navigation screen. Wireless CarPlay is available in them, but it's not required to be used.
 
 Overview of available Boxes: <https://forum.xda-developers.com/t/firmware-for-carplay-ai-boxes-qualcomm-rockchip-allwinner-android-7-9.4278289/>
 
@@ -22,10 +20,9 @@ Unofficial Telegram Support Channel: <https://t.me/joinchat/wEH1PsavYsQ5NTA0>
 cheap and working good => <https://de.aliexpress.com/item/1005006001314624.html>
 
 
-:::info
-Devices designed for wireless CarPlay support as the main feature.
+!!! info
 
-:::
+    Devices designed for wireless CarPlay support as the main feature.
 
 ### CPLAY2air
 

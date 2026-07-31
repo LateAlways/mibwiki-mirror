@@ -1,15 +1,13 @@
 # Sport Layout on FPK1 and Rainbow Shiftlight
 
-:::warning
-this procedure is forcing data into the instrument cluster assuming that the instrument cluster firmware supports the feature and uses this memory address for those features.
+!!! warning
 
-:::
+    this procedure is forcing data into the instrument cluster assuming that the instrument cluster firmware supports the feature and uses this memory address for those features.
 
 
-:::tip
-Setting to `RS` will make the rev counter end at 8kRPM. `S` rev counter can end at 6kRPM making it more suitable for diesel cars.
+!!! tip
 
-:::
+    Setting to `RS` will make the rev counter end at 8kRPM. `S` rev counter can end at 6kRPM making it more suitable for diesel cars.
 
 ## ODIS procedure
 
@@ -42,10 +40,9 @@ Following script was tested and deemed safe, as it also creates a backup of the 
 ## Raw UDS procedure
 
 
-:::warning
-work in progress
+!!! warning
 
-:::
+    work in progress
 
 
 1. Connect with module `0x17`

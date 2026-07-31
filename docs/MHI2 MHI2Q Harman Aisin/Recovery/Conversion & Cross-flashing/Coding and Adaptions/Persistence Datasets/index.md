@@ -1,9 +1,8 @@
 # Persistence Datasets
 
-:::tip
-Run before using any of the commands below - otherwise they will not work!
+!!! tip
 
-:::
+    Run before using any of the commands below - otherwise they will not work!
 
 ```bash
 export PATH=:/proc/boot:/sbin:/bin:/usr/bin:/usr/sbin:/net/mmx/bin:/net/mmx/usr/bin:/net/mmx/usr/sbin:/net/mmx/sbin:/net/mmx/mnt/app/armle/bin:/net/mmx/mnt/app/armle/sbin:/net/mmx/mnt/app/armle/usr/bin:/net/mmx/mnt/app/armle/usr/sbin
@@ -13,12 +12,11 @@ export IPL_CONFIG_DIR=/etc/eso/production
 
 
 
-:::tip
-If you just hard reset your unit changes will not be stored
+!!! tip
 
-Changes will only have effect to unit after reboot
+    If you just hard reset your unit changes will not be stored
 
-:::
+    Changes will only have effect to unit after reboot
 
 ```bash
 #store changes to persistence
@@ -31,12 +29,11 @@ on -f rcc /usr/apps/mib2_ioc_flash reboot
 ## Analysis
 
 
-:::warning
-Expert Level - only use this if you really know what you are doing.
+!!! warning
 
-Meaning you have at least a basic idea, what this is :wink:
+    Expert Level - only use this if you really know what you are doing.
 
-:::
+    Meaning you have at least a basic idea, what this is :wink:
 
 
 [https://docs.google.com/spreadsheets/d/11jJueBEbyBhkcEXmLNO3LIE5JX-ozgO3zKnJfRz5heM/edit?usp=sharing](https://docs.google.com/spreadsheets/d/11jJueBEbyBhkcEXmLNO3LIE5JX-ozgO3zKnJfRz5heM/edit?usp=sharing)

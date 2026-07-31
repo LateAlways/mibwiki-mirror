@@ -9,10 +9,9 @@ Note down the reboot interval you see, as well as a description what you can see
 
 
 
-:::info
-If it is M.I.B related keep a ZIP of your M.I.B backup folder from SD card ready
+!!! info
 
-:::
+    If it is M.I.B related keep a ZIP of your M.I.B backup folder from SD card ready
 
 
 \

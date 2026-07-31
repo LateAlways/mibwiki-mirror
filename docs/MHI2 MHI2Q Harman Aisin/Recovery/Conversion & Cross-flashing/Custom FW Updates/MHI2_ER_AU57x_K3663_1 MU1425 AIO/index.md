@@ -1,21 +1,18 @@
 # MHI2_ER_AU57x_K3663_1 MU1425 AIO
 
-:::info
-Custom all-in-one FW update based on [metainfo2 exploit](/MHI2 MHI2Q Harman Aisin/Recovery/Conversion & Cross-flashing/unsorted - testing only/metainfo2.txt exploit/).
+!!! info
 
-:::
-
-
-:::warning
-Read all before updating.
-
-:::
+    Custom all-in-one FW update based on [metainfo2 exploit](/MHI2 MHI2Q Harman Aisin/Recovery/Conversion & Cross-flashing/unsorted - testing only/metainfo2.txt exploit/).
 
 
-:::tip
-Last update March 30 2022
+!!! warning
 
-:::
+    Read all before updating.
+
+
+!!! tip
+
+    Last update March 30 2022
 
 ## Requirements
 
@@ -31,10 +28,9 @@ Last update March 30 2022
 3. Turn the ignition on, wait for the Audi MMI system to boot up.
 
 
-:::warning
-Make sure that the car key will not leave the vehicle during the firmware update procedure (learn more about [Kessy and updates](/General information/Kessy & Updates/)).
+!!! warning
 
-:::
+    Make sure that the car key will not leave the vehicle during the firmware update procedure (learn more about [Kessy and updates](/General information/Kessy & Updates/)).
 
 
 4. Restore factory settings by going to `MENU` → `Setup MMI` → `Factory Settings` → `Select all entries` → `Restore factory settings`.
@@ -43,10 +39,9 @@ Make sure that the car key will not leave the vehicle during the firmware update
 7. Press and hold `BACK` + `TOP-LEFT` to enter REM (hidden Red Engineering Menu).
 
 
-:::info
-Check how to do it in your car with [Audi MIB2 key combinations](/General information/Audi MMI Tastenkombinationen/).
+!!! info
 
-:::
+    Check how to do it in your car with [Audi MIB2 key combinations](/General information/Audi MMI Tastenkombinationen/).
 
 
 6. Go to `Update` → `SD 1` → `Standard`.
@@ -75,10 +70,9 @@ Check how to do it in your car with [Audi MIB2 key combinations](/General inform
 By default this procedure will not update Bose amplifier. `metainfo2.txt` was prepared to skip this component, because updated amplifier will required parametrization which must be done with VCP or ODIS.
 
 
-:::warning
-Without the parametrization you will have no sound.
+!!! warning
 
-:::
+    Without the parametrization you will have no sound.
 
 If you wish to update Bose you can use different `metainfo2.txt` to do it.
 

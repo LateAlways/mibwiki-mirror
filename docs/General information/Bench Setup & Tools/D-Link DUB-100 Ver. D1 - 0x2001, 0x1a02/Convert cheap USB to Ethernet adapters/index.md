@@ -5,12 +5,11 @@
 
 \
 
-:::info
-M.I.B is adding support for these cheap adapters to MHI2(Q) units during install!
+!!! info
 
-No need to change vid/pid of adapter in this case.
+    M.I.B is adding support for these cheap adapters to MHI2(Q) units during install!
 
-:::
+    No need to change vid/pid of adapter in this case.
 
 ```bash
 # Install required tools

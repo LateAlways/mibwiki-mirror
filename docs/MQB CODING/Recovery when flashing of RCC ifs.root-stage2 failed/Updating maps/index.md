@@ -3,10 +3,9 @@
 MHIG and MHI2/MHI2Q use the same navigation maps. The latest navi maps version that supports MHIG is P350.
 
 
-:::info
-MHIG firmwares support only Feature Enabling Codes (FEC) for maps:
+!!! info
 
-:::
+    MHIG firmwares support only Feature Enabling Codes (FEC) for maps:
 
 Audi
 

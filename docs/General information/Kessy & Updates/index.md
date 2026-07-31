@@ -1,15 +1,13 @@
 # Kessy & Updates
 
-:::warning
-If your car is equipped with keyless system (a.k.a. KESSY) you need to be extra sure that the key is detected by the car during update procedure. Exiting the car with the key in your pocket will turn the ignition off, abort the update procedure, and create a huge mess.
+!!! warning
 
-:::
+    If your car is equipped with keyless system (a.k.a. KESSY) you need to be extra sure that the key is detected by the car during update procedure. Exiting the car with the key in your pocket will turn the ignition off, abort the update procedure, and create a huge mess.
 
 
-:::tip
-Tape the key to the receiver antenna in the vehicle ( marked with a key symbol). Usually located on the steering column, dashboard or center console.
+!!! tip
 
-:::
+    Tape the key to the receiver antenna in the vehicle ( marked with a key symbol). Usually located on the steering column, dashboard or center console.
 
 
 > **If the following instructions are not followed properly, the update process might stop causing the navigation unit to be locked out.**

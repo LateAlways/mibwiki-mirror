@@ -7,10 +7,9 @@ Label of chinese Audi MMI with train MHS2_CN_AU_P1615
  ![](attachments/dfcad070-1f11-44cc-9dfe-4b7edc872100.png)
 
 
-:::info
-**GOOD TO KNOW:** Trains MHS2_US_AU_P01\*, MHS2_US_AU_K01\*, MHS2_EU_AU_P01\*, MHS2_EU_AU_K01\*, MHS2_CN_AU_P08\*, MHS2_CN_AU_K08\*, MHS2_CN_AU_P12\*, MHS2_CN_AU_K12\*, MHS2_CN_AU_P16\*, MHS2_CN_AU_K16\* do not support Radio Logo and Gracenote2 DBs
+!!! info
 
-:::
+    **GOOD TO KNOW:** Trains MHS2_US_AU_P01\*, MHS2_US_AU_K01\*, MHS2_EU_AU_P01\*, MHS2_EU_AU_K01\*, MHS2_CN_AU_P08\*, MHS2_CN_AU_K08\*, MHS2_CN_AU_P12\*, MHS2_CN_AU_K12\*, MHS2_CN_AU_P16\*, MHS2_CN_AU_K16\* do not support Radio Logo and Gracenote2 DBs
 
 MMX chip located on top of the board. 64Mb NOR is mounted at `/net/mmx/fs/dev/fs0`
 
@@ -89,9 +88,8 @@ and in the log you may see something like:
 Insert stock MHS2 firmware on **FAT32** formatted SD card into SD1 slot and EFU will automatically start flashing.
 
 
-:::info
-**IMPORTANT!** To prevent automatic shutdown of the unit, press DVD eject button. It will stop watchdog timer.
+!!! info
 
-:::
+    **IMPORTANT!** To prevent automatic shutdown of the unit, press DVD eject button. It will stop watchdog timer.
 
  ![](attachments/23c3d30e-c20a-498b-9c5e-c771877e8181.png) ![](attachments/fc9941c5-b15a-436a-8d36-d35c951c06bf.png) ![](attachments/5004c676-fa94-4468-8887-ac75f306c6ac.png) ![](attachments/b1b30d3b-0d62-4ad7-b299-8f3b6cac721f.png) ![](attachments/ddce75b2-5ab6-4c04-ba31-268193224b79.png) ![](attachments/e9d53ea0-b437-4148-a2c0-b6de96317e2e.png)

@@ -1,15 +1,13 @@
 # ExceptionList BUG
 
-:::info
-This bug is fixed on current M.I.B versions and ifs-root-stage2 patches available since April 2020
+!!! info
 
-:::
+    This bug is fixed on current M.I.B versions and ifs-root-stage2 patches available since April 2020
 
 
-:::tip
-Always get [latest M.I.B](https://mib.mibsolution.one) version before patching.
+!!! tip
 
-:::
+    Always get [latest M.I.B](https://mib.mibsolution.one) version before patching.
 
 ## F&Q
 
@@ -30,16 +28,14 @@ rm /mnt/efs-persist/FEC/mmx_fec_ids.bin
 ```
 
 
-:::tip
-After reboot you have about 50s to enter shell and run this command
+!!! tip
 
-:::
+    After reboot you have about 50s to enter shell and run this command
 
 
-:::warning
-To fix this issue permanently you have to move from EL to FecContainer.fec based patch
+!!! warning
 
-:::
+    To fix this issue permanently you have to move from EL to FecContainer.fec based patch
 
 
 ## Switch to FecContainer.fec based patch
@@ -51,7 +47,6 @@ Use M.I.B and run the following command to replace EL with stock version (BUG fr
 
 
 
-:::info
-OPTIONAL: If you also want to have the new ifs-root-stage2. Apply stock FW to unit and patch again with latest M.I.B version.
+!!! info
 
-:::
+    OPTIONAL: If you also want to have the new ifs-root-stage2. Apply stock FW to unit and patch again with latest M.I.B version.

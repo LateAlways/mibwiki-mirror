@@ -1,9 +1,8 @@
 # error - Stuck or Freeze in (old) Bootscreen after update
 
-:::tip
-Just set first byte `17` and `18` to `00 00`  (vcds, obd11, odis) reboot, if boots into menu proceed with fw update. then make sure IOC is set to Y  both app and bolo. when fan is updating ioc, after first ioc process will you get again working swdl process and see last part updating ioc, after reboot secuence is starting finalscript and update is done…( make allways sure having dlink, ugreen or ax88772 based lan usb) you get faster help if you know right people))
+!!! tip
 
-:::
+    Just set first byte `17` and `18` to `00 00`  (vcds, obd11, odis) reboot, if boots into menu proceed with fw update. then make sure IOC is set to Y  both app and bolo. when fan is updating ioc, after first ioc process will you get again working swdl process and see last part updating ioc, after reboot secuence is starting finalscript and update is done…( make allways sure having dlink, ugreen or ax88772 based lan usb) you get faster help if you know right people))
 
 
 OLD))))My case: `5F0035020V`, `HW41`, `SW0123` (`MHI_ER_SEG11_S0257`).
@@ -48,10 +47,9 @@ and `01` sets to fr in longcoding……..
 
 
 
-:::warning
-DON'T DO IT TO EARLY IN UPDATE PROCESS, THE UNIT WILL STAY 2-3 TIMES IN BOOTSCREEN FOR SOME MINUTES!!!!!!
+!!! warning
 
-:::
+    DON'T DO IT TO EARLY IN UPDATE PROCESS, THE UNIT WILL STAY 2-3 TIMES IN BOOTSCREEN FOR SOME MINUTES!!!!!!
 
 
 In my mind the failure occure because the old bootscreen isn't compatible with the newer software (without adaption maybe).

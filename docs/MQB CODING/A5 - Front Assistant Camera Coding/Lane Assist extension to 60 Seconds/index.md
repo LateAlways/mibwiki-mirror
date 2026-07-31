@@ -3,10 +3,9 @@
 ## for 3Q0/D980654 Index H (272/1272) and Index L/T (610/611/1611)
 
 
-:::warning
-Note: All of your own risk and always hands on steering wheel!
+!!! warning
 
-:::
+    Note: All of your own risk and always hands on steering wheel!
 
 The parameter sets can be found in VCP by the downloaded ZDC files:
 

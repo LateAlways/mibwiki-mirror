@@ -1,9 +1,8 @@
 # PR-9VD 9.1 sound system retrofit
 
-:::warning
-This is experimental. `9VD` retrofits had been done before, but not exactly like this one.
+!!! warning
 
-:::
+    This is experimental. `9VD` retrofits had been done before, but not exactly like this one.
 
 ## Intro
 
@@ -22,18 +21,16 @@ In addition there should be a more precise equalizer available (5 slider instead
 4. Additional speakers (front center + subwoofer), cables, terminals, connectors.
 
 
-:::info
-Some door speakers are different for 8.0 setup and 9.1 setup (4Ω 20W vs 2Ω 40W).
+!!! info
 
-:::
+    Some door speakers are different for 8.0 setup and 9.1 setup (4Ω 20W vs 2Ω 40W).
 
 ## Connection diagram
 
 
-:::info
-Pending
+!!! info
 
-:::
+    Pending
 
 ## Wiring
 
@@ -49,10 +46,9 @@ Pending
 3. Module `0x5F`, Parametrization, address `0x003000` - this controls sound curves for all audio channels.
 
 
-:::info
-This file should be picked according to your car options (model, body style, steering wheel side).
+!!! info
 
-:::
+    This file should be picked according to your car options (model, body style, steering wheel side).
 
 ## Coding
 
@@ -63,10 +59,9 @@ This file should be picked according to your car options (model, body style, ste
 ## VW with 9VD?
 
 
-:::info
-What I'm trying to accomplish is to enable 9.1 config in VW Golf MK7, which never had the `PR-9VD` option available from the factory. This can be done in `MHI2` units, but not `MST2` units.
+!!! info
 
-:::
+    What I'm trying to accomplish is to enable 9.1 config in VW Golf MK7, which never had the `PR-9VD` option available from the factory. This can be done in `MHI2` units, but not `MST2` units.
 
 Connected speakers to quadlock, send dataset from Seat Leon Kombi Left-Hand-Drive with 9VD to `0x003000`, coded `0x5F` bytes `4-7` with `FF0A0000`.
 

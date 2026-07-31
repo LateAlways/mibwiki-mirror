@@ -3,12 +3,11 @@
 # mount app.img
 
 
-:::tip
-For some reason this is not working all the time …
+!!! tip
 
- ![](attachments/2d8b2437-9e38-43d2-8fb0-f314f0330d3c.png)After a few restarts, mounting suddenly started to work again…
+    For some reason this is not working all the time …
 
-:::
+     ![](attachments/2d8b2437-9e38-43d2-8fb0-f314f0330d3c.png)After a few restarts, mounting suddenly started to work again…
 
 ```bash
 #create new folder "mounted"

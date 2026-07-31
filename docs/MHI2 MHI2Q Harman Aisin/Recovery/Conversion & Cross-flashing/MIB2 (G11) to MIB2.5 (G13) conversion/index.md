@@ -8,24 +8,21 @@ Reference [https://www.drive2.com/b/675878045004867016/](https://www.drive2.ru/b
 # **MANUAL WAY OF CONVERSION BELOW IS STILL WORKING BUT OUTDATED AND LEFT FOR LEARNING PURPOSES, USE AIO!**
 
 
-:::info
-EXAMPLE below is for MHI2_ER_SKG13_P4526 MU1440
+!!! info
 
-:::
-
-
-:::warning
-Adjust train and sw version to your conversion target!
-
-:::
+    EXAMPLE below is for MHI2_ER_SKG13_P4526 MU1440
 
 
-:::tip
-**Always update to latest G11 FW before converting to G13**
+!!! warning
 
-If you skip this part, IOC of the old G11 FW might not support the new 9.2'' screen and you will not have any possibilty for screen inputs after conversion.
+    Adjust train and sw version to your conversion target!
 
-:::
+
+!!! tip
+
+    **Always update to latest G11 FW before converting to G13**
+
+    If you skip this part, IOC of the old G11 FW might not support the new 9.2'' screen and you will not have any possibilty for screen inputs after conversion.
 
 ## 1. Prepare SD with target FW update
 
@@ -38,10 +35,9 @@ Get a clean SD card (freshly formatted, FAT32) and copy your target [FW update](
 ## 2. Change train and sw version in normal RCC (via putty or UART)
 
 
-:::info
-Use E2PTool to create code needed for train and sw version conversion
+!!! info
 
-:::
+    Use E2PTool to create code needed for train and sw version conversion
 
  ![E2PTool - example for MU1440](attachments/b823642b-d422-47aa-baa4-a7994df4f07b.png)
 
@@ -61,22 +57,19 @@ on -f rcc /usr/apps/modifyE2P w 3b9 31 34 34 30
 Run the following commands step by step.
 
 
-:::warning
-Make sure, that you will not have a power failure during flashing → connect car to external charger or secure your bench setup
+!!! warning
 
-:::
-
-
-:::warning
-Run all commands in one session, do not reboot inbetween!
-
-:::
+    Make sure, that you will not have a power failure during flashing → connect car to external charger or secure your bench setup
 
 
-:::tip
-You will need 20-30 minutes for this
+!!! warning
 
-:::
+    Run all commands in one session, do not reboot inbetween!
+
+
+!!! tip
+
+    You will need 20-30 minutes for this
 
 ```bash
 
@@ -138,30 +131,27 @@ All done now.
 Reboot unit by reset or power off/on.
 
 
-:::tip
-The steps above will format your NAND - also deleting Navigation DB, GraceNote, RSTDB, boardbood, … - You have install all this again.
+!!! tip
 
-:::
+    The steps above will format your NAND - also deleting Navigation DB, GraceNote, RSTDB, boardbood, … - You have install all this again.
 
 ## 4. Run FW update
 
 
-:::tip
-Before running FW update via SWDL on unit make sure, that you copied back the original mifs-stage1.img. If you try to do the update with the ANDROID! version it will fail.
+!!! tip
 
-:::
+    Before running FW update via SWDL on unit make sure, that you copied back the original mifs-stage1.img. If you try to do the update with the ANDROID! version it will fail.
 
 In the steps before we updated the main system components to allow the unit to boot up into a stable configuration.
 
 However, we still have to update missing components like: IOC, Tuner, DAB and some parts of MMX2 via normal FW update process.
 
 
-:::info
-Missing components will automatically be selected!
+!!! info
 
-Selection will be different based on the start and target FW you are running
+    Missing components will automatically be selected!
 
-:::
+    Selection will be different based on the start and target FW you are running
 
 
  ![IOC, DAB and some components of MMX2 have to be updated](attachments/72b77a62-8f01-4ff8-b34c-65ad71623172.png)
@@ -173,16 +163,14 @@ Let the FW update run - unit will reboot a few times - and the conversion is fin
 
 
 
-:::info
-Some coding will most likely be required to fix the unit for the target car
+!!! info
 
-:::
+    Some coding will most likely be required to fix the unit for the target car
 
 
-:::info
-Use [M.I.B](/MHI2 MHI2Q Harman Aisin/M.I.B. - More Incredible Bash/) as needed for coding and patching of unit
+!!! info
 
-:::
+    Use [M.I.B](/MHI2 MHI2Q Harman Aisin/M.I.B. - More Incredible Bash/) as needed for coding and patching of unit
 
 
 # Known Issues

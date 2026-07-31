@@ -3,30 +3,27 @@
 # SD Activator by Congo & Duke
 
 
-:::warning
-BEFORE YOU READ FURTHER:
+!!! warning
+
+    BEFORE YOU READ FURTHER:
 
 
-1.  On VW, press and hold `MENU` button on the display of your MIB2 for 3 seconds and then go to `Software Update/Versions` and take a look at `SW Train` string.
+    1.  On VW, press and hold `MENU` button on the display of your MIB2 for 3 seconds and then go to `Software Update/Versions` and take a look at `SW Train` string.
 
-   On Audi use corresponding [button combo](/General information/Useful documents/Key combinations and shortcuts/) to open RED menu and then look into `Versions info`
-2. 2 On VW, go to `MST2` and take a look at `D` string (on Audi take a look into `MST2_EU_VW_P0891D`).
-
-:::
+       On Audi use corresponding [button combo](/General information/Useful documents/Key combinations and shortcuts/) to open RED menu and then look into `Versions info`
+    2. 2 On VW, go to `MST2` and take a look at `D` string (on Audi take a look into `MST2_EU_VW_P0891D`).
 
  ![](attachments/42c24972-0fd0-4cba-ba7c-c9d231c1ebd2.png)
 
 
-:::tip
-If your SW Train ends with `T` (for example `MST2_EU_VW_ZR_P0254T`) your unit is Technisat/Preh for which you need [MIB STD2 PQ/ZR Toolbox](/MST2 TechniSat Preh/SWaP patch/)).
+!!! tip
 
-:::
+    If your SW Train ends with `T` (for example `MST2_EU_VW_ZR_P0254T`) your unit is Technisat/Preh for which you need [MIB STD2 PQ/ZR Toolbox](/MST2 TechniSat Preh/SWaP patch/)).
 
 
-:::info
-If you want to see more details about your SW Train, use http://mib-helper.com
+!!! info
 
-:::
+    If you want to see more details about your SW Train, use http://mib-helper.com
 
 ## Supported firmwares (trains)
 

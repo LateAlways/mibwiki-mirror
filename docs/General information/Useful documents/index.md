@@ -5,10 +5,9 @@
 There are many useful documents that are shared on telegram that are then lost. This will be a method to store them all in one centralised location.
 
 
-:::tip
-Please create new line under the specific module. Add similar links to rows by pressing "SHIFT+Enter"
+!!! tip
 
-:::
+    Please create new line under the specific module. Add similar links to rows by pressing "SHIFT+Enter"
 
 | Module | Link | Description |
 |----|----|----|

@@ -57,9 +57,8 @@ QNX6.5 on MHI2 uses DES hashes with salt stored in the first two characters of t
 E.g. in hash: WmRI0ymbfbbUw the salt is: Wm  
 
 
-:::info
-Usually brute forcing can be done in 2 days.
+!!! info
 
-Sometimes, with limiting the possible characters and their combinations used in other known password even in a couple of hours.
+    Usually brute forcing can be done in 2 days.
 
-:::
+    Sometimes, with limiting the possible characters and their combinations used in other known password even in a couple of hours.

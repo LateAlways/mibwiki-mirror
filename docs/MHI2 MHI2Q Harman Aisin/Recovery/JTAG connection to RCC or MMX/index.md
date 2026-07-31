@@ -1,9 +1,8 @@
 # JTAG connection to RCC or MMX
 
-:::info
-Look for this pins in the corner of the [small MMX board](/MHI2 MHI2Q Harman Aisin/M.I.B. - More Incredible Bash/POG24 & BYG24 - AndroidAuto & CarPlay Widescreen Patch/Hardware MHI2/)
+!!! info
 
-:::
+    Look for this pins in the corner of the [small MMX board](/MHI2 MHI2Q Harman Aisin/M.I.B. - More Incredible Bash/POG24 & BYG24 - AndroidAuto & CarPlay Widescreen Patch/Hardware MHI2/)
 
 # MMX JTAG
 
@@ -22,10 +21,9 @@ As MMX JTAG header is 8-pin 0.05" pitch connector, similar to the standard 10-pi
  ![](attachments/11483ba5-7818-428e-af5e-727f7574d338.jpg)
 
 
-:::info
-The notch in the header housing is on the left side of this image / on the side of pin1 above. In this way pin 1 - 8 of a standard ARM jtag cable will match up with the pinout shown in the picture above.
+!!! info
 
-:::
+    The notch in the header housing is on the left side of this image / on the side of pin1 above. In this way pin 1 - 8 of a standard ARM jtag cable will match up with the pinout shown in the picture above.
 
 As soon as you solder a header onto the oard, you will need to drill a hole in the heat sink of MMX cover:
 

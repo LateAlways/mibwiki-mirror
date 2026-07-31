@@ -6,6 +6,7 @@ import time
 import httpx
 import shutil
 from config import LAST_SIGNED_IN, ACCESS_TOKEN
+from admonitions import convert_admonitions
 
 BASE_URL = "https://mibwiki.one"
 OUTPUT = "docs"
@@ -180,6 +181,8 @@ def downloadDocument(document: dict, startPath: str) -> dict:
                             original_content = original_content.replace("".join(doc_match), f"{document_path}/")
                         else:
                             print(f"Could not find document for link {doc_match[1]} in document {document['url']} ({document['title'] if 'title' in document.keys() else document['name']})")
+
+                original_content = convert_admonitions(original_content)
 
                 f.write(original_content)
                 f.close()

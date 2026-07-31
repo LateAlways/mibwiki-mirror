@@ -1,9 +1,8 @@
 # Gracenote DB
 
-:::info
-Gracenote2 is an algorithm that uses ID of the played CD/DVD or file to read the artist metadata, cover art, music genre, mood information, descriptions, episode information etc. from Gracenote2 database and makes the media player to display it.
+!!! info
 
-:::
+    Gracenote2 is an algorithm that uses ID of the played CD/DVD or file to read the artist metadata, cover art, music genre, mood information, descriptions, episode information etc. from Gracenote2 database and makes the media player to display it.
 
 The latest Gracenote2 DB version for MHI2/MHI2Q/MHS2/MH2p/MHI3/MPR3 units can be found on mibsolution.one
 
@@ -27,10 +26,9 @@ These packages contain metainfo2.txt and can be installed on MHI2/MHI2Q like reg
 
 
 
-:::success
-**GOOD TO KNOW!** BMW **MGU** navi units use the same Gracenote2 DB format but get updates more frequently than MHI2/MHI2Q/MHS2/MH2p/MHI3/MPR3 units. To use BMW MGU Gracenote2 DB on MHI2/MHI2Q/MHS2 you need to convert 300x300 images in DB to 170x170 images.
+!!! success
 
-:::
+    **GOOD TO KNOW!** BMW **MGU** navi units use the same Gracenote2 DB format but get updates more frequently than MHI2/MHI2Q/MHS2/MH2p/MHI3/MPR3 units. To use BMW MGU Gracenote2 DB on MHI2/MHI2Q/MHS2 you need to convert 300x300 images in DB to 170x170 images.
 
 Comparison of BMW and VAG gdb_info in [DB Browser for SQLite](https://sqlitebrowser.org/dl/)
 

@@ -1,15 +1,13 @@
 # Delphi 02xx to 08xx firmware upgrade
 
-:::tip
-TDLR; Modify InstallationManager to include device variant for chosen firmware, run SWDL
+!!! tip
 
-:::
+    TDLR; Modify InstallationManager to include device variant for chosen firmware, run SWDL
 
 
-:::info
-Credit: IvanMusk <https://www.drive2.ru/l/575748544720274648/>
+!!! info
 
-:::
+    Credit: IvanMusk <https://www.drive2.ru/l/575748544720274648/>
 
 # Disclaimer:
 
@@ -48,10 +46,9 @@ You'll need a hex editor tool such as HxD in order to open your `InstallationMan
 Now you have your modified `InstallationManager` file, place it on your SD Card in the root directory and use the `MST2_US2EU.sh` script which will copy it to the unit.
 
 
-:::warning
-It's more than likely that you could get an Out of Space error. If this happens, your unit will fail to boot but will still be accessible over Telnet to retry or restore backup.
+!!! warning
 
-:::
+    It's more than likely that you could get an Out of Space error. If this happens, your unit will fail to boot but will still be accessible over Telnet to retry or restore backup.
 
 
 ## Begin SWDL
@@ -59,20 +56,18 @@ It's more than likely that you could get an Out of Space error. If this happens,
 Once you've successfully transferred your modified `InstallationManager`, immediately enable Manual SWDL mode and proceed with the update
 
 
-:::warning
-Another warning, it's advised to proceed with the update as soon as possible, otherwise you may be set to Emergency Update mode.
+!!! warning
 
-:::
+    Another warning, it's advised to proceed with the update as soon as possible, otherwise you may be set to Emergency Update mode.
 
 
 ## Complete
 
 
 
-:::info
-If updating to 8xx, you may be stuck as the boot logo once the update has completed, this is due to an invalid skin being chosen in your long coding. Therefore adjust your skin value on byte 17/18
+!!! info
 
-:::
+    If updating to 8xx, you may be stuck as the boot logo once the update has completed, this is due to an invalid skin being chosen in your long coding. Therefore adjust your skin value on byte 17/18
 
 
 

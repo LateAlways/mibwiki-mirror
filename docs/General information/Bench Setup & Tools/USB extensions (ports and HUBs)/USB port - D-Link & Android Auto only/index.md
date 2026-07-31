@@ -3,10 +3,9 @@
 To connect D-Link and Android Auto devices only
 
 
-:::warning
-No CarPlay support
+!!! warning
 
-:::
+    No CarPlay support
 
 
  ![](attachments/bba64ade-33db-48d2-8b0d-ff1e7a2394c4.png)

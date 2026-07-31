@@ -1,11 +1,10 @@
 # mibsolution.one - fix download speed
 
-:::info
-Due to the utilization of a proxy and limited funding [mibsolution.one](https://mibsolution.one) is known to have moderate download speeds :grin:
+!!! info
 
-Furthermore, running downloads on only one connection often leads to failed downloads after a short time.
+    Due to the utilization of a proxy and limited funding [mibsolution.one](https://mibsolution.one) is known to have moderate download speeds :grin:
 
-:::
+    Furthermore, running downloads on only one connection often leads to failed downloads after a short time.
 
 
 Therefore, a download manager which supports parallel connections on the same download and automatic resume is recommended when downloading from mibsolution.one
@@ -42,9 +41,8 @@ It integrates into Chrome and Firefox just fine.
 
 \
 
-:::info
-Download speed can be improved significantly
+!!! info
 
-In addition, downloads will be automatically resumed if connection is failing for a short time.
+    Download speed can be improved significantly
 
-:::
+    In addition, downloads will be automatically resumed if connection is failing for a short time.

@@ -5,12 +5,11 @@ If "boot -t emerg" from CLI does not run Emergency IFS as ifs-emergency.ifs part
 This will allow you to proceed with repairing of RCC flash but only if MMX is still OK as you need SD card to be accessible via **/net/mmx/fs/sda0**
 
 
-:::info
-When you stop IPL and enter CLI, you only have 30 seconds to enter commands. After 30 seconds IPL closes CLI and continues the booting process.
+!!! info
 
-As uploading of ifs-emergency.ifs over zmodem at 460800 bps requires about 90 seconds you need to slow down IPL to extend timeout to 150 seconds (also known as 2:30 IPL mode)
+    When you stop IPL and enter CLI, you only have 30 seconds to enter commands. After 30 seconds IPL closes CLI and continues the booting process.
 
-:::
+    As uploading of ifs-emergency.ifs over zmodem at 460800 bps requires about 90 seconds you need to slow down IPL to extend timeout to 150 seconds (also known as 2:30 IPL mode)
 
 ## Slowing down IPL (getting 2:30 IPL mode)
 

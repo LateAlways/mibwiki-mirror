@@ -3,10 +3,9 @@
 # MHI2_ER_SEG11_P4709_1 MU1447 AIO
 
 
-:::info
-Custom all-in-one FW update based on [metainfo2 exploit](/MHI2 MHI2Q Harman Aisin/Recovery/Conversion & Cross-flashing/unsorted - testing only/metainfo2.txt exploit/).
+!!! info
 
-:::
+    Custom all-in-one FW update based on [metainfo2 exploit](/MHI2 MHI2Q Harman Aisin/Recovery/Conversion & Cross-flashing/unsorted - testing only/metainfo2.txt exploit/).
 
 ## Requirements
 
@@ -21,14 +20,13 @@ Custom all-in-one FW update based on [metainfo2 exploit](/MHI2 MHI2Q Harman Aisi
 ### Fully automated FW update
 
 
-:::info
-With this new method you ony have to place the created SD card in unit and reboot unit via key combination.
+!!! info
 
-Installation will automatically start after reboot of unit.
+    With this new method you ony have to place the created SD card in unit and reboot unit via key combination.
 
-Check more [key combinations and shortcuts](/General information/Useful documents/Key combinations and shortcuts/).
+    Installation will automatically start after reboot of unit.
 
-:::
+    Check more [key combinations and shortcuts](/General information/Useful documents/Key combinations and shortcuts/).
 
 `Swdlautorun.txt` in root will trigger an automatic installation of M.I.B without further user interaction.
 
@@ -42,10 +40,9 @@ This function is deactivated by default. To enable automatic install rename `_Sw
 3. Turn the ignition on, wait for the infotainment system to boot up.
 
 
-:::warning
-Make sure that the car key will not leave the vehicle during the firmware update procedure (learn more about [Kessy and updates](/General information/Kessy & Updates/)).
+!!! warning
 
-:::
+    Make sure that the car key will not leave the vehicle during the firmware update procedure (learn more about [Kessy and updates](/General information/Kessy & Updates/)).
 
 
 4. Restore factory settings in system settings.
@@ -53,20 +50,18 @@ Make sure that the car key will not leave the vehicle during the firmware update
 6. Press and hold `MENU` button to enter Service Menu.
 
 
-:::info
-Check more [key combinations and shortcuts](/General information/Useful documents/Key combinations and shortcuts/).
+!!! info
 
-:::
+    Check more [key combinations and shortcuts](/General information/Useful documents/Key combinations and shortcuts/).
 
 
 6. Go to `Software update/Versions` → `Update` → `SD 1`.
 7. Wait for the update to be installed. It will take some time, the system will reboot couple times during firmware update procedure.
 
 
-:::warning
-If you are stuck in bootscreen for a long time, check [this information](/MHI2 MHI2Q Harman Aisin/Recovery/Conversion & Cross-flashing/FW Update - SWDL/error - Stuck or Freeze in (old) Bootscreen after update/).
+!!! warning
 
-:::
+    If you are stuck in bootscreen for a long time, check [this information](/MHI2 MHI2Q Harman Aisin/Recovery/Conversion & Cross-flashing/FW Update - SWDL/error - Stuck or Freeze in (old) Bootscreen after update/).
 
 ## Features
 
@@ -75,10 +70,9 @@ If you are stuck in bootscreen for a long time, check [this information](/MHI2 M
 2. FecContainer will be adjusted with missing FECs during the installation including code for latest maps (`073000EE`).
 
 
-:::tip
-`addFecs.txt` in `/common/tools/` can be adjusted as needed. Change add FECS with e.g. notepad.
+!!! tip
 
-:::
+    `addFecs.txt` in `/common/tools/` can be adjusted as needed. Change add FECS with e.g. notepad.
 
 
  3. Skin 4 (Carbon) will be configured during install to avoid boot up issues

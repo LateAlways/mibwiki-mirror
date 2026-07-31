@@ -6,16 +6,14 @@ The MHI2-to-MHS2 Map Converter automates this process. It takes an MHI2 map arch
 
 
 
-:::warning
-**DISCLAIMER:** This software and any accompanying documentation are provided "as is" and "with all faults." The author makes no representations or warranties of any kind concerning the safety, suitability, lack of viruses, inaccuracies, typographical errors, or other harmful components of this software. There are inherent dangers in the use of any software, and you are solely responsible for determining whether this tool is compatible with your equipment and other software installed on your system. You are also solely responsible for the protection of your equipment and backup of your data, and the author will not be liable for any damages you may suffer in connection with using this software or the files it produces. You are also solely responsible for any modifications made to the software of your MIB system. The author will not be liable for any claims from the vendor of your vehicle or head unit concerning the use of third-party software, modified map data, or patched libraries on the MIB system.
+!!! warning
 
-:::
+    **DISCLAIMER:** This software and any accompanying documentation are provided "as is" and "with all faults." The author makes no representations or warranties of any kind concerning the safety, suitability, lack of viruses, inaccuracies, typographical errors, or other harmful components of this software. There are inherent dangers in the use of any software, and you are solely responsible for determining whether this tool is compatible with your equipment and other software installed on your system. You are also solely responsible for the protection of your equipment and backup of your data, and the author will not be liable for any damages you may suffer in connection with using this software or the files it produces. You are also solely responsible for any modifications made to the software of your MIB system. The author will not be liable for any claims from the vendor of your vehicle or head unit concerning the use of third-party software, modified map data, or patched libraries on the MIB system.
 
 
-:::info
-**Notice**: This converter cannot generate valid content.sig files. The navigation binaries check for these files when verifying the navigation database. Fortunately, I have already taken care of this by patching the `/mnt/app/navigation/libPresentationController.so` library, but you need to upload it to your unit. I will provide a simple zip file with the payload below.
+!!! info
 
-:::
+    **Notice**: This converter cannot generate valid content.sig files. The navigation binaries check for these files when verifying the navigation database. Fortunately, I have already taken care of this by patching the `/mnt/app/navigation/libPresentationController.so` library, but you need to upload it to your unit. I will provide a simple zip file with the payload below.
 
 # Instructions:
 
@@ -54,16 +52,14 @@ Copy all the files inside of your `Output` folder to the SD card.
 Download the corresponding payload for your unit based on [your version](/General information/Useful documents/Key combinations and shortcuts/) (Check Red/Engineering menu) below:
 
 
-:::warning
-Make sure to download the right one, if not **this could make your navigation app stop loading entirely** until resolved!
+!!! warning
 
-:::
+    Make sure to download the right one, if not **this could make your navigation app stop loading entirely** until resolved!
 
 
-:::tip
-If your version is not supported, update your unit to one of the supported versions. (Recommended: MHS2_xx_AU_P1242) You can get the firmware files on [mibsolution.one](https://mibsolution.one).
+!!! tip
 
-:::
+    If your version is not supported, update your unit to one of the supported versions. (Recommended: MHS2_xx_AU_P1242) You can get the firmware files on [mibsolution.one](https://mibsolution.one).
 
 ### P2035/P2037
 

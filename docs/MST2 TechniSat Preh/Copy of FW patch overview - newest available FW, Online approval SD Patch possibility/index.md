@@ -1,9 +1,8 @@
 # Copy of FW patch overview - newest available FW, Online approval/SD Patch possibility
 
-:::info
-Below you can find an overview based on the FW version which kind of patch can be applied
+!!! info
 
-:::
+    Below you can find an overview based on the FW version which kind of patch can be applied
 
 # MST2 ZR EU
 

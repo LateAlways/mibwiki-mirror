@@ -1,32 +1,29 @@
 # Copy of Manual Firmware Restore
 
-:::warning
-Proceed only if you know what you are doing and always flash only from [Emergency IFS](/MHI2 MHI2Q Harman Aisin/Recovery/RCC/How to mount RCC NOR (fs0)/How to boot ifs-emergency.ifs (start blue emergency EFU)/) !!!
+!!! warning
 
-:::
+    Proceed only if you know what you are doing and always flash only from [Emergency IFS](/MHI2 MHI2Q Harman Aisin/Recovery/RCC/How to mount RCC NOR (fs0)/How to boot ifs-emergency.ifs (start blue emergency EFU)/) !!!
 
 If some partitions of the RCC NOR or MMX NAND are damaged, mixed FW partitions are installed or unit is infected by APG it might be useful to restore it manually.
 
 Makes it sense to reflash completely or only in parts - depends on what was done to your MIB.
 
 
-:::tip
-Take files from stock FW update or extract out of RCC_fs0 and MMX_fs0 backup
+!!! tip
 
-:::
-
-
-:::warning
-Stock **mifs-stage1.img** and **eifs.img** **MUST** be [edited with hex editor](/MHI2 MHI2Q Harman Aisin/Recovery/MMX/How to prepare mifs-stage1.img and eifs.img for flashing/) (first bytes of these files should start from ANDROID! string).
-
-If you ignore this and flash files starting from AÿDÿOÿDÿ you will brick the unit. Read how to change AÿDÿOÿDÿ→ANDROID! [here](/MHI2 MHI2Q Harman Aisin/Recovery/MMX/How to prepare mifs-stage1.img and eifs.img for flashing/).
+    Take files from stock FW update or extract out of RCC_fs0 and MMX_fs0 backup
 
 
-Before running commands below, check the folder structure of your target FW as it might be different from the example below.
+!!! warning
 
-Make sure, that all files are available and commands fit your FW.
+    Stock **mifs-stage1.img** and **eifs.img** **MUST** be [edited with hex editor](/MHI2 MHI2Q Harman Aisin/Recovery/MMX/How to prepare mifs-stage1.img and eifs.img for flashing/) (first bytes of these files should start from ANDROID! string).
 
-:::
+    If you ignore this and flash files starting from AÿDÿOÿDÿ you will brick the unit. Read how to change AÿDÿOÿDÿ→ANDROID! [here](/MHI2 MHI2Q Harman Aisin/Recovery/MMX/How to prepare mifs-stage1.img and eifs.img for flashing/).
+
+
+    Before running commands below, check the folder structure of your target FW as it might be different from the example below.
+
+    Make sure, that all files are available and commands fit your FW.
 
 Example:eee
 

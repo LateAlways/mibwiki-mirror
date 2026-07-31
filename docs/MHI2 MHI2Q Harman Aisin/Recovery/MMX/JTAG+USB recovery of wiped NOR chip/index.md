@@ -75,10 +75,9 @@ nvflash.exe --bct BCT.bin --bl STAGE1_RECOVERY.bin --setentry 0x84008000 0x84008
 ```
 
 
-:::info
-If you have doubts about setentry params, see [BCT Decoding](/doc/bct-decoding-XjBbd7jSwC)
+!!! info
 
-:::
+    If you have doubts about setentry params, see [BCT Decoding](/doc/bct-decoding-XjBbd7jSwC)
 
 On the MMX uart console, you should immediately see something like:
 
@@ -106,10 +105,9 @@ The STAGE1_RECOVERY.bin can be merged with STAGE2_RECOVERY.bin with filling zero
 Seeing <.STARTUP> is enough to enable the JTAG port and give access to SDRAM at 0x84008000
 
 
-:::info
-Tegra3 has strict memory protection in place at all times, preventing JTAG from reading and writing to most RAM addresses. Only blocks of memory where an application is currently executing appear to be accessible, uploading a bootloader over USB makes the memory block at the Load address accessible for use by the Flash Loader.
+!!! info
 
-:::
+    Tegra3 has strict memory protection in place at all times, preventing JTAG from reading and writing to most RAM addresses. Only blocks of memory where an application is currently executing appear to be accessible, uploading a bootloader over USB makes the memory block at the Load address accessible for use by the Flash Loader.
 
 hrdinaveliky3 recommended to use odmdata to avoid this restrictions but it does not help to flash NOR without using JTAG:
 
@@ -124,10 +122,9 @@ Once a STAGE1_RECOVERY.bin has been loaded with nvflash, it runs and enables the
 Some JTAG programmers like Segger J-Link, support programming external NOR flash chips with the help of a CFI flashloader. JTAG programmer loads and runs some small flash loader code into the CPU RAM and then flash loader handles the flash erase, program and verify operations.
 
 
-:::info
-As per OpenOCD documentation <https://openocd.org/doc/html/Flash-Commands.html>, it supports programming external CFI flash chips via FT232 adapter. Try and report here!
+!!! info
 
-:::
+    As per OpenOCD documentation <https://openocd.org/doc/html/Flash-Commands.html>, it supports programming external CFI flash chips via FT232 adapter. Try and report here!
 
 # Flashing the backup via JTAG programmer
 
@@ -140,10 +137,9 @@ Rename the backup file from `MU<version>-MMX_fs0.bin` to just `MMX_fs0.bin` then
  ![](attachments/f822dee9-4f1b-4dba-bc32-c924fcb9ed62.png)
 
 
-:::info
-RCC watchdog timer will be running in parallel and reboot the unit every minute or two. You can [enter to Emergency IFS on RCC Blue EFU](/MHI2 MHI2Q Harman Aisin/Recovery/RCC/How to mount RCC NOR (fs0)/How to boot ifs-emergency.ifs (start blue emergency EFU)/) to try to prevent the rebooting but will not really stop it. So when J-Link will fail due to the reboot, just re-run JLink again and it will skip already flashed block and will continue. It might take a few goes but will definately manage to finish this bothering task :grinning:
+!!! info
 
-:::
+    RCC watchdog timer will be running in parallel and reboot the unit every minute or two. You can [enter to Emergency IFS on RCC Blue EFU](/MHI2 MHI2Q Harman Aisin/Recovery/RCC/How to mount RCC NOR (fs0)/How to boot ifs-emergency.ifs (start blue emergency EFU)/) to try to prevent the rebooting but will not really stop it. So when J-Link will fail due to the reboot, just re-run JLink again and it will skip already flashed block and will continue. It might take a few goes but will definately manage to finish this bothering task :grinning:
 
 If the rebooting is really getting in the way, preventing the flash process from completing, you can try to leave it part done. Once the first third / half is done, it should be enough to get the emergency boot mode running and can complete the flash process there.
 

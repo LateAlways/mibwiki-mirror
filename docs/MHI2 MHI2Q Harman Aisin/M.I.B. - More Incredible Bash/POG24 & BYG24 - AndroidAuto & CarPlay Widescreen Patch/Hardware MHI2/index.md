@@ -43,7 +43,6 @@ WLAN
 You can find more addresses in **/net/mmx/mnt/system/etc/boot/startup.sh**
 
 
-:::info
-[MMX board on the MHI2Q](/MHI2 MHI2Q Harman Aisin/M.I.B. - More Incredible Bash/MHI2Q - Qualcomm/) does not have Tegra30, NOR and NAND chips. They are replaced with Qualcomm and eMMC chips.
+!!! info
 
-:::
+    [MMX board on the MHI2Q](/MHI2 MHI2Q Harman Aisin/M.I.B. - More Incredible Bash/MHI2Q - Qualcomm/) does not have Tegra30, NOR and NAND chips. They are replaced with Qualcomm and eMMC chips.

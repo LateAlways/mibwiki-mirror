@@ -1,11 +1,10 @@
 # Copy of Conversion of CN/JP/KR/TW/US to EU
 
-:::info
-Conversion can be completely done via GEM and SD card.
+!!! info
 
-No telnet access (dlink adapter) is required
+    Conversion can be completely done via GEM and SD card.
 
-:::
+    No telnet access (dlink adapter) is required
 
 ## Step by step instruction by Enthusiast
 
@@ -14,16 +13,15 @@ No telnet access (dlink adapter) is required
 2. Insert SD card into **SD1 slot (IMPORTANT!)** of the MIB and install M.I.B. via corresponding [key combo](/General information/Useful documents/Key combinations and shortcuts/)
 
 
-:::warning
-**IMPORTANT!** After installation, check that GEM version is 4.xx+.
+!!! warning
 
-If you see 3.xx, that means it was not automatically updated.
+    **IMPORTANT!** After installation, check that GEM version is 4.xx+.
 
-In this case format SD card to FAT32 and install the latest M.I.B version again.
+    If you see 3.xx, that means it was not automatically updated.
 
-Repeat doing this until you see that GEM is updated to v4.12+.
+    In this case format SD card to FAT32 and install the latest M.I.B version again.
 
-:::
+    Repeat doing this until you see that GEM is updated to v4.12+.
 
 
 3. Long press MENU button, go to **__Green Engineering Menu=>m.i.b.<=NEXT SCREEN for more magic …>advanced_settings>eu_conversion_train>Convert unit to EU__**
@@ -43,14 +41,13 @@ Repeat doing this until you see that GEM is updated to v4.12+.
    On **Audi**, open **RED (Engineering)** menu and use **User defined**:             ![](attachments/def9f5d0-9d56-4251-83a9-01b79238d1ae.png)
 
 
-:::info
-Set all installation packages to Y(es) state!
+!!! info
 
-**IMPORTANT!** Set AMP16\*APN, AMP_BAO_P3 or Bose6416\* to **\[N\], otherwise you will need to find and flash the parametrization for amplifier!**
+    Set all installation packages to Y(es) state!
 
-If you're updating onto **MHI2_ER_AU37x_P5089,** set **FC2H37xE** to **\[N\]**, otherwise display will stop hiding to torpedo!
+    **IMPORTANT!** Set AMP16\*APN, AMP_BAO_P3 or Bose6416\* to **\[N\], otherwise you will need to find and flash the parametrization for amplifier!**
 
-:::
+    If you're updating onto **MHI2_ER_AU37x_P5089,** set **FC2H37xE** to **\[N\]**, otherwise display will stop hiding to torpedo!
 
 **VERY IMPORTANT!** If User defined will not work, then you need manual update for MMX part via Dlink!
 
@@ -84,10 +81,9 @@ On MHI2Q\* you cannot use this m.i.b function, so use any OBD2 adapter and softw
 
 
 
-:::info
-If you got black screen after convertion of **MHI2_KR_AU57x_Sxxx firmware, just connect [TTL cable to quadlock](/MHI2 MHI2Q Harman Aisin/Shell access via telnet and UART/Connecting TTL adapter to UART on quadlock/), login and delete all update.txt from /net/rcc/mnt/efs-persist/SWDL/ folder.**
+!!! info
 
-:::
+    If you got black screen after convertion of **MHI2_KR_AU57x_Sxxx firmware, just connect [TTL cable to quadlock](/MHI2 MHI2Q Harman Aisin/Shell access via telnet and UART/Connecting TTL adapter to UART on quadlock/), login and delete all update.txt from /net/rcc/mnt/efs-persist/SWDL/ folder.**
 
 ## Example of MHI2Q conversion
 
@@ -96,9 +92,8 @@ If you got black screen after convertion of **MHI2_KR_AU57x_Sxxx firmware, just 
 ## Conversion from CN/EU/JP/KR/TW/US to YY and unknown trains
 
 
-:::tip
-Other target regions or unknown trains can also be added to M.I.B. if you share the content of the backup folder from SD card.
+!!! tip
 
-Upload it to [https://mibsolution.one](https://mibsolution.one/index.php/f/92129) into **M.I.B_Backup** folder and support will be added!
+    Other target regions or unknown trains can also be added to M.I.B. if you share the content of the backup folder from SD card.
 
-:::
+    Upload it to [https://mibsolution.one](https://mibsolution.one/index.php/f/92129) into **M.I.B_Backup** folder and support will be added!

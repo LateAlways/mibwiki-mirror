@@ -1,15 +1,13 @@
 # PPOI Speed Camera
 
-:::info
-The Speed cameras are classified as either 'Fixed' or 'Mobile' (as you know, only up to 10 categories can be sellected)
+!!! info
 
-:::
+    The Speed cameras are classified as either 'Fixed' or 'Mobile' (as you know, only up to 10 categories can be sellected)
 
 
-:::tip
-MST2, MHI2 non-Audi, MHI2 Audi are using three separate packages. Make sure you download the correct one.
+!!! tip
 
-:::
+    MST2, MHI2 non-Audi, MHI2 Audi are using three separate packages. Make sure you download the correct one.
 
 ## Download
 

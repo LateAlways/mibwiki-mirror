@@ -1,9 +1,8 @@
 # Security access codes
 
-:::info
-List of currently known access codes
+!!! info
 
-:::
+    List of currently known access codes
 
 ## Master key
 
@@ -165,10 +164,9 @@ List of currently known access codes
 
 
 
-:::info
-List of currently known access codes
+!!! info
 
-:::
+    List of currently known access codes
 
 ## Master key
 

@@ -4,10 +4,9 @@
 
 
 
-:::info
-Fault `B201A` appears after firmware update.
+!!! info
 
-:::
+    Fault `B201A` appears after firmware update.
 
 ## How to
 
@@ -20,16 +19,14 @@ Fault `B201A` appears after firmware update.
 6. `5F` → faults → clear
 
 
-:::info
-Saving new key can fail (OBDeleven) or old value can be visible (VCDS). That's normal. Attempt of saving new key is enough for MIB to check if the key is valid and change fault status from `permanent/static` to `sporadic`.
+!!! info
 
-:::
+    Saving new key can fail (OBDeleven) or old value can be visible (VCDS). That's normal. Attempt of saving new key is enough for MIB to check if the key is valid and change fault status from `permanent/static` to `sporadic`.
 
 
-:::tip
-You can calculate new key manually by XORing old key with `DEC 51666` / `HEX C9D2.`
+!!! tip
 
-:::
+    You can calculate new key manually by XORing old key with `DEC 51666` / `HEX C9D2.`
 
 ## Good to know if stuck at firmware update summary
 

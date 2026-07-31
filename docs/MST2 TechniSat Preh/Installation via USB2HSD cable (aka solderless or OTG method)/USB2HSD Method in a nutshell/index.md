@@ -1,9 +1,8 @@
 # USB2HSD Method in a nutshell
 
-:::info
-You need the toolbox files on a FAT32 SD Card (prepared for 01/02 or 03/04 Firmware).
+!!! info
 
-:::
+    You need the toolbox files on a FAT32 SD Card (prepared for 01/02 or 03/04 Firmware).
 
 Source <https://www.drive2.ru/b/646562041351386364/> (among others)
 
@@ -25,10 +24,9 @@ Source <https://www.drive2.ru/b/646562041351386364/> (among others)
 7. Power on the unit.
 
 
-:::info
-In case the usb it keeps resetting (you hear usb plugging/unplugging sound on pc withing seconds) try first 5, 2, 1. The unit will boot (you'll see in the J5 putty), but just cut off power and put it back on and try 5 and 7.  After 7, you will hear USB plugged-in sound.
+!!! info
 
-:::
+    In case the usb it keeps resetting (you hear usb plugging/unplugging sound on pc withing seconds) try first 5, 2, 1. The unit will boot (you'll see in the J5 putty), but just cut off power and put it back on and try 5 and 7.  After 7, you will hear USB plugged-in sound.
 
 
  8. Go to the cmd, where plus1.bat is and hit enter. You will hear USB disconnect sound afterwards.
@@ -36,10 +34,9 @@ In case the usb it keeps resetting (you hear usb plugging/unplugging sound on pc
 10. In the iMX6 windows, when you see a **#**, hit enter several times. It will give you access to the shell. Type the following prompts:
 
 
-:::info
-Copy the lines one after the other and only put them in line by line. Be quick:
+!!! info
 
-:::
+    Copy the lines one after the other and only put them in line by line. Be quick:
 
 ```javascript
 ls /technisat/scripts/
@@ -58,7 +55,6 @@ The following screenshots shows a successful installtion of the toolbox.
  ![](attachments/bf15d183-0114-4a1a-bda2-4b015f851a6a.png)
 
 
-:::tip
-If you want to keep the Toolbox installed when updating, do a manual SWDL and unselect CPUplus→ESD.
+!!! tip
 
-:::
+    If you want to keep the Toolbox installed when updating, do a manual SWDL and unselect CPUplus→ESD.

@@ -1,9 +1,8 @@
 # MHS2 activator by Congo
 
-:::info
-When MMI Radio Plus/Navigation (MHS2 unit) boots it runs`dlphi.sh` from the root of SD card. This allows to run MHS2 activator made by Congo.
+!!! info
 
-:::
+    When MMI Radio Plus/Navigation (MHS2 unit) boots it runs`dlphi.sh` from the root of SD card. This allows to run MHS2 activator made by Congo.
 
 
 1. Format [quality SD card](/General information/Bench Setup & Tools/SD card testing/) in FAT32 with the lowest `Allocation unit size`possible (usually 4096 bytes).*==(==****==NO==*** ==*micro sd card + adapter!)*==
@@ -11,10 +10,9 @@ When MMI Radio Plus/Navigation (MHS2 unit) boots it runs`dlphi.sh` from the root
 3. Turn the ignition on
 
    
-:::warning
-   Make sure that the car key will not leave the vehicle during the firmware update procedure (learn more about [Kessy and updates](/General information/Kessy & Updates/).
+!!! warning
 
-   :::
+       Make sure that the car key will not leave the vehicle during the firmware update procedure (learn more about [Kessy and updates](/General information/Kessy & Updates/).
 4. Remove all SD cards from SD slots
 5. Set the Infotainment system screen to `RADIO`,
 6. Make sure that the system fully loaded (5 minutes to be safe),
@@ -38,10 +36,9 @@ You can also check "Activation keys" list in the [RED menu](/General information
 ## Coding and adaptation change in block 5F
 
 
-:::info
-Activator enables navigation functionality so all you need is just to change coding and adaptations by using your favourite OBD2 diagnostic t
+!!! info
 
-:::
+    Activator enables navigation functionality so all you need is just to change coding and adaptations by using your favourite OBD2 diagnostic t
 
 ### GPS navigation
 
@@ -68,10 +65,9 @@ Activator enables navigation functionality so all you need is just to change cod
 `5F` → Adaptation  → `vehicle configuration` → `Google GAL` → `enable Android Auto `
 
 
-:::info
-Audi Smartphone (CarPlay+Android Auto) will only work when proper USB hub is installed
+!!! info
 
-:::
+    Audi Smartphone (CarPlay+Android Auto) will only work when proper USB hub is installed
 
  ![Charge only USB port (on the left) and 2xUSB port hub compatible with Smartfone interface (on the right)](attachments/943e8d06-b6ad-404a-b538-e1f177174807.jpg)
 

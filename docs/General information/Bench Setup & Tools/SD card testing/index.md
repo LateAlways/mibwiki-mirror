@@ -3,10 +3,9 @@
 How to confirm if SD card is OK before using it for firmware update in vehicle.
 
 
-:::warning
-Fake SD cards can brick main unit. Make sure you are using quality product to avoid problems.
+!!! warning
 
-:::
+    Fake SD cards can brick main unit. Make sure you are using quality product to avoid problems.
 
 ## Testing with H2testw
 

@@ -1,9 +1,8 @@
 # V850 programming after chip replacement
 
-:::info
-Tested on MHIG and MHI2 Harman and should work everywhere where V850 is used.
+!!! info
 
-:::
+    Tested on MHIG and MHI2 Harman and should work everywhere where V850 is used.
 
 **You will need**:
 
@@ -21,10 +20,9 @@ Alternatively: Orange5 with it's own software
  ![](attachments/55923905-86e1-4440-b3ed-efb31c72e0c4.jpg)
 
 
-:::info
-Some MHI2 (like JP AUG22) do not have V850 RST on the 24 pin connector. Use multimeter to find the test pads on the motherboard and directly solder there 
+!!! info
 
-:::
+    Some MHI2 (like JP AUG22) do not have V850 RST on the 24 pin connector. Use multimeter to find the test pads on the motherboard and directly solder there 
 
 * On the FT232 TTL adapter side:
 
@@ -35,12 +33,11 @@ On the photo above, ft232 adapter has following pinout(from top to the bottom): 
 pin2 (CTS) supplies 3,3V to FLMD0 that forces V850 to go into flash programming mode when you power on the unit via quadlock. By other words unit will stay powered off as long as FLMD0 is in high state.
 
 
-:::info
-Switch/button must be pressed after each action you do in the flashing software, like READ, WRITE, BLANK, SECURITY
+!!! info
 
-**WARNING!** Do NOT use pin3 of ft232 as RESET and FLMD0 at the same time as the press of the switch will reset the ft232 adapter as well!
+    Switch/button must be pressed after each action you do in the flashing software, like READ, WRITE, BLANK, SECURITY
 
-:::
+    **WARNING!** Do NOT use pin3 of ft232 as RESET and FLMD0 at the same time as the press of the switch will reset the ft232 adapter as well!
 
 **Power on the unit via quadlock, run Renesas Flash Programmer V2.05.03 and use following settings:**
 
