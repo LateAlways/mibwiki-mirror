@@ -1,8 +1,12 @@
+---
+title: "MHI2(Q) screens"
+---
+
 # MHI2(Q) screens
 
-!!! info
-
-    VW, Skoda and Seat MHI2 interfaces are very similar. Especially [Service Mode](/MHI2 MHI2Q Harman Aisin/Recovery/Conversion & Cross-flashing/FW Update - SWDL/MHI2(Q) screens//#h-service-mode-menu) Menu is identical
+:::info
+VW, Skoda and Seat MHI2 interfaces are very similar. Especially [Service Mode](/MHI2 MHI2Q Harman Aisin/Recovery/Conversion & Cross-flashing/FW Update - SWDL/MHI2(Q) screens//#h-service-mode-menu) Menu is identical
+:::
 
 # Navigation Screen
 
@@ -20,9 +24,9 @@
 # **Service Mode** Menu
 
 
-!!! tip
-
-    Press Menu button for 5 sec to enter **Service Mode** Menu
+:::tip
+Press Menu button for 5 sec to enter **Service Mode** Menu
+:::
 
 | VW  (G13) | Skoda (G13) | Seat |
 |----|----|----|
@@ -31,11 +35,11 @@
 ## Software update/version
 
 
-!!! info
+:::info
+Start **FW installation** or M.I.B installtion from here.
 
-    Start **FW installation** or M.I.B installtion from here.
-
-    Get **TRAIN** information MHI2…
+Get **TRAIN** information MHI2…
+:::
 
 | VW  (G13) | Skoda (G13) | Seat |
 |----|----|----|
@@ -44,9 +48,9 @@
 ## Function enabling codes (FEC,SWaP)
 
 
-!!! info
-
-    Enter [Service Mode](/MHI2 MHI2Q Harman Aisin/Recovery/Conversion & Cross-flashing/FW Update - SWDL/MHI2(Q) screens//#h-service-mode-menu)  and select `Function enabling codes (FEC,SWaP)` will show all installed FECs and their status
+:::info
+Enter [Service Mode](/MHI2 MHI2Q Harman Aisin/Recovery/Conversion & Cross-flashing/FW Update - SWDL/MHI2(Q) screens//#h-service-mode-menu)  and select `Function enabling codes (FEC,SWaP)` will show all installed FECs and their status
+:::
 
 | VW  (G13) | Skoda (G13) | Seat |
 |----|----|----|
@@ -58,11 +62,11 @@
 ## Testmode Menu: GEM, SWDL, etc via [Service Mode](/MHI2 MHI2Q Harman Aisin/Recovery/Conversion & Cross-flashing/FW Update - SWDL/MHI2(Q) screens//#h-service-mode-menu)
 
 
-!!! info
+:::info
+Enter [Service Mode](/MHI2 MHI2Q Harman Aisin/Recovery/Conversion & Cross-flashing/FW Update - SWDL/MHI2(Q) screens//#h-service-mode-menu) and select `Testmode`
 
-    Enter [Service Mode](/MHI2 MHI2Q Harman Aisin/Recovery/Conversion & Cross-flashing/FW Update - SWDL/MHI2(Q) screens//#h-service-mode-menu) and select `Testmode`
-
-    Access to Green Engineering Menu (GEM), SWDL - custom FW update and more
+Access to Green Engineering Menu (GEM), SWDL - custom FW update and more
+:::
 
 | VW  (G13) | Skoda (G13) | Seat |
 |----|----|----|
@@ -71,19 +75,18 @@
 ## SWDL - **S**oft**w**are **D**own **L**oad (manual/user defined)
 
 
-!!! info
+:::info
+SWDL user defined FW install will enable selection of update packages before installation
 
-    SWDL user defined FW install will enable selection of update packages before installation
+* `Y(es)` - will be installed completly
+* `N(o)` - No installation
+* `S(ome)` - only some packaged e.g. within `RCC`/`MMX2` are selected
+* `N/A` - not available: not part of this FW update
+:::
 
-    * `Y(es)` - will be installed completly
-    * `N(o)` - No installation
-    * `S(ome)` - only some packaged e.g. within `RCC`/`MMX2` are selected
-    * `N/A` - not available: not part of this FW update
-
-
-!!! tip
-
-    This is valid for FW updates, but also for Installation of maps, radio station db, GraceNote and M.I.B.
+:::tip
+This is valid for FW updates, but also for Installation of maps, radio station db, GraceNote and M.I.B.
+:::
 
 | VW  (G13) | Skoda (G13) | Seat |
 |----|----|----|
@@ -101,12 +104,11 @@
 ### Select partial packages from collections
 
 
-!!! info
+:::info
+Same procedure and nearly identical menus on Seat and VW.
 
-    Same procedure and nearly identical menus on Seat and VW.
-
-    Example below is based on Skoda (G13)
-
+Example below is based on Skoda (G13)
+:::
 
 In this example we want to select `ifs-root` package from `RCC` collection.
 
@@ -127,50 +129,46 @@ In this example we want to select `ifs-root` package from `RCC` collection.
 # Start FW Update
 
 
-!!! info
+:::info
+Standard FW update will take \~20 min
 
-    Standard FW update will take \~20 min
+Full FW update with all packages on Y(es) \~40 min
 
-    Full FW update with all packages on Y(es) \~40 min
+Unit will restart several times during update!
+:::
 
-    Unit will restart several times during update!
+:::tip
+Only flash FW with external power connected to car. Running on engine power can lead to bad blocks during flasing.
+:::
 
+:::warning
+Keep the Kessy remote inside the vehicle, or even tape it to the dashboard. [Check here why that's important](/General information/Kessy & Updates/).
+:::
 
-!!! tip
+:::warning
+In case on an error occurs during update do **__not__** cancel the update.
 
-    Only flash FW with external power connected to car. Running on engine power can lead to bad blocks during flasing.
+* Check [error code](/MHI2 MHI2Q Harman Aisin/Recovery/Conversion & Cross-flashing/FW Update - SWDL/SWDLClient - Error Code tables/) table
+* Take a screenshot and post your issue in e.g. MIB2 telegram channel
 
+If the error code points towards a read error, this is always caused by a bad SD card or missing files.
 
-!!! warning
-
-    Keep the Kessy remote inside the vehicle, or even tape it to the dashboard. [Check here why that's important](/General information/Kessy & Updates/).
-
-
-!!! warning
-
-    In case on an error occurs during update do **__not__** cancel the update.
-
-    * Check [error code](/MHI2 MHI2Q Harman Aisin/Recovery/Conversion & Cross-flashing/FW Update - SWDL/SWDLClient - Error Code tables/) table
-    * Take a screenshot and post your issue in e.g. MIB2 telegram channel
-
-    If the error code points towards a read error, this is always caused by a bad SD card or missing files.
-
-    Yes, we see this very often even with new SD card.
+Yes, we see this very often even with new SD card.
 
 
-    1. Leave system on
-    2. Do not exit FW update mode
-    3. Remove SD card and put new one in
-    4. Hit retry button
-    5. Normally FW update will continue and finish
-
+1. Leave system on
+2. Do not exit FW update mode
+3. Remove SD card and put new one in
+4. Hit retry button
+5. Normally FW update will continue and finish
+:::
 
 ---
 
 
-!!! info
-
-    Select `Start` on SWDL screen to initiate FW update with the currently selected packages.
+:::info
+Select `Start` on SWDL screen to initiate FW update with the currently selected packages.
+:::
 
  ![Next ...](attachments/88861390-9639-4110-8336-0fdf47e135cf.png)
 
@@ -179,14 +177,12 @@ In this example we want to select `ifs-root` package from `RCC` collection.
 # GEM - Enable user defined SWDL
 
 
-!!! info
+:::info
+Before user defined SWDL can be used, it must be activated in GEM - e.g. via M.I.B., like shown on screen below.
+:::
 
-    Before user defined SWDL can be used, it must be activated in GEM - e.g. via M.I.B., like shown on screen below.
-
-
-!!! tip
-
-    After the box is ticked exit GEM (do **NOT** reboot), remove M.I.B SD from unit, and insert SD with FW update.
-
+:::tip
+After the box is ticked exit GEM (do **NOT** reboot), remove M.I.B SD from unit, and insert SD with FW update.
+:::
 
  ![](attachments/9f432248-0a14-4516-9f1c-809d6462e8cd.png)

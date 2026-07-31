@@ -1,3 +1,7 @@
+---
+title: "Between Brands"
+---
+
 # Between Brands
 
 # Cross-flashing MHI Between Brands
@@ -197,9 +201,9 @@ The unit should reboot and now be running your desired brand!
 
 At this point, you may however run into an issue with the navigation…
 
- ![](attachments/d2d2665e-a7d0-4ceb-abd9-42152e7d3e2c.png)If so, see the [Navigation section down the bottom of this page](#h-navigation).
+ ![](attachments/d2d2665e-a7d0-4ceb-abd9-42152e7d3e2c.png)If so, see the [Navigation section down the bottom of this page](/MHI2 MHI2Q Harman Aisin/Recovery/Conversion & Cross-flashing/Navigation/#navigation).
 
 
 Also, you might get an error overlayed on all screens "Component protection active"
 
- ![](attachments/62f33708-4a59-4930-a1a1-988dce98ba5b.png)This can be fixed by installing the "patch_ifs-root" in M.I.B. tool, instructions for which are described in [Map FEC Codes](#h-map-fec-codes) section at the start of the [Navigation section down the bottom of this page](#h-navigation).
+ ![](attachments/62f33708-4a59-4930-a1a1-988dce98ba5b.png)This can be fixed by installing the "patch_ifs-root" in M.I.B. tool, instructions for which are described in [Map FEC Codes](/MHI2 MHI2Q Harman Aisin/Recovery/Conversion & Cross-flashing/Navigation/#map-fec-codes) section at the start of the [Navigation section down the bottom of this page](/MHI2 MHI2Q Harman Aisin/Recovery/Conversion & Cross-flashing/Navigation/#navigation).

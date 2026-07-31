@@ -1,3 +1,7 @@
+---
+title: "MIB2 Wrong CP Patch Recovery"
+---
+
 # MIB2 Wrong CP Patch Recovery
 
 # MIB2 Wrong Patch Recovery

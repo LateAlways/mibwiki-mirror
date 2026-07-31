@@ -1,3 +1,7 @@
+---
+title: "Esotrace viewer"
+---
+
 # Esotrace viewer
 
 A GUI tool for viewing CTracer/EsoTrace binary log files from Audi MHS2 (MIB2 Evo High) head units.

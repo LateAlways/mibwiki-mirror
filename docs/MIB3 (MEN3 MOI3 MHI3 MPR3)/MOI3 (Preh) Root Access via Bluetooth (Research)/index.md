@@ -1,3 +1,7 @@
+---
+title: "MOI3 (Preh) Root Access via Bluetooth (Research)"
+---
+
 # MOI3 (Preh) Root Access via Bluetooth (Research)
 
 It seems the MIB3 Preh units have a root vulnerability

@@ -1,3 +1,7 @@
+---
+title: "Quadlock pinout"
+---
+
 # Quadlock pinout
 
 I made this picture from electric schematics of Superb 3 Facelift. If there are any mistakes thanks for corection. Some pins were moved to make a room for ethernet connections. I do not know green connector pin 5 and 6 probably another ethernet. 

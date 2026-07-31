@@ -1,3 +1,7 @@
+---
+title: "Parameterization Study"
+---
+
 # Parameterization Study
 
 ## About

@@ -1,13 +1,16 @@
+---
+title: "POG24 & BYG24 - AndroidAuto & CarPlay Widescreen Patch"
+---
+
 # POG24 & BYG24 - AndroidAuto & CarPlay Widescreen Patch
 
-!!! info
+:::info
+The patch is integrated into [M.I.B](/MHI2 MHI2Q Harman Aisin/M.I.B. - More Incredible Bash/)
+:::
 
-    The patch is integrated into [M.I.B](/MHI2 MHI2Q Harman Aisin/M.I.B. - More Incredible Bash/)
-
-
-!!! tip
-
-    Any `*.jar` file placed in `/net/mmx/mnt/app/eso/hmi/lsd/jars/`is loaded during the boot of the unit.
+:::tip
+Any `*.jar` file placed in `/net/mmx/mnt/app/eso/hmi/lsd/jars/`is loaded during the boot of the unit.
+:::
 
 ## Java Code
 

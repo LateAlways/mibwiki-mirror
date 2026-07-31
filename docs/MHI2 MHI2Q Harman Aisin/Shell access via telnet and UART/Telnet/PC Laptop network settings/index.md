@@ -1,3 +1,7 @@
+---
+title: "PC/Laptop network settings"
+---
+
 # PC/Laptop network settings
 
 \

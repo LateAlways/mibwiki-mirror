@@ -1,3 +1,7 @@
+---
+title: "MOI3 Bypass Loading user profile"
+---
+
 # MOI3 Bypass Loading user profile
 
 If you want to bypass and get into menu is all what you need to do is disable in `5F` adaptation:

@@ -1,3 +1,7 @@
+---
+title: "MIB STD2 Network and Logging"
+---
+
 # MIB STD2 Network and Logging
 
 The USB Port offers to connect a compatiple USB Network interface 

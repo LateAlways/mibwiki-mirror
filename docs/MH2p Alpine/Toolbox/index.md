@@ -1,3 +1,7 @@
+---
+title: "Toolbox"
+---
+
 # Toolbox
 
 1. Download and unzip https://disk.yandex.com/d/7WKZix6ocBNLCw (the latest version is always here) onto FAT32 formatte SD card

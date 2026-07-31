@@ -1,10 +1,14 @@
+---
+title: "Flashing of the patched ifs-root.ifs"
+---
+
 # Flashing of the patched ifs-root.ifs
 
-!!! tip
+:::tip
+The description below is for learning purposes only. The easiest way to apply
 
-    The description below is for learning purposes only. The easiest way to apply
-
-    the patch is **[More Incredible Bash](https://github.com/Mr-MIBonk/M.I.B._More-Incredible-Bash/archive/refs/heads/main.zip)** via GEM>**m.i.b.>patch_unit_aio**
+the patch is **[More Incredible Bash](https://github.com/Mr-MIBonk/M.I.B._More-Incredible-Bash/archive/refs/heads/main.zip)** via GEM>**m.i.b.>patch_unit_aio**
+:::
 
 ## You will need:
 
@@ -27,10 +31,9 @@
    Password: depends on MU version
 
 
-!!! info
-
-    While typing in the password you will not see characters. that's normal.
-
+:::info
+While typing in the password you will not see characters. that's normal.
+:::
 
 3. Send `stfu` command to stop debug messages from being send via console.
 
@@ -48,15 +51,13 @@
 ## Flashing
 
 
-!!! warning
+:::warning
+If you are working on bench without ignition on signal, main unit will turn off automatically after 30 minutes. That's you time gap to perform flashing if you want to risk it without ignition on signal.
+:::
 
-    If you are working on bench without ignition on signal, main unit will turn off automatically after 30 minutes. That's you time gap to perform flashing if you want to risk it without ignition on signal.
-
-
-!!! warning
-
-    Steps below assume that the new ifs-root.ifs file starts at address `540000`.
-
+:::warning
+Steps below assume that the new ifs-root.ifs file starts at address `540000`.
+:::
 
 1. Make sure that the SD card is in `SD1` port and new `ifs-root.ifs` image is in the root directory of the SD card.
 2. Unlock flash: `flashunlock`

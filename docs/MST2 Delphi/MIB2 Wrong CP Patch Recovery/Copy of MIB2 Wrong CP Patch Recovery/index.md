@@ -1,3 +1,7 @@
+---
+title: "Copy of MIB2 Wrong CP Patch Recovery"
+---
+
 # Copy of MIB2 Wrong CP Patch Recovery
 
 ## Introduction
@@ -87,9 +91,9 @@ Run the above commands seperatly. If you are able to execute the mount command w
 Oh boy! this was a fun one. Download Virturalbox and the QNX 6.5 ISO. Create the VM and start it up with the QNX 6.5 ISO. Make sure to enable passthrough for both a USB flash drive with your correct .ifs file, and the SD card you want to format. I also set the USB controller to USB 1. You must click "expert" settings to view this.
 
 
-!!! tip
-
-    If the QNX link is broken please reach out on Telegram
+:::tip
+If the QNX link is broken please reach out on Telegram
+:::
 
 Once the VM has started, press F2 to run as a live CD, set your graphics settings, and log in (username "root", password "root").
 
@@ -144,9 +148,9 @@ MountPathSync /extbin/apps; sleep 1
 Remember to press enter after the copying has finished to send the MountPathSync command. At this point, the MIB should reboot one more time (if in a bootloop) and stay on for much longer. Time to plug the display in and see if your brick has been resolved!
 
 
-!!! tip
-
-    Some units may not allow a mount to /var. try /home instead.
+:::tip
+Some units may not allow a mount to /var. try /home instead.
+:::
 
 ## In Progress Details (not certain on these procedures but they could help):
 
@@ -154,9 +158,9 @@ Remember to press enter after the copying has finished to send the MountPathSync
 If console is so garbled you cant see outputs, or the radio is not staying on long enough, take apart the unit and insert tweezers into the two holes on the PCB located near the front panel ribbon. It may take one restart for the unit to stay on.
 
 
-!!! info
-
-    If you are having issues mounting the qnx4 SD card, attempt to short the pins on the PCB and then do the following to stop console output. This was required on one of my units.
+:::info
+If you are having issues mounting the qnx4 SD card, attempt to short the pins on the PCB and then do the following to stop console output. This was required on one of my units.
+:::
 
 In this state, the PuTTY terminal will be full of info making it impossible to get any feedback from commands. To resolve this, paste this into the PuTTY terminal as soon as it powers on. It may take a couple tries to get it early enough.
 

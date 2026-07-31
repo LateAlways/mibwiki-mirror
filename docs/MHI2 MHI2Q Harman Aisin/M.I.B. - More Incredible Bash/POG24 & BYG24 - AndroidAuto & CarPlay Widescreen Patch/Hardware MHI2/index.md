@@ -1,3 +1,7 @@
+---
+title: "Hardware MHI2"
+---
+
 # Hardware MHI2
 
 ## Front cover
@@ -43,6 +47,7 @@ WLAN
 You can find more addresses in **/net/mmx/mnt/system/etc/boot/startup.sh**
 
 
-!!! info
+:::info
+[MMX board on the MHI2Q](/MHI2 MHI2Q Harman Aisin/M.I.B. - More Incredible Bash/MHI2Q - Qualcomm/) does not have Tegra30, NOR and NAND chips. They are replaced with Qualcomm and eMMC chips.
+:::
 
-    [MMX board on the MHI2Q](/MHI2 MHI2Q Harman Aisin/M.I.B. - More Incredible Bash/MHI2Q - Qualcomm/) does not have Tegra30, NOR and NAND chips. They are replaced with Qualcomm and eMMC chips.

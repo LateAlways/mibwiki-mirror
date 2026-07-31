@@ -1,3 +1,7 @@
+---
+title: "JAVA HMI Patches. Remove PDC ParkPilot Popup"
+---
+
 # JAVA HMI Patches. Remove PDC ParkPilot Popup
 
 **How to remove "The ParkPilot is currently not available." Popup:**

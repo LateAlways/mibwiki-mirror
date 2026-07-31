@@ -1,3 +1,7 @@
+---
+title: "How to boot ifs-emergency.ifs (start blue emergency EFU)"
+---
+
 # How to boot ifs-emergency.ifs (start blue emergency EFU)
 
 ## [Stop IPL by sending break on power on](/MHI2 MHI2Q Harman Aisin/Recovery/RCC/How to stop IPL, enter CLI, boot ifs-emergency.ifs and restore ifs.root-stage2/)
@@ -10,15 +14,15 @@ Emergency IFS runs in two modes:
 * 2nd boot
 
 
-!!! tip
+:::tip
+Stopping IOC watchdog in Emergency IFS on the 1st boot is not possible! After 60 seconds it will force the reboot of the Emergency IFS and log you off.
 
-    Stopping IOC watchdog in Emergency IFS on the 1st boot is not possible! After 60 seconds it will force the reboot of the Emergency IFS and log you off.
+So the best you can do on the 1st boot is to login as root with RCC emergency password and enter:
 
-    So the best you can do on the 1st boot is to login as root with RCC emergency password and enter:
-
-    ```
-    echo dummy >/HBpersistence/DeveloperMode 
-    ```
+```
+echo dummy >/HBpersistence/DeveloperMode 
+```
+:::
 
 Example of the Emergency IFS 1st boot:
 
@@ -54,11 +58,10 @@ echo dummy > /HBpersistence/DeveloperMode
 ```
 
 
-!!! tip
+:::tip
+DeveloperMode prevents 2nd boot Emergency IFS from running a countdown timer, so you do not need to enter "slay -9 MIBEmergency" anymore.
 
-    DeveloperMode prevents 2nd boot Emergency IFS from running a countdown timer, so you do not need to enter "slay -9 MIBEmergency" anymore.
-
-    When DeveloperMode is enabled, Emergency IFS will not show a special banner anymore.
-
+When DeveloperMode is enabled, Emergency IFS will not show a special banner anymore.
+:::
 
  ![2nd boot sequence - with enabled DeveloperMode](attachments/55af4b04-4a14-4ebc-8a2e-b44df6b935e4.png)

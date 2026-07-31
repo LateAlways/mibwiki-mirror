@@ -1,10 +1,14 @@
+---
+title: "How to mount RCC NOR (fs0)"
+---
+
 # How to mount RCC NOR (fs0)
 
-!!! info
+:::info
+Prerequisite of using flashit is RCC NOR mounted in /dev/fs0
 
-    Prerequisite of using flashit is RCC NOR mounted in /dev/fs0
-
-    When for example ifs.root-stage2 is damaged, RCC is still booting but NOR is not mounted in /dev/fs0 automatically.
+When for example ifs.root-stage2 is damaged, RCC is still booting but NOR is not mounted in /dev/fs0 automatically.
+:::
 
 To check, run `ls -al /dev/fs*` and you should see a list like:
 
@@ -20,11 +24,11 @@ If this list is empty then run:
 Check `ls -al /dev/fs*` again. If fs0 is there then you can run **/usr/bin/flashunlock** and **/usr/bin/flashit**. Remember, fs0 is mounted only untill next reboot.
 
 
-!!! tip
+:::tip
+If **/usr/bin/flashunlock** and **/usr/bin/flashit** are not available insert m.i.b. SD into SD1 slot and try to run **/net/mmx/fs/sda0/apps/sbin/flashunlock** and **/net/mmx/fs/sda0/apps/sbin/flashit**
 
-    If **/usr/bin/flashunlock** and **/usr/bin/flashit** are not available insert m.i.b. SD into SD1 slot and try to run **/net/mmx/fs/sda0/apps/sbin/flashunlock** and **/net/mmx/fs/sda0/apps/sbin/flashit**
-
-    Alternatively, you can unpack attached **Flashit Flashlock.rar** onto FAT32 formatted SD and run **/net/mmx/fs/sda0/flashunlock** and **/net/mmx/fs/sda0/flashit**
+Alternatively, you can unpack attached **Flashit Flashlock.rar** onto FAT32 formatted SD and run **/net/mmx/fs/sda0/flashunlock** and **/net/mmx/fs/sda0/flashit**
+:::
 
 ### Description of devf-generic can be found [here](http://www.qnx.com/developers/docs/6.5.0/index.jsp?topic=%2Fcom.qnx.doc.neutrino_utilities%2Fd%2Fdevf-generic.html):
 

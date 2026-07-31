@@ -1,13 +1,16 @@
+---
+title: "format_nav_db on MHI2Q"
+---
+
 # format_nav_db on MHI2Q
 
-!!! warning
+:::warning
+This test was done on MHI2Q with the purpose to allow **format_nav_db** of **Most Incredible Bash** to work on **MHI2Q** units the same way as it successfully works on MHI2.
 
-    This test was done on MHI2Q with the purpose to allow **format_nav_db** of **Most Incredible Bash** to work on **MHI2Q** units the same way as it successfully works on MHI2.
+**The outcome of the test:**
 
-    **The outcome of the test:**
-
-    Format worked but unit got into strange state which seems to be not related to the test itself so additional test is required.
-
+Format worked but unit got into strange state which seems to be not related to the test itself so additional test is required.
+:::
 
 on -f mmx mount
 

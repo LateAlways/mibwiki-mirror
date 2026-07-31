@@ -1,17 +1,20 @@
+---
+title: "Manual IOC Update via telnet or TTL cable"
+---
+
 # Manual IOC Update via telnet or TTL cable
 
-!!! warning
+:::warning
+Proceed only if you clearly understand what you're doing
 
-    Proceed only if you clearly understand what you're doing
+It is assumed you know how to connect to RCC or MMX via [telnet or serial port](/MHI2 MHI2Q Harman Aisin/Shell access via telnet and UART/)
 
-    It is assumed you know how to connect to RCC or MMX via [telnet or serial port](/MHI2 MHI2Q Harman Aisin/Shell access via telnet and UART/)
+You must have reliable FAT32 formatted SD card ready
+:::
 
-    You must have reliable FAT32 formatted SD card ready
-
-
-!!! info
-
-    V850app controls EEPROM access. V850bolo powers on the unit. Damaged bolo leads to non working buttons/touch screen
+:::info
+V850app controls EEPROM access. V850bolo powers on the unit. Damaged bolo leads to non working buttons/touch screen
+:::
 
 First of all clarify, which variant does your unit have (for example FM2-P-TNL-JP-AU-MLE). 
 
@@ -35,9 +38,9 @@ cat /net/rcc/mnt/efs-persist/SWDL/CachedTrain.txt
 4. Reboot the unit and IOC update will start automatically
 
 
-!!! info
-
-    If you want to see what happens, connect with TTL adapter to RCC on the quadlock, log in to [Emergency IFS](/MHI2 MHI2Q Harman Aisin/Recovery/RCC/How to stop IPL, enter CLI, boot ifs-emergency.ifs and restore ifs.root-stage2/) and run:
+:::info
+If you want to see what happens, connect with TTL adapter to RCC on the quadlock, log in to [Emergency IFS](/MHI2 MHI2Q Harman Aisin/Recovery/RCC/How to stop IPL, enter CLI, boot ifs-emergency.ifs and restore ifs.root-stage2/) and run:
+:::
 
 ```none
 on -f rcc /net/rcc/sbin/mib_ioc_update -h
@@ -50,9 +53,10 @@ on -f rcc /net/rcc/sbin/mib_ioc_update -h
 1. Take a look into firmware installation SD in metainfo2.txt and find references of your variant to files in **\\IOC\\Main\\21\\default** 
 
    
-!!! info
+:::info
+   e.g. Audi A6 has FM2-H-\*\*\****-*\*\***-AU-MLB
+:::
 
-       e.g. Audi A6 has FM2-H-\*\*\****-*\*\***-AU-MLB
 2. Create IOC folder on SD card
 3. Take a look into metainfo2.txt and copy V850app and V850bolo corresponding to your variant **to the IOC folder of SD card** formatted in FAT32 
 
@@ -68,11 +72,11 @@ on -f rcc /net/rcc/sbin/mib_ioc_update -h
 5. Safely eject the SD and insert into SD1 of MIB
 
 
-!!! warning
+:::warning
+ALWAYS flash APP before BOLO.
 
-    ALWAYS flash APP before BOLO.
-
-    If you do it the other way around you will loose connection to EEPROM, key input on screen and SWDL will stop working.
+If you do it the other way around you will loose connection to EEPROM, key input on screen and SWDL will stop working.
+:::
 
 ## Reboot unit in update mode to update IOC App
 

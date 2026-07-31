@@ -1,3 +1,7 @@
+---
+title: "Extract apps folder from FW"
+---
+
 # Extract apps folder from FW
 
 * Use **7zip** to open MMC01\\EXTBIN_APPS\\1\\default\\**EXTBIN_APPS.bin**

@@ -1,3 +1,7 @@
+---
+title: "Coding and Adaptions"
+---
+
 # Coding and Adaptions
 
 Coding and adpations can be written to MHI2(Q) units via console commands

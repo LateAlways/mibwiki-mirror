@@ -1,3 +1,7 @@
+---
+title: "Installation via USB2HSD cable (aka solderless or OTG method)"
+---
+
 # Installation via USB2HSD cable (aka solderless or OTG method)
 
 # **https://www.youtube.com/watch?v=elCH1vPrO7o**

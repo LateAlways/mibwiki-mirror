@@ -1,3 +1,7 @@
+---
+title: "Custom FW Updates"
+---
+
 # Custom FW Updates
 
 Custom FW updates based on [metainfo2.txt exploit](/MHI2 MHI2Q Harman Aisin/Recovery/Conversion & Cross-flashing/unsorted - testing only/metainfo2.txt exploit/)

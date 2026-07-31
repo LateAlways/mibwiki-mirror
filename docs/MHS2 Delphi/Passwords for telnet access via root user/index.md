@@ -1,3 +1,7 @@
+---
+title: "Passwords for telnet access via root user"
+---
+
 # Passwords for telnet access via root user
 
 **EU firmwares:**

@@ -1,16 +1,19 @@
-# TTL and USB connection
+---
+title: "TTL and USB connection"
+---
 
 # TTL and USB connection
 
-
-!!! info
-
-    USB connection can be use as host with Dlink DUB-E100 for TLL, USB drive to update firmware and as client for recovery
+# TTL and USB connection
 
 
-!!! tip
+:::info
+USB connection can be use as host with Dlink DUB-E100 for TLL, USB drive to update firmware and as client for recovery
+:::
 
-    For USB MMX Recovery, you need to short Recovery Switch pins.
+:::tip
+For USB MMX Recovery, you need to short Recovery Switch pins.
+:::
 
  ![](attachments/3de1f67a-0ea4-4dfb-acd4-a0616c58e1c6.jpg)
 

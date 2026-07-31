@@ -1,3 +1,7 @@
+---
+title: "Telnet client- Putty"
+---
+
 # Telnet client- Putty
 
 ## Telnet client
@@ -14,18 +18,18 @@ The MHIG/MHI2/MHI2Q support two telnet ports to login to [RCC and MMX](/MHI2 MHI
 ·         MMX port: 23
 
 
-!!! info
-
-    Recommendation: Always use RCC, in case of wrongly used flash commands the risk to damage MMX is smaller.
+:::info
+Recommendation: Always use RCC, in case of wrongly used flash commands the risk to damage MMX is smaller.
+:::
 
 ## Putty settings
 
 
-!!! info
+:::info
+[D-LINK](/General information/Bench Setup & Tools/D-Link DUB-100 Ver. D1 - 0x2001, 0x1a02/) or compatible USB to ethernet adapter required
 
-    [D-LINK](/General information/Bench Setup & Tools/D-Link DUB-100 Ver. D1 - 0x2001, 0x1a02/) or compatible USB to ethernet adapter required
-
-    On the PC set IP address to: 172.16.250.123 Net mask: 255.255.255.0
+On the PC set IP address to: 172.16.250.123 Net mask: 255.255.255.0
+:::
 
  ![MMX settings](attachments/b1ab754e-f8bf-4d4d-b5de-85c0bc7a0617.png)
 

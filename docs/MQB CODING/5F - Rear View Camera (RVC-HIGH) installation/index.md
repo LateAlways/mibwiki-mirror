@@ -1,28 +1,28 @@
+---
+title: "5F - Rear View Camera (RVC-HIGH) installation"
+---
+
 # 5F - Rear View Camera (RVC-HIGH) installation
 
-!!! warning
+:::warning
+Units `xxx 035 819` and `xxx 035 820` do not support RVC (no video input support).
+:::
 
-    Units `xxx 035 819` and `xxx 035 820` do not support RVC (no video input support).
+:::info
+RVC-HIGH have orange dynamic guidance lines, additional view modes (parallel parking, towing, fish-eye), video feed is visible while the vehicle is moving forward, and the camera can be triggered with parking sensor button.
+:::
 
+:::info
+RVC-HIGH requires calibration/parametrization if the camera is new of from a different model of vehicle. Getting used camera might be saving you some time.
+:::
 
-!!! info
+:::info
+RVC-HIGH is connected to CAN-BUS network and is accessible at address `0x6C`.
+:::
 
-    RVC-HIGH have orange dynamic guidance lines, additional view modes (parallel parking, towing, fish-eye), video feed is visible while the vehicle is moving forward, and the camera can be triggered with parking sensor button.
-
-
-!!! info
-
-    RVC-HIGH requires calibration/parametrization if the camera is new of from a different model of vehicle. Getting used camera might be saving you some time.
-
-
-!!! info
-
-    RVC-HIGH is connected to CAN-BUS network and is accessible at address `0x6C`.
-
-
-!!! info
-
-    [RVC-LOW retrofit](/doc/5f-rear-view-camera-rvc-low-installation-4Qw4oKwCAJ) will be a little bit simpler and less expensive.
+:::info
+[RVC-LOW retrofit](https://mibwiki.one/doc/5f-rear-view-camera-rvc-low-installation-4Qw4oKwCAJ) will be a little bit simpler and less expensive.
+:::
 
 ## Parts
 
@@ -57,14 +57,13 @@ For Leon and Ibiza the bumper needs to be cut, see template
   `3G0-827-469-EG`, `3G0-827-469-EN`, `3G0-827-469-FL`, `3G0-827-469-FH`, `3G0-827-469-HB`.
 
 
-!!! tip
+:::tip
+Seems like golf sportsvan and passat/arteon share the same camera with different badging.
+:::
 
-    Seems like golf sportsvan and passat/arteon share the same camera with different badging.
-
-
-!!! tip
-
-    To distinguish camera between highline (`PR-KA2`) and rear camera for area view (`PR-KA6`) look at video connector, grey for low and highline and blue (with 4 video wires) for area view.
+:::tip
+To distinguish camera between highline (`PR-KA2`) and rear camera for area view (`PR-KA6`) look at video connector, grey for low and highline and blue (with 4 video wires) for area view.
+:::
 
 ### Wiring kit
 
@@ -88,15 +87,13 @@ AliExpress: http://ali4cars.com/s/?p=vw-mqb-rvc-high-wiring
 * `10` → Long Coding → Byte: `02` → Bit: `5` → `disable`
 
 
-!!! info
+:::info
+Some older cars will have parktronic module available at address `0x76` instead of `0x10`.
+:::
 
-    Some older cars will have parktronic module available at address `0x76` instead of `0x10`.
-
-
-!!! info
-
-    Cars with 4k pdc might need to be set as reverse camera not installed in pdc unit.
-
+:::info
+Cars with 4k pdc might need to be set as reverse camera not installed in pdc unit.
+:::
 
 ### Enable camera BAP communication
 
@@ -112,9 +109,9 @@ AliExpress: http://ali4cars.com/s/?p=vw-mqb-rvc-high-wiring
 ### Code vehicle optional equipment
 
 
-!!! info
-
-    Your car might not support all the features below. Only enable those that are actually installed in your car
+:::info
+Your car might not support all the features below. Only enable those that are actually installed in your car
+:::
 
 * `6C` → Long Coding → Byte: `04`  → Bit `0` Trailer Control Unit (`J345`) installed
 * `6C` → Long Coding → Byte: `04`  → Bit `1` Optical Parking Sensors (OPS) installed
@@ -128,16 +125,16 @@ AliExpress: http://ali4cars.com/s/?p=vw-mqb-rvc-high-wiring
 * `6C` → Long Coding → Byte: `10`  → Bit `5` Rollback recognition
 
 
-!!! info
-
-    Cars with 4k pdc might need byte04bit0 not active
+:::info
+Cars with 4k pdc might need byte04bit0 not active
+:::
 
 ### Enable all 4 view modes in camera module
 
 
-!!! info
-
-    This might be VW/Seat/Skoda specific. Not sure if Audi supports all those 4 modes.
+:::info
+This might be VW/Seat/Skoda specific. Not sure if Audi supports all those 4 modes.
+:::
 
 * `6C` → Long Coding → Byte: `07` → Bit: `0` → `enable` (standard 90° view)
 * `6C` → Long Coding → Byte: `07` → Bit: `1` → `enable` (parallel parking assist view)
@@ -147,9 +144,9 @@ AliExpress: http://ali4cars.com/s/?p=vw-mqb-rvc-high-wiring
 ### Other coding options
 
 
-!!! info
-
-    The same coding template is used both for RVC-High and Area View. Not all options will be available for all camera setups.
+:::info
+The same coding template is used both for RVC-High and Area View. Not all options will be available for all camera setups.
+:::
 
 * `6C` → Long Coding → Byte: `04` → Bit: `3-4` Steering variant
 * `6C` → Long Coding → Byte: `05` → Bit: `0` Camera input: Rear
@@ -171,9 +168,9 @@ AliExpress: http://ali4cars.com/s/?p=vw-mqb-rvc-high-wiring
 ### Additional light when using camera
 
 
-!!! info
-
-    This will turn on welcome lights fitted under side mirrors to improve visibility. This feature was designed to 360 Area View (4 camera system), but you can use it with RVC High as well.
+:::info
+This will turn on welcome lights fitted under side mirrors to improve visibility. This feature was designed to 360 Area View (4 camera system), but you can use it with RVC High as well.
+:::
 
 * `6C` → Long Coding → Byte: `08` → Bit: `2` → `enable` (manoeuvre light)
 * `09` → Security Access → Code: `31347`
@@ -194,9 +191,9 @@ AliExpress: http://ali4cars.com/s/?p=vw-mqb-rvc-high-wiring
 ## Parameterization
 
 
-!!! info
-
-    Not needed if installing used camera from the same model of vehicle.
+:::info
+Not needed if installing used camera from the same model of vehicle.
+:::
 
 ==pending…==
 
@@ -217,14 +214,13 @@ AliExpress: http://ali4cars.com/s/?p=vw-mqb-rvc-high-wiring
 ## Basic settings
 
 
-!!! info
+:::info
+Not needed if installing used camera from the same model of vehicle.
+:::
 
-    Not needed if installing used camera from the same model of vehicle.
-
-
-!!! tip
-
-    Good to perform anyway to make sure that the guide lines and optional views are displayed correctly. This should be performed when camera position changes (removing and reinstalling the camera assembly, lowering the vehicle…).
+:::tip
+Good to perform anyway to make sure that the guide lines and optional views are displayed correctly. This should be performed when camera position changes (removing and reinstalling the camera assembly, lowering the vehicle…).
+:::
 
 ==pending…==
 

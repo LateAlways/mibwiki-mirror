@@ -1,8 +1,12 @@
+---
+title: "System log via telnet"
+---
+
 # System log via telnet
 
-!!! info
-
-    UART access to RCC or MMX shows the system log. To see these logs via Telnet (press Ctrl+C to return to shell):
+:::info
+UART access to RCC or MMX shows the system log. To see these logs via Telnet (press Ctrl+C to return to shell):
+:::
 
 ```bash
 #show rcc syslog
@@ -12,9 +16,9 @@ on -f mmx sloginfo -w
 ```
 
 
-!!! tip
-
-    You can start multiple telnet sessions to RCC/MMX at the same time
+:::tip
+You can start multiple telnet sessions to RCC/MMX at the same time
+:::
 
 ## Sloginfo syntax
 

@@ -1,3 +1,7 @@
+---
+title: "shadow - how to retrieve hash of root password from the unit"
+---
+
 # shadow - how to retrieve hash of root password from the unit
 
 Despite the fact that [m.i.b](/MHI2 MHI2Q Harman Aisin/M.I.B. - More Incredible Bash/) includes a comprehensive password list, it still lacks passwords for RCC, MMX, and/or RCC Emergency IFS for some trains/MUs.
@@ -57,8 +61,8 @@ QNX6.5 on MHI2 uses DES hashes with salt stored in the first two characters of t
 E.g. in hash: WmRI0ymbfbbUw the salt is: Wm  
 
 
-!!! info
-
-    Usually brute forcing can be done in 2 days.
+:::info
+Usually brute forcing can be done in 2 days.
+:::
 
     Sometimes, with limiting the possible characters and their combinations used in other known password even in a couple of hours.

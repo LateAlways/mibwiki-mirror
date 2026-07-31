@@ -1,3 +1,7 @@
+---
+title: "Convert cheap USB to Ethernet adapters"
+---
+
 # Convert cheap USB to Ethernet adapters
 
 [https://www.youtube.com/watch?v=NGaXMYTP_YA](https://www.youtube.com/watch?v=NGaXMYTP_YA)
@@ -5,11 +9,11 @@
 
 \
 
-!!! info
+:::info
+M.I.B is adding support for these cheap adapters to MHI2(Q) units during install!
 
-    M.I.B is adding support for these cheap adapters to MHI2(Q) units during install!
-
-    No need to change vid/pid of adapter in this case.
+No need to change vid/pid of adapter in this case.
+:::
 
 ```bash
 # Install required tools

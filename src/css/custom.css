@@ -1,0 +1,26 @@
+/**
+ * Approximates the previous MkDocs Material theme palette
+ * (scheme: slate, primary: black, accent: indigo).
+ */
+
+:root {
+  --ifm-color-primary: #3f51b5;
+  --ifm-color-primary-dark: #394a9f;
+  --ifm-color-primary-darker: #364695;
+  --ifm-color-primary-darkest: #2c397a;
+  --ifm-color-primary-light: #4d5ec1;
+  --ifm-color-primary-lighter: #5967c5;
+  --ifm-color-primary-lightest: #7986d1;
+  --ifm-code-font-size: 95%;
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #7986cb;
+  --ifm-color-primary-dark: #5c6bbd;
+  --ifm-color-primary-darker: #4d5db6;
+  --ifm-color-primary-darkest: #3c4a97;
+  --ifm-color-primary-light: #96a1d5;
+  --ifm-color-primary-lighter: #a4aeda;
+  --ifm-color-primary-lightest: #c3cae8;
+  --ifm-background-color: #121212;
+}

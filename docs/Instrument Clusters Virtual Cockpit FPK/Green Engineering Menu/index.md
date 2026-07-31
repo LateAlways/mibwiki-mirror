@@ -1,3 +1,7 @@
+---
+title: "Green Engineering Menu"
+---
+
 # Green Engineering Menu
 
 1. Activate developer mode in adaptation of block `0x17.`

@@ -1,12 +1,16 @@
+---
+title: "USB extensions (ports and HUBs)"
+---
+
 # USB extensions (ports and HUBs)
 
 \
 ## CarPlay
 
 
-!!! info
-
-    As far as functionality goes, CarPlay requires [specific hardware](/doc/usb-port-carplay-android-auto-GOvU5Ji0LN) to work with MIB. Both Android Auto and MirrorLink will work with [any USB ports](/General information/Bench Setup & Tools/USB extensions (ports and HUBs)/USB port - D-Link & Android Auto only/).
+:::info
+As far as functionality goes, CarPlay requires [specific hardware](https://mibwiki.one/doc/usb-port-carplay-android-auto-GOvU5Ji0LN) to work with MIB. Both Android Auto and MirrorLink will work with [any USB ports](/General information/Bench Setup & Tools/USB extensions (ports and HUBs)/USB port - D-Link & Android Auto only/).
+:::
 
 ### `5Q0 035 726`
 

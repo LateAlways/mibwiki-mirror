@@ -1,3 +1,7 @@
+---
+title: "error - MOST not available"
+---
+
 # error - MOST not available
 
 Depending on unit configuration you get a **MOST not available error** during FW installation, if MOST is not connected to unit - e.g. you are working on bench.
@@ -8,9 +12,9 @@ Depending on unit configuration you get a **MOST not available error** during FW
 # How to clear error
 
 
-!!! info
-
-    [Option 5](/MHI2 MHI2Q Harman Aisin/Recovery/Conversion & Cross-flashing/FW Update - SWDL/error - MOST not available//#h-option-5-the-winner) is recommended! Using M.I.B beta 3.x.x and newer
+:::info
+[Option 5](/MHI2 MHI2Q Harman Aisin/Recovery/Conversion & Cross-flashing/FW Update - SWDL/error - MOST not available//#h-option-5-the-winner) is recommended! Using M.I.B beta 3.x.x and newer
+:::
 
 ## Option 1
 
@@ -24,7 +28,7 @@ use MOST loop cable on the back of the unit
 
 Use `skipMostPopup.txt` flag on unit.
 
-* Enter with [Putty](/doc/uartserial-client-putty-g29LagM97Q): `touch /net/rcc/mnt/efs-persist/SWDL/skipMostPopup.txt`
+* Enter with [Putty](https://mibwiki.one/doc/uartserial-client-putty-g29LagM97Q): `touch /net/rcc/mnt/efs-persist/SWDL/skipMostPopup.txt`
 
 ## Option4
 
@@ -35,6 +39,7 @@ use M.I.B function - Toggle skipMostPopup
 ## Option 5 - the winner!
 
 
-!!! info
+:::info
+Just install M.I.B on system - `skipMostPopup.txt` - will be set during installation
+:::
 
-    Just install M.I.B on system - `skipMostPopup.txt` - will be set during installation

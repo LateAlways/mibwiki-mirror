@@ -1,46 +1,48 @@
+---
+title: "VAG Pins"
+---
+
 # VAG Pins
 
-!!! warning
+:::warning
+This document and the author/editors are not responsible for:
 
-    This document and the author/editors are not responsible for:
+* bricked devices,
+* dead ECUs,
+* data loss,
+* spontanous combustion of devices
+* thermonuclear war, or economic crisis caused
+* and any other law / social / other reason
 
-    * bricked devices,
-    * dead ECUs,
-    * data loss,
-    * spontanous combustion of devices
-    * thermonuclear war, or economic crisis caused
-    * and any other law / social / other reason
+**YOU** **are choosing to make these modifications,**
 
-    **YOU** **are choosing to make these modifications,**
+**so do not point your finger at this document for messing up your whole car.**
 
-    **so do not point your finger at this document for messing up your whole car.**
+**And, please, if your inexeperienced in automotive wiring, leave it to proffesionals.**
 
-    **And, please, if your inexeperienced in automotive wiring, leave it to proffesionals.**
+**Your and others lives depends on it! The price is high as the cost of human live is not measurable by ANYTHING!**
+:::
 
-    **Your and others lives depends on it! The price is high as the cost of human live is not measurable by ANYTHING!**
+:::tip
+At the time of writing this document, the author of this document  and the contents of this document are unverified data!
 
+If you can personally attest to the validity of any data posted here feel free to edit this document!
+:::
 
-!!! tip
+:::info
+**Current revision is 0!**
 
-    At the time of writing this document, the author of this document  and the contents of this document are unverified data!
+Sorry for my grammar. English is not my native language.
 
-    If you can personally attest to the validity of any data posted here feel free to edit this document!
-
-
-!!! info
-
-    **Current revision is 0!**
-
-    Sorry for my grammar. English is not my native language.
-
-    Translator is advised as the links are have multiple languages.
+Translator is advised as the links are have multiple languages.
+:::
 
 # Introduction
 
 
-!!! info
-
-    A nice introduction is at this [link](https://www.a4-freunde.com/showwiki.php?title=Pins+und+alles+was+dazu+gehoert).
+:::info
+A nice introduction is at this [link](https://www.a4-freunde.com/showwiki.php?title=Pins+und+alles+was+dazu+gehoert).
+:::
 
 First of all, thank you for reading or parcipating in this this document. We are a group of members who each of us have diffrent lives, but have many things together. Specifically MIB and stuff around it.
 
@@ -53,13 +55,13 @@ So i found out that you can buy pins by their universal name VW JPT / VW MOST / 
 # Parts by their TYCO numbers
 
 
-!!! info
+:::info
+Source:
 
-    Source:
+<https://www.vwvortex.com/threads/electrical-connector-part-numbers.6948714/>
 
-    <https://www.vwvortex.com/threads/electrical-connector-part-numbers.6948714/>
-
-    <https://www.vwvortex.com/threads/vw-terminal-connectors-reference.9202433/>
+<https://www.vwvortex.com/threads/vw-terminal-connectors-reference.9202433/>
+:::
 
  ![](attachments/fc9813ef-2630-416b-b26e-be3129ea721e.png)
 
@@ -268,18 +270,17 @@ No. 4 - T piece: ______________A_____B_____C
 # Parts that the author found from eshops
 
 
-!!! info
+:::info
+Formatting: \n OEM/OE; description --> order number
 
-    Formatting: \n OEM/OE; description --> order number
+? - unknown order number
 
-    ? - unknown order number
+description - if the order number is not available
+:::
 
-    description - if the order number is not available
-
-
-!!! tip
-
-    Use CTRL + F to find desired number.
+:::tip
+Use CTRL + F to find desired number.
+:::
 
 **N 10319002 / N 103 190 02 ;** \n JPT Junior Power Timer Stift ; 2,8x0,8 Kontakt;  1,00²-2,50² VW
 

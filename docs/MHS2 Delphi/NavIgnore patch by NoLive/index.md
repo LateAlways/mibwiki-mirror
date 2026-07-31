@@ -1,8 +1,12 @@
+---
+title: "NavIgnore patch by NoLive"
+---
+
 # NavIgnore patch by NoLive
 
-!!! info
-
-    The patch allows to show navigation map on the MHS2 and instrument cluster at the same time
+:::info
+The patch allows to show navigation map on the MHS2 and instrument cluster at the same time
+:::
 
  ![](attachments/30d68c41-25c3-4403-852e-bcc630794ad2.png)
 

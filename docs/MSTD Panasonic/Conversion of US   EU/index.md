@@ -1,9 +1,12 @@
+---
+title: "Conversion of US > EU"
+---
+
 # Conversion of US > EU
 
-!!! info
-
-    Unit can be converted via Manual SWDL by skipping the update of some partitions
-
+:::info
+Unit can be converted via Manual SWDL by skipping the update of some partitions
+:::
 
 Below is just a bricking example that many got while trying to convert MSTD_US_VW_P4430 or MSTD_US_VW_P3470 etc without knowing what to skip: ![](attachments/0d30d39d-7ebc-4d23-85e0-501e2c1e65d2.png)
 

@@ -1,25 +1,27 @@
+---
+title: "Key combinations and shortcuts"
+---
+
 # Key combinations and shortcuts
 
-!!! info
+:::info
+Button order is important. Pressing a key combination with incorrect order will not work.
+:::
 
-    Button order is important. Pressing a key combination with incorrect order will not work.
+:::info
+Some functions and menus require enabling developer mode first. Check [this article](/MQB CODING/5F - Enabling Developer Mode and Hidden Menu/) for more information about enabling developer mode.
+:::
 
-
-!!! info
-
-    Some functions and menus require enabling developer mode first. Check [this article](/MQB CODING/5F - Enabling Developer Mode and Hidden Menu/) for more information about enabling developer mode.
-
-
-!!! warning
-
-    Hidden menus, bootloaders, etc… Don't use functions that you are not 100% sure about or will brick your unit.
+:::warning
+Hidden menus, bootloaders, etc… Don't use functions that you are not 100% sure about or will brick your unit.
+:::
 
 ## Audi
 
 
-!!! tip
-
-    Even more details about Audi key combinations can be found [here](/General information/Audi MMI Tastenkombinationen/).
+:::tip
+Even more details about Audi key combinations can be found [here](/General information/Audi MMI Tastenkombinationen/).
+:::
 
 ### Audi RMC (A1 8X, Q3 8U)
 
@@ -105,9 +107,9 @@
 ## Bentley
 
 
-!!! tip
-
-    More information can be found [here](/General information/Bentley key combinations/).
+:::tip
+More information can be found [here](/General information/Bentley key combinations/).
+:::
 
 ## Skoda
 
@@ -188,9 +190,9 @@
 ## Porsche
 
 
-!!! tip
-
-    More information can be found [here](/General information/Porsche key combinations/).
+:::tip
+More information can be found [here](/General information/Porsche key combinations/).
+:::
 
 ### MPR3 (MIB3 Premium Porsche Taycan)
 

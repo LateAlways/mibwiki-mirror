@@ -1,3 +1,7 @@
+---
+title: "User manual for FW update and Patching - MHI2"
+---
+
 # User manual for FW update and Patching - MHI2
 
 Прилагаемый PDF-файл содержит пошаговое руководство по обновлению FW и процедурам исправления.

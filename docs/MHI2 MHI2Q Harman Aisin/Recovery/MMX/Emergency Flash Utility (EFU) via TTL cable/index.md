@@ -1,9 +1,12 @@
+---
+title: "Emergency Flash Utility (EFU) via TTL cable"
+---
+
 # Emergency Flash Utility (EFU) via TTL cable
 
-!!! info
-
-    Connect via TTL cable to [MMX UART on the quadlock](/MHI2 MHI2Q Harman Aisin/Shell access via telnet and UART/Connecting TTL adapter to UART on quadlock/). Press and hold shift+e while powering on the unit. This will run RED EFU (Emergency Flash Utility). Unit must receive the key presses before you see "Press <E> to run Emergency Flash Utility."
-
+:::info
+Connect via TTL cable to [MMX UART on the quadlock](/MHI2 MHI2Q Harman Aisin/Shell access via telnet and UART/Connecting TTL adapter to UART on quadlock/). Press and hold shift+e while powering on the unit. This will run RED EFU (Emergency Flash Utility). Unit must receive the key presses before you see "Press <E> to run Emergency Flash Utility."
+:::
 
 1. Power on the unit via quadlock and keep pressing shift+e until you see something like:
 

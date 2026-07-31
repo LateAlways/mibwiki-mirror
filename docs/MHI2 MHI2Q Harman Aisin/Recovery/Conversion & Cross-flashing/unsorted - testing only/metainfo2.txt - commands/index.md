@@ -1,3 +1,7 @@
+---
+title: "metainfo2.txt - commands"
+---
+
 # metainfo2.txt - commands
 
 ## **Add to \[common\] section**

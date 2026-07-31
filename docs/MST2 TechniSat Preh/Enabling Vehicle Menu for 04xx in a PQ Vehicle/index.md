@@ -1,3 +1,7 @@
+---
+title: "Enabling Vehicle Menu for 04xx in a PQ Vehicle"
+---
+
 # Enabling Vehicle Menu for 04xx in a PQ Vehicle
 
 If you want to have the Vehicle Menu on your PQ Vehicle you should check a few things, to make sure it is a useful function.

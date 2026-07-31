@@ -1,3 +1,7 @@
+---
+title: "M.I.B 3.1.7 - Menu structure"
+---
+
 # M.I.B 3.1.7 - Menu structure
 
 # Main Menu

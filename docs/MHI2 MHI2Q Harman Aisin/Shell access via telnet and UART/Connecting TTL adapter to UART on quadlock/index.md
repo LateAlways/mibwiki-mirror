@@ -1,3 +1,7 @@
+---
+title: "Connecting TTL adapter to UART on quadlock"
+---
+
 # Connecting TTL adapter to UART on quadlock
 
 ## Quadlock pinout for connection to UART of RCC and MMX
@@ -15,13 +19,14 @@
 ## Connect to RCC or MMX UART with putty
 
 
-!!! info
-
-    Open Windows "Device Manager", open COM&LPT ports and find USB COM port number.  Replace COM1 with correct port number from device manager.
+:::info
+Open Windows "Device Manager", open COM&LPT ports and find USB COM port number.  Replace COM1 with correct port number from device manager.
+:::
 
  ![MMX/RCC UART settings](attachments/b05194f7-c0a7-4e15-b61f-665171b7b198.png)
 
 
-!!! tip
+:::tip
+Also check section about bench setup
+:::
 
-    Also check section about bench setup

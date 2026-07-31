@@ -1,9 +1,12 @@
+---
+title: "Recovering delphibin.ifs via TTL cable"
+---
+
 # Recovering delphibin.ifs via TTL cable
 
-!!! info
-
-    The procedure below will only work if you installed [MST2 activator by Congo & Duke](/MST2 Delphi/ATTENTION! MST2 activator by Congo & Duke with autobackup  Unit could be bricked/) before
-
+:::info
+The procedure below will only work if you installed [MST2 activator by Congo & Duke](/MST2 Delphi/ATTENTION  MST2 activator by Congo & Duke with autobackup  Unit could be bricked/) before
+:::
 
 1. Format SD card in FAT32 and write delphibin.ifs into the root of this SD card
 2. Insert SD card to SD slot 1
@@ -122,9 +125,9 @@
    ```
 
    
-!!! info
-
-       Note: if you will not be quick enough - just press Eject button on DVD and unit will reboot and give you one more chance :)
+:::info
+   Note: if you will not be quick enough - just press Eject button on DVD and unit will reboot and give you one more chance :)
+:::
 
 Good luck!
 
@@ -132,9 +135,8 @@ Reference: [https://www.drive2.com/l/672324698301807382/](https://www.drive2.ru/
 
 
 
-!!! tip
-
-    if you never installed MST2 activator by Congo & Duke, the console will be disabled and pressing ENTER will not show # prompt.\nIn this case you possibly have following variants:\n1. Connect SPI programmer to QSPI chip, read the image, corrupt STDB partition in this image and write the image back. Then BOOT1 will detect corrupted STDB and will automatically run EMB (emergency OS that will read metainfo2.txt from SD card and start automatic recovery of the unit)
-
+:::tip
+if you never installed MST2 activator by Congo & Duke, the console will be disabled and pressing ENTER will not show # prompt.\nIn this case you possibly have following variants:\n1. Connect SPI programmer to QSPI chip, read the image, corrupt STDB partition in this image and write the image back. Then BOOT1 will detect corrupted STDB and will automatically run EMB (emergency OS that will read metainfo2.txt from SD card and start automatic recovery of the unit)
+:::
 
     2. Short sysboot5 (by other words L4 pin of DRA74 RCC chip) to GND. This will force IPL to start SD card recovery procedure (loading of custom IPL from SD card). 

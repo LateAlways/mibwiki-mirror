@@ -1,3 +1,7 @@
+---
+title: "Telnet access"
+---
+
 # Telnet access
 
 [1 mh2p tutorial.pdf 461443](attachments/a4b4261b-13f0-4b5b-9d91-71d30a6e8635.pdf)

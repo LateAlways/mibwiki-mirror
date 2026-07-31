@@ -1,9 +1,12 @@
+---
+title: "eMMC connection points"
+---
+
 # eMMC connection points
 
-!!! info
-
-    Thanks a lot to the original autor of the PDF these pictures are based on!
-
+:::info
+Thanks a lot to the original autor of the PDF these pictures are based on!
+:::
 
  ![](attachments/e8e8317e-506e-44df-8e51-edde90860b2e.png)
 

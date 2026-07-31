@@ -1,5 +1,10 @@
+---
+title: "Recovery"
+---
+
 # Recovery
 
-!!! info
+:::info
+In this collection you will learn different recovery procedures
+:::
 
-    In this collection you will learn different recovery procedures

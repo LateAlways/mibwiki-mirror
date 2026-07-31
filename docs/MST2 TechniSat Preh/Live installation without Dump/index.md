@@ -1,3 +1,7 @@
+---
+title: "Live installation without Dump"
+---
+
 # Live installation without Dump
 
 * After you connected EMMC to SD adapter, add the Drive to the opened QNX Virtual Machine.

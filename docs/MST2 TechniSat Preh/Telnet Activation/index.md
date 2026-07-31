@@ -1,8 +1,12 @@
+---
+title: "Telnet Activation"
+---
+
 # Telnet Activation
 
-!!! info
-
-    All described below can be simply done in [MIB STD2 PQ/ZR Toolbox](https://mibwiki.one/doc/mib-std2-pqzr-toolbox-Ox3B2ujBUh) via `Network→Activate permanent telnet and console access`
+:::info
+All described below can be simply done in [MIB STD2 PQ/ZR Toolbox](https://mibwiki.one/doc/mib-std2-pqzr-toolbox-Ox3B2ujBUh) via `Network→Activate permanent telnet and console access`
+:::
 
 ## Modify the "startup" and "networking" file
 

@@ -1,3 +1,7 @@
+---
+title: "5NA980611 Wireless Charger Retrofit PQ/MQB"
+---
+
 # 5NA980611 Wireless Charger Retrofit PQ/MQB
 
 The idea is to have the Original VW Wireless Charger in my Passat B7 (EU). This guide will apply to a lot of other cars as well. Just a reminder that my Car is based on VW´s PQ Platform, so a few things might differ on your car.

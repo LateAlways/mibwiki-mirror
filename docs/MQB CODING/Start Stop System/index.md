@@ -1,12 +1,16 @@
+---
+title: "Start/Stop System"
+---
+
 # Start/Stop System
 
 Activation/deactivation of the Start/Stop system. Deactivation is available not for all vehicles.
 
 
 
-!!! info
-
-    Make a backup copy before making any changes.
+:::info
+Make a backup copy before making any changes.
+:::
 
 \n
 
@@ -18,6 +22,7 @@ Activation/deactivation of the Start/Stop system. Deactivation is available not 
 
 
 
-!!! info
+:::info
+The Start-Stop will show as disabled because the energy requirement from the car is too high, which is not an error but a valid reason for SS to be disabled.
+:::
 
-    The Start-Stop will show as disabled because the energy requirement from the car is too high, which is not an error but a valid reason for SS to be disabled.

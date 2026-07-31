@@ -1,3 +1,7 @@
+---
+title: "Trafic Sign Recognition for 5Q camera model"
+---
+
 # Trafic Sign Recognition for 5Q camera model
 
 **Unit A5   (Security Access Code is 20103. Ignition ON, engine OFF, bonnet OPEN while coding this module**) \n  \n**Long __Coding 2__** \nByte 01 - Enable Bit 0

@@ -1,38 +1,41 @@
+---
+title: "M.I.B. - More Incredible Bash"
+---
+
 # M.I.B. - More Incredible Bash
 
 ![](attachments/df6dcc06-408a-46cb-8daa-97abb4d1ffe9.png)
 
 
-!!! info
+:::info
+M.I.B. for MHIG/MHI2/MHI2Q is GEM and VIM enabler, IFS-root Patcher and much much more.
 
-    M.I.B. for MHIG/MHI2/MHI2Q is GEM and VIM enabler, IFS-root Patcher and much much more.
-
-     It is not [MIB2 Toolbox.](/MHI2 MHI2Q Harman Aisin/MIB2 High toolbox/) Those are separate projects with their own feature lists.
+ It is not [MIB2 Toolbox.](/MHI2 MHI2Q Harman Aisin/MIB2 High toolbox/) Those are separate projects with their own feature lists.
+:::
 
 ## Download
 
 
-!!! warning
+:::warning
+ALWAYS download latest M.I.B. version from https://github.com/Mr-MIBonk/M.I.B._More-Incredible-Bash/releases
 
-    ALWAYS download latest M.I.B. version from https://github.com/Mr-MIBonk/M.I.B._More-Incredible-Bash/releases
+It also contains latest "Password List" and "Compatibility Table".
 
-    It also contains latest "Password List" and "Compatibility Table".
-
-    Patches for particular train can be downloaded from https://mibsolution.one
+Patches for particular train can be downloaded from https://mibsolution.one
+:::
 
 ## Installation
 
 
-!!! info
+:::info
+Example videos below were made on Audi Q7 (4M) and Skoda Columbus MHIG units.
 
-    Example videos below were made on Audi Q7 (4M) and Skoda Columbus MHIG units.
+Check how to enter REM / update menu in [this article](/General information/Useful documents/Key combinations and shortcuts/).
+:::
 
-    Check how to enter REM / update menu in [this article](/General information/Useful documents/Key combinations and shortcuts/).
-
-
-!!! tip
-
-    Download, unzip, copy to FAT32 SD, update via REM, wait for 3 reboots.
+:::tip
+Download, unzip, copy to FAT32 SD, update via REM, wait for 3 reboots.
+:::
 
 [https://youtu.be/eAQgzYlnSrA](https://youtu.be/eAQgzYlnSrA)
 
@@ -41,18 +44,17 @@
 ## OLD - M.I.B RCC shell menu structure
 
 
-!!! info
+:::info
+This menu is not supporting all latest M.I.B functions!
 
-    This menu is not supporting all latest M.I.B functions!
+Basics like patching, CP/AA activation, VIM and some more a fully functional.
+:::
 
-    Basics like patching, CP/AA activation, VIM and some more a fully functional.
+:::tip
+All scripts can be triggered from console and can be found in `/apps/` on SD card.
 
-
-!!! tip
-
-    All scripts can be triggered from console and can be found in `/apps/` on SD card.
-
-    Some functions are purely based on GEM and therefore noch accessible via console
+Some functions are purely based on GEM and therefore noch accessible via console
+:::
 
  ![Classic shell menu structure](attachments/eeb577d2-4705-4425-957d-5988993c2dea.png)
 

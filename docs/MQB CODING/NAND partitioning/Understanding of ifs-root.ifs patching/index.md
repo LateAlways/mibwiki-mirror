@@ -1,3 +1,7 @@
+---
+title: "Understanding of ifs-root.ifs patching"
+---
+
 # Understanding of ifs-root.ifs patching
 
 On the MHIG units, the RCC NOR flash dump done with:

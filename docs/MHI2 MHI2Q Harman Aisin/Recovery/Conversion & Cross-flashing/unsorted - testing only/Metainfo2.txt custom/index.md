@@ -1,3 +1,7 @@
+---
+title: "Metainfo2.txt custom"
+---
+
 # Metainfo2.txt custom
 
 Normally when updating BOSE, B&O amplifiers are included. What causes the amplifiers being back to virgin factory settings and missing the parameters what is unwanted. Then the parameters need to be inserted using ODIS/VCP.

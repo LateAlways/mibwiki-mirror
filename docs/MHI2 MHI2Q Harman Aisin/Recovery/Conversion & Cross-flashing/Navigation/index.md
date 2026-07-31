@@ -1,3 +1,7 @@
+---
+title: "Navigation"
+---
+
 # Navigation
 
 After cross-flashing the firmware you your unit, there's a good chance your navigation will no longer work like so:
@@ -6,10 +10,10 @@ After cross-flashing the firmware you your unit, there's a good chance your navi
  ![](attachments/eaeb86de-3ffc-4ab7-801f-142d6c68bacd.png)There are a couple of things that can cause problems like this, we'll fix both of them.
 
 
-* [Map FEC Codes](#h-map-fec-codes)
-* [Map Region Setting](#h-map-region-setting)
-* [Car Brand Setting](#h-car-brand-setting)
-* [Installed Map](#h-installed-map)
+* [Map FEC Codes](#map-fec-codes)
+* [Map Region Setting](#map-region-setting)
+* [Car Brand Setting](#car-brand-setting)
+* [Installed Map](#installed-map)
 
 
 ### Map FEC Codes
@@ -50,7 +54,7 @@ Examples MIB2 High:
 
 So using this info figure out what the desired code should be for your brand & region and check if it's already in the list of valid codes. Note: it might be there with a different expiry, if so check the expiry year (in hex) is still valid, else it will need replacing.
 
-If it's missing, needs replacing or there are no codes at all, it's time to break out  [M.I.B. - More Incredible Bash](/MHI2 MHI2Q Harman Aisin/M.I.B. - More Incredible Bash/)[ ](/en/MHI2)
+If it's missing, needs replacing or there are no codes at all, it's time to break out  [M.I.B. - More Incredible Bash](/MHI2 MHI2Q Harman Aisin/M.I.B. - More Incredible Bash/)
 
 Make sure you've got V2.7.4 (or newer).
 
@@ -230,10 +234,10 @@ After cross-flashing the firmware you your unit, there's a good chance your navi
  ![](attachments/eaeb86de-3ffc-4ab7-801f-142d6c68bacd.png)There are a couple of things that can cause problems like this, we'll fix both of them.
 
 
-* [Map FEC Codes](#h-map-fec-codes)
-* [Map Region Setting](#h-map-region-setting)
-* [Car Brand Setting](#h-car-brand-setting)
-* [Installed Map](#h-installed-map)
+* [Map FEC Codes](#map-fec-codes)
+* [Map Region Setting](#map-region-setting)
+* [Car Brand Setting](#car-brand-setting)
+* [Installed Map](#installed-map)
 
 
 ### Map FEC Codes
@@ -274,7 +278,7 @@ Examples MIB2 High:
 
 So using this info figure out what the desired code should be for your brand & region and check if it's already in the list of valid codes. Note: it might be there with a different expiry, if so check the expiry year (in hex) is still valid, else it will need replacing.
 
-If it's missing, needs replacing or there are no codes at all, it's time to break out  [M.I.B. - More Incredible Bash](/MHI2 MHI2Q Harman Aisin/M.I.B. - More Incredible Bash/)[ ](/en/MHI2)
+If it's missing, needs replacing or there are no codes at all, it's time to break out  [M.I.B. - More Incredible Bash](/MHI2 MHI2Q Harman Aisin/M.I.B. - More Incredible Bash/)
 
 Make sure you've got V2.7.4 (or newer).
 

@@ -1,3 +1,7 @@
+---
+title: "MIB FEC/SWaP Code Generator"
+---
+
 # MIB FEC/SWaP Code Generator
 
 ## Link
@@ -16,14 +20,13 @@ https://mst2fecgen.mibsolution.one/
 4. Codes will be generated on the right side. Use [OBDeleven](/MQB CODING/5F - Inserting FECs with OBDeleven/)  or VCP or ODIS to upload codes to MIB.
 
 
-!!! info
+:::info
+Codes will not be properly signed and will be recognized as `invalid` if MIB is not patched.
+:::
 
-    Codes will not be properly signed and will be recognized as `invalid` if MIB is not patched.
-
-
-!!! tip
-
-    Service codes `FFFFFFF9 - FFFFFFFE` will also be rejected if the unit is not patched (tested on `MST2_VW_EU_P0254T`).
+:::tip
+Service codes `FFFFFFF9 - FFFFFFFE` will also be rejected if the unit is not patched (tested on `MST2_VW_EU_P0254T`).
+:::
 
 ## Demo
 

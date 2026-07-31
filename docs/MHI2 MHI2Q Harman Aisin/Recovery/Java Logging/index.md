@@ -1,3 +1,7 @@
+---
+title: "Java Logging"
+---
+
 # Java Logging
 
 The Harman units use a Java program to handle the GUI on the unit, as well as much of the background processing.
@@ -23,7 +27,8 @@ mount -uw /mnt/system
 Search for the `start_hmi()` function, it should look like this:
 
 ```javascript
-start_hmi()
+start_hmi()
+
 {
 	cd /mnt/app/eso
 
@@ -38,22 +43,38 @@ start_hmi()
 Rename this to `start_hmi_orig()` then add a replacement function that looks like:
 
 ```javascript
-start_hmi()
-{
-	waitfor /fs/sda0 5
-
-	logtarget=/dev/null
-	if [ -d /fs/sda0/Logs ]; then
-		mount -uw /fs/sda0
-		logtarget=/fs/sda0/Logs/mmxlog.txt
-		if [ -e $logtarget ]; then
-			mv $logtarget ${logtarget}.1
-		fi
-	fi
-
-	cd /mnt/app/eso
-
-	bin/runHMI.sh 2>&1 | tee ${logtarget}
+start_hmi()
+
+{
+
+	waitfor /fs/sda0 5
+
+
+
+	logtarget=/dev/null
+
+	if [ -d /fs/sda0/Logs ]; then
+
+		mount -uw /fs/sda0
+
+		logtarget=/fs/sda0/Logs/mmxlog.txt
+
+		if [ -e $logtarget ]; then
+
+			mv $logtarget ${logtarget}.1
+
+		fi
+
+	fi
+
+
+
+	cd /mnt/app/eso
+
+
+
+	bin/runHMI.sh 2>&1 | tee ${logtarget}
+
 }
 ```
 

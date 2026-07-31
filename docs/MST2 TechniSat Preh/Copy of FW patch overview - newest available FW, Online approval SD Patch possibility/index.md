@@ -1,8 +1,12 @@
+---
+title: "Copy of FW patch overview - newest available FW, Online approval/SD Patch possibility"
+---
+
 # Copy of FW patch overview - newest available FW, Online approval/SD Patch possibility
 
-!!! info
-
-    Below you can find an overview based on the FW version which kind of patch can be applied
+:::info
+Below you can find an overview based on the FW version which kind of patch can be applied
+:::
 
 # MST2 ZR EU
 
@@ -37,7 +41,7 @@
 
 ## Some other Informations about not SD Card patchable Units
 
-Be aware that it is not possible to patch with [SD card solution](https://mibwiki.one/doc/mst2-technisat-patch-installation-HEvFD0W6RF) in some cases (FPK/VC is one of the possible reasons). The [Online Approval exploit](/doc/update-approval_sop4_signed-lUN87vLNmc) can not be used on these units. If you have any informations about the affected part numbers (or any other informations about it please let us know here).
+Be aware that it is not possible to patch with [SD card solution](https://mibwiki.one/doc/mst2-technisat-patch-installation-HEvFD0W6RF) in some cases (FPK/VC is one of the possible reasons). The [Online Approval exploit](https://mibwiki.one/doc/update-approval_sop4_signed-lUN87vLNmc) can not be used on these units. If you have any informations about the affected part numbers (or any other informations about it please let us know here).
 
 Also on SEAT 05xx FW it is not possible to use the exploit. Only patching with direct eMMC read/write is possible.
 
@@ -89,7 +93,7 @@ Label:
 
 ## Some other Informations about not SD Card patchable Units
 
-Be aware that it is not possible to patch with [SD card solution](https://mibwiki.one/doc/mst2-technisat-patch-installation-HEvFD0W6RF) in some cases (FPK/VC is one of the possible reasons). The [Online Approval exploit](/doc/update-approval_sop4_signed-lUN87vLNmc) can not be used on these units. If you have any informations about the affected part numbers (or any other informations about it please let us know here).
+Be aware that it is not possible to patch with [SD card solution](https://mibwiki.one/doc/mst2-technisat-patch-installation-HEvFD0W6RF) in some cases (FPK/VC is one of the possible reasons). The [Online Approval exploit](https://mibwiki.one/doc/update-approval_sop4_signed-lUN87vLNmc) can not be used on these units. If you have any informations about the affected part numbers (or any other informations about it please let us know here).
 
 Also on SEAT 05xx FW it is not possible to use the exploit. Only patching with direct eMMC read/write is possible.
 

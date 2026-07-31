@@ -1,3 +1,7 @@
+---
+title: "MH2p Wireless CarPlay"
+---
+
 # MH2p Wireless CarPlay
 
 1. Update firmware to `P2470` or higher, min 2711
@@ -18,20 +22,20 @@
 4. Reboot the unit
 
    
-!!! info
+:::info
+   How to reboot Audi MMI
+:::
 
-       How to reboot Audi MMI
 5. Go to MMI settings and turn on Wi-Fi hotspot,
 6. Pair the iPhone with MMI via Bluetooth - it will ask you if you want to use CarPlay.
 
 
-!!! tip
+:::tip
+If you can't use CarPlay, make sure Siri is turned on. Also check out CarPlay common issues.
+:::
 
-    If you can't use CarPlay, make sure Siri is turned on. Also check out CarPlay common issues.
-
-
-!!! tip
-
-    If, for some reason, you can't make Wireless CarPlay to work, you can use one of the [wired-to-wireless adapters](/General information/Wireless CarPlay adapters/).
+:::tip
+If, for some reason, you can't make Wireless CarPlay to work, you can use one of the [wired-to-wireless adapters](/General information/Wireless CarPlay adapters/).
+:::
 
 Source: https://forum.obdeleven.com/thread/6663/2019-wireless-carplay-activation-cars

@@ -1,3 +1,7 @@
+---
+title: "eMMC dump for learning purposes"
+---
+
 # eMMC dump for learning purposes
 
 MH2p units are based on Tegra K1 MMX chipset and run under QNX 6.6 OS.

@@ -1,3 +1,7 @@
+---
+title: "Displaymanager - dmdt"
+---
+
 # Displaymanager - dmdt
 
 How are the display outputs on MHI2 units handled?

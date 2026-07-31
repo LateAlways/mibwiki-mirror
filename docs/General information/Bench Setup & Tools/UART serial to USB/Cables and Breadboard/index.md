@@ -1,3 +1,7 @@
+---
+title: "Cables and Breadboard"
+---
+
 # Cables and Breadboard
 
 You can never have enough of these!

@@ -1,3 +1,7 @@
+---
+title: "mibwiki.one"
+---
+
 Delphi
 
 \

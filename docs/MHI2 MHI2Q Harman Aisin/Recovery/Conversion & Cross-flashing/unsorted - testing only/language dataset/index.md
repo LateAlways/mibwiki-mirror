@@ -1,3 +1,7 @@
+---
+title: "language dataset"
+---
+
 # language dataset
 
 stock dataset with a very limited number of languages installed:

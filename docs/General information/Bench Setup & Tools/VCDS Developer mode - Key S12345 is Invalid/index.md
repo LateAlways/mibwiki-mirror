@@ -1,3 +1,7 @@
+---
+title: "VCDS Developer mode - Key S12345 is Invalid!"
+---
+
 # VCDS Developer mode - Key S12345 is Invalid!
 
 If S12345 script for Developer mode doesn't work and you get error "*Key S12345 is Invalid!*"

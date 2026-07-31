@@ -1,8 +1,12 @@
+---
+title: "Gracenote DB"
+---
+
 # Gracenote DB
 
-!!! info
-
-    Gracenote2 is an algorithm that uses ID of the played CD/DVD or file to read the artist metadata, cover art, music genre, mood information, descriptions, episode information etc. from Gracenote2 database and makes the media player to display it.
+:::info
+Gracenote2 is an algorithm that uses ID of the played CD/DVD or file to read the artist metadata, cover art, music genre, mood information, descriptions, episode information etc. from Gracenote2 database and makes the media player to display it.
+:::
 
 The latest Gracenote2 DB version for MHI2/MHI2Q/MHS2/MH2p/MHI3/MPR3 units can be found on mibsolution.one
 
@@ -13,10 +17,10 @@ The latest Gracenote2 DB version for MHI2/MHI2Q/MHS2/MH2p/MHI3/MPR3 units can be
 * [GN2_gdb-EU-v24-0010-1.1.1.3119-20231019.zip ](https://mega.nz/file/I85jiTaA#_O9j1BLcGZMqdeMefJ_P2JsvR9vdwPPx11-xZWTWaTw)(2023 database for EU region only)
 * [GN2_gdb-EU-v25-EU-0010-1.1.1.3392-20241019_V03959800GL](https://mega.nz/file/XxQwmRJB#Ev_0Lex5_EKyB9AkSRVj-fVm2E6n6jzF9w-5-ZQ7p1I)
 
-  [.zip]() (2024 database for EU region only)
+  .zip (2024 database for EU region only)
 * [GN2_gdb-EU-v26-EU-0010-1.1.1.3664-20251025_V03959800GM](https://mega.nz/file/XxQwmRJB#Ev_0Lex5_EKyB9AkSRVj-fVm2E6n6jzF9w-5-ZQ7p1I)
 
-  [.zip]() (2025 database for EU region only)
+  .zip (2025 database for EU region only)
 * **Gracenote2_AIO_payload.7z (older version but for both EU & RW region)**
 
 These packages contain metainfo2.txt and can be installed on MHI2/MHI2Q like regular software updates. For MHS2 you need to use MHS2 Toolbox.
@@ -26,9 +30,9 @@ These packages contain metainfo2.txt and can be installed on MHI2/MHI2Q like reg
 
 
 
-!!! success
-
-    **GOOD TO KNOW!** BMW **MGU** navi units use the same Gracenote2 DB format but get updates more frequently than MHI2/MHI2Q/MHS2/MH2p/MHI3/MPR3 units. To use BMW MGU Gracenote2 DB on MHI2/MHI2Q/MHS2 you need to convert 300x300 images in DB to 170x170 images.
+:::tip
+**GOOD TO KNOW!** BMW **MGU** navi units use the same Gracenote2 DB format but get updates more frequently than MHI2/MHI2Q/MHS2/MH2p/MHI3/MPR3 units. To use BMW MGU Gracenote2 DB on MHI2/MHI2Q/MHS2 you need to convert 300x300 images in DB to 170x170 images.
+:::
 
 Comparison of BMW and VAG gdb_info in [DB Browser for SQLite](https://sqlitebrowser.org/dl/)
 

@@ -1,3 +1,7 @@
+---
+title: "NAND partitioning"
+---
+
 # NAND partitioning
 
 Manual partitioning of the MMX NAND

@@ -1,3 +1,7 @@
+---
+title: "Current issues"
+---
+
 # Current issues
 
 List of broken archives/files.

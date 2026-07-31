@@ -1,3 +1,7 @@
+---
+title: "Supported FECs"
+---
+
 # Supported FECs
 
 MSTD_EU_AU_P2440 supports FECs 00000001 (SDS for non navi?), 00030000 (AMI/USB port), 00040100 (navi), 00050000 (bluetooth), 00070200 (SDS for navi), 02200002 (2014 maps):

@@ -2,3 +2,11 @@
 .idea/
 config.py
 __pycache__
+
+# Docusaurus
+node_modules/
+build/
+.docusaurus/
+.cache-loader/
+npm-debug.log*
+.DS_Store

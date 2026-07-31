@@ -1,3 +1,7 @@
+---
+title: "Useful File locations"
+---
+
 # Useful File locations
 
 Here you will find the path of useful files you will dealing with in case of need:

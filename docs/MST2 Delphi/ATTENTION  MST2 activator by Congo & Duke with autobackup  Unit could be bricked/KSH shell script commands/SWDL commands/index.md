@@ -1,3 +1,7 @@
+---
+title: "SWDL commands"
+---
+
 # SWDL commands
 
 In **/extbin/swdl/** is possible to create empty folders as SWDL commands:

@@ -1,3 +1,7 @@
+---
+title: "MIB3 USB HUBs"
+---
+
 # MIB3 USB HUBs
 
 \

@@ -6,7 +6,6 @@ import time
 import httpx
 import shutil
 from config import LAST_SIGNED_IN, ACCESS_TOKEN
-from admonitions import convert_admonitions
 
 BASE_URL = "https://mibwiki.one"
 OUTPUT = "docs"
@@ -15,7 +14,10 @@ def safe_url_folder(url: str) -> str:
     return url.split("/", 2)[-1]
 
 def sanitize_folder_name(name: str) -> str:
-    final = re.sub(r'[<>:"/\\|?*]', ' ', name)
+    # "!" is stripped too: Docusaurus/webpack reserve "!" as a loader
+    # delimiter in module request strings, so a folder name containing it
+    # breaks the site build when something links to that document.
+    final = re.sub(r'[<>:"/\\|?*!]', ' ', name)
     # remove additional spaces at the end
     final = re.sub(r'\s+$', '', final)
     return final
@@ -173,6 +175,8 @@ def downloadDocument(document: dict, startPath: str) -> dict:
                     else:
                         info = getDocumentsInfo(doc_match[1])
                         if not info:
+                            # Unresolvable locally; keep it working by pointing at the live site.
+                            original_content = original_content.replace("".join(doc_match), f"{BASE_URL}{doc_match[1]}")
                             continue
                         new_url = info["data"]["document"]["url"]
                         document_path = recursiveSearchDocumentGetFullURL(safe_url_folder(new_url))
@@ -181,9 +185,14 @@ def downloadDocument(document: dict, startPath: str) -> dict:
                             original_content = original_content.replace("".join(doc_match), f"{document_path}/")
                         else:
                             print(f"Could not find document for link {doc_match[1]} in document {document['url']} ({document['title'] if 'title' in document.keys() else document['name']})")
+                            # Unresolvable locally; keep it working by pointing at the live site.
+                            original_content = original_content.replace("".join(doc_match), f"{BASE_URL}{doc_match[1]}")
 
-                original_content = convert_admonitions(original_content)
-
+                # Many scraped docs have no (or no top-level) heading, which
+                # would otherwise make Docusaurus fall back to the filename
+                # ("index") as the sidebar label. Pin the real title instead.
+                escaped_title = document["title"].replace("\\", "\\\\").replace('"', '\\"')
+                f.write(f'---\ntitle: "{escaped_title}"\n---\n\n')
                 f.write(original_content)
                 f.close()
                 print("Success!")

@@ -1,10 +1,14 @@
+---
+title: "Recovery via Emergency Download"
+---
+
 # Recovery via Emergency Download
 
-!!! info
+:::info
+This tutorial was made base on my personal experience with recovering Technisat MIB2 in vehicle, without bench setup.
 
-    This tutorial was made base on my personal experience with recovering Technisat MIB2 in vehicle, without bench setup.
-
-    I'm not sure if the procedure is the same for PQ units, for MIB2 Standard by Delphi, for MIB2High by Harman, and other MIB units.
+I'm not sure if the procedure is the same for PQ units, for MIB2 Standard by Delphi, for MIB2High by Harman, and other MIB units.
+:::
 
 ## Required
 
@@ -35,12 +39,11 @@
 ### Prepare and test serial communication
 
 
-!!! info
+:::info
+Check [Quadlock - pin layout](https://mibwiki.one/doc/quadlock-pin-layout-u5Qkyar282) for details
 
-    Check [Quadlock - pin layout](/doc/quadlock-pin-layout-u5Qkyar282) for details
-
-     ![](attachments/efd98ffd-fbbb-4116-b0e6-2377e4340943.png)
-
+ ![](attachments/efd98ffd-fbbb-4116-b0e6-2377e4340943.png)
+:::
 
  1. Set signal converter to `3.3V` logic level.
  2. Remove purple lock from QuadLock.
@@ -54,9 +57,9 @@
 10. Connect QuadLock to confirm that the serial communication is working and you can see logs from MIB on your PC while the main unit is in boot loop.
 
 
-!!! tip
-
-    You can use crocodile clip for Gnd connection on the MIB housing. It's easier and faster than to use GND from the QuadLock.
+:::tip
+You can use crocodile clip for Gnd connection on the MIB housing. It's easier and faster than to use GND from the QuadLock.
+:::
 
 |  ![MIB end of the cable.](attachments/18f9e449-0131-4ec9-839d-74c56e1c6e35.jpg " =250x250") |  ![PC end of the cable and USB serial converter.](attachments/c2a5b6e1-d526-42c4-b376-4964070db601.jpg " =83x83") |  ![MIB connected to PC over serial.](attachments/b0abdbdf-0f1b-4e8b-8adf-a10f13e0bb30.jpg "right-50 =277x277") |  ![Live logs from normal boot procedure.](attachments/325df63d-4497-4fec-acbb-c25c52df3d37.jpg) |
 |----|----|----|----|
@@ -66,15 +69,13 @@
 ### Enter recovery Menu
 
 
-!!! info
+:::info
+TODO: photo of the main board jumper
+:::
 
-    TODO: photo of the main board jumper
-
-
-!!! warning
-
-    Use external power supply of 3A minimum or turn on the engine to prevent voltage drops and power issues while the procedure is in progress.
-
+:::warning
+Use external power supply of 3A minimum or turn on the engine to prevent voltage drops and power issues while the procedure is in progress.
+:::
 
 1. Turn the ignition on. If you have Kessy (keyless ignition) make sure that the key stays in the vehicle at all times (here's why: [Kessy & Updates](/General information/Kessy & Updates/)).
 2. Disconnect QuadLock.

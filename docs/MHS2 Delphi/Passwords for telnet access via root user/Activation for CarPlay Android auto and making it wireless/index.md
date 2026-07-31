@@ -1,3 +1,7 @@
+---
+title: "Activation for CarPlay Android auto and making it wireless"
+---
+
 # Activation for CarPlay Android auto and making it wireless
 
 Commands that need to be entered while in red engineering menu through putty while connected to system.

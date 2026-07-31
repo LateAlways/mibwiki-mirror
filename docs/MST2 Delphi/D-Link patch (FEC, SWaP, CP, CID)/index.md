@@ -1,18 +1,20 @@
+---
+title: "D-Link patch (FEC, SWaP, CP, CID)"
+---
+
 # D-Link patch (FEC, SWaP, CP, CID)
 
-!!! info
+:::info
+Thanks to -XTR3M3- for creating the base for this how to and Yalmac for translation. This article is based on this work, but not linked in any way directly to the original author.
+:::
 
-    Thanks to -XTR3M3- for creating the base for this how to and Yalmac for translation. This article is based on this work, but not linked in any way directly to the original author.
+:::warning
+Patch files are different for each FW version. Make sure that you use the correct patch files for your unit.
+:::
 
-
-!!! warning
-
-    Patch files are different for each FW version. Make sure that you use the correct patch files for your unit.
-
-
-!!! success
-
-    Before reading this,  check SD Activator by Congo & Duke. 
+:::tip
+Before reading this,  check SD Activator by Congo & Duke. 
+:::
 
 | SWaP patch for | CP off patch for |
 |----|:---:|
@@ -62,14 +64,13 @@
 
 
 
-!!! info
+:::info
+If there is a D at the end of your SW Train version, you have a Delphi Unit.
+:::
 
-    If there is a D at the end of your SW Train version, you have a Delphi Unit.
-
-
-!!! tip
-
-    If you see a `PQ` or `ZR` after the vehicle brand or a `T` at the end in your SW Train version, then you have a [Technisat Preh Unit.](/doc/technisat-02xx-to-04xx-firmware-update-RZcERlnOpc)
+:::tip
+If you see a `PQ` or `ZR` after the vehicle brand or a `T` at the end in your SW Train version, then you have a [Technisat Preh Unit.](https://mibwiki.one/doc/technisat-02xx-to-04xx-firmware-update-RZcERlnOpc)
+:::
 
 ## Requirements - What do you need?
 
@@ -91,19 +92,17 @@
 ## Software-Version
 
 
-!!! info
+:::info
+The patch files are different for each SW-Train and software version! \n Therefore, make sure that you use the right patch files for your unit!
+:::
 
-    The patch files are different for each SW-Train and software version! \n Therefore, make sure that you use the right patch files for your unit!
+:::warning
+If you use the wrong patch files, you will brick your unit in the worst case!
+:::
 
-
-!!! warning
-
-    If you use the wrong patch files, you will brick your unit in the worst case!
-
-
-!!! info
-
-    In addition to the SW-Train mentioned in the first section, there is also the software version, which can be read at the end of the same menu item.
+:::info
+In addition to the SW-Train mentioned in the first section, there is also the software version, which can be read at the end of the same menu item.
+:::
 
  ![](attachments/0c4facc7-8828-4032-83bf-f487b436a2aa.png)
 
@@ -116,11 +115,11 @@ Check: 5F - Enabling Developer Mode and Hidden Menu for more details.
 # Update FW
 
 
-!!! info
+:::info
+Train\*\*~~In the~~ `~~08xx~~` ~~series, the firmware updates have not always been released ascending order.~~
 
-    Train\*\*~~In the~~ `~~08xx~~` ~~series, the firmware updates have not always been released ascending order.~~
-
-    ~~The~~ `~~0891~~` ~~is not the latest firmware, but~~ `~~0879~~` ~~is!~~
+~~The~~ `~~0891~~` ~~is not the latest firmware, but~~ `~~0879~~` ~~is!~~
+:::
 
 ~~P9122D (MU0842) ➔ P0867D (MU0867) \* ➔ P0890D (MU0890) ➔ P0891D (MU0891) ➔ P0876D (MU0876) \* ➔ P0879D (MU0879) \*\*~~
 
@@ -129,9 +128,9 @@ Check: 5F - Enabling Developer Mode and Hidden Menu for more details.
 \*\*= there is a modified firmware (**MST2_EU_VW_P0879D-wTelnet**) on the mibsolution.one server **with** telnet activated. Read in the folder oft this FW: patch\\howto.txt !!!
 
 
-!!! tip
-
-    Downgrade/upgrade to a version supporting **telnet** and or having an **available patch**
+:::tip
+Downgrade/upgrade to a version supporting **telnet** and or having an **available patch**
+:::
 
 ## Run FW update
 
@@ -154,17 +153,17 @@ Check: 5F - Enabling Developer Mode and Hidden Menu for more details.
     ![](attachments/6bec0955-597d-4bce-9452-4333a2eb8174.png)
 
 
-!!! warning
+:::warning
+What should be considered when updating the firmware?
 
-    What should be considered when updating the firmware?
+•	Leave the ignition on
 
-    •	Leave the ignition on
+•	Turn off unnecessary consumers (lights, ventilation, ...)
 
-    •	Turn off unnecessary consumers (lights, ventilation, ...)
+•	Connect charger(at least  15A charging power, better 20A and more)
 
-    •	Connect charger(at least  15A charging power, better 20A and more)
-
-    •	Depending on the unit (RAM/CPU), the update takes 20 to 60 minutes
+•	Depending on the unit (RAM/CPU), the update takes 20 to 60 minutes
+:::
 
 ## Fix Software Version Management (SVM) error
 
@@ -173,9 +172,9 @@ Use VCDS / OBDEleven / VCP to clear the erroro from unit.
 # TELNET Connection
 
 
-!!! tip
-
-    Ethernet must be activated in GEM to enable telnet access.
+:::tip
+Ethernet must be activated in GEM to enable telnet access.
+:::
 
 ## Enable ethernet
 
@@ -255,9 +254,9 @@ Attributes:
 ## Create backup - **recommended**
 
 
-!!! warning
-
-    It is important to create a backup before starting to patch!
+:::warning
+It is important to create a backup before starting to patch!
+:::
 
 Insert empty the SD card into `SD 1` port and execute the following commands via putty.
 
@@ -353,10 +352,9 @@ echo "FINISHED - You can now remove SD Card"
 ## SWaP (FEC) patch
 
 
-!!! info
-
-    **This patch is required to disable the verification of the signature of the FEC containers.** \n [Open MIB2 Delphi FEC Generator ](https://www.digital-eliteboard.com/threads/mib2-delphi-fec-generator-by-xtr3m3.495976/) by  XTR3M3 and select the appropriate featureenablecodes as desiredand thencreate/save the FEC container (right button). The VCNR and VIN can either be entered manually or imported from an existing (backup) FEC container.
-
+:::info
+**This patch is required to disable the verification of the signature of the FEC containers.** \n [Open MIB2 Delphi FEC Generator ](https://www.digital-eliteboard.com/threads/mib2-delphi-fec-generator-by-xtr3m3.495976/) by  XTR3M3 and select the appropriate featureenablecodes as desiredand thencreate/save the FEC container (right button). The VCNR and VIN can either be entered manually or imported from an existing (backup) FEC container.
+:::
 
  ![](attachments/ebc8aa25-ee68-4042-9af1-f07ad31d29fe.png)
 
@@ -368,9 +366,9 @@ This `*.fec`  file and patched  `SWaP`  will be copied to SD card and insert 
 First, the patched  SWaP file is copied to unit.
 
 
-!!! warning
-
-    Enter the commands exactly! Unintentionally set spaces can lead to bricking  of the unit! This note is  especially  relevant for users who use a translator because they partially insert unwanted spaces.
+:::warning
+Enter the commands exactly! Unintentionally set spaces can lead to bricking  of the unit! This note is  especially  relevant for users who use a translator because they partially insert unwanted spaces.
+:::
 
 ### MST2_patch.sh - manual input
 
@@ -416,22 +414,20 @@ echo "FINISHED - You can now remove SD Card"
 
 
 
-!!! info
-
-    Restart unit by long pressing the power button. \n A reboot can be seen by the boot logo and short-term loud fan noises
-
+:::info
+Restart unit by long pressing the power button. \n A reboot can be seen by the boot logo and short-term loud fan noises
+:::
 
 ---
 
 
-!!! info
+:::info
+Now the patched FEC container is copied to unit.
+:::
 
-    Now the patched FEC container is copied to unit.
-
-
-!!! warning
-
-    Enter the commands exactly! Unintentionally set spaces can lead to bricking  of the unit! This note is especially relevant for users who use a translator because they partially insert unwanted spaces.
+:::warning
+Enter the commands exactly! Unintentionally set spaces can lead to bricking  of the unit! This note is especially relevant for users who use a translator because they partially insert unwanted spaces.
+:::
 
 ### MST2_fec.sh - manual input
 
@@ -492,14 +488,13 @@ echo "FINISHED - You can now remove SD Card"
 ## Config (CID) patch
 
 
-!!! info
+:::info
+**This patch disables SD card check for navigation (aftermarket SD cards).**
+:::
 
-    **This patch disables SD card check for navigation (aftermarket SD cards).**
-
-
-!!! warning
-
-    Enter the commands exactly! Unintentionally set spaces can lead to bricking  of the unit! This note is  especially relevant for users who use a translator because it can insert unwanted spaces into the translated text..
+:::warning
+Enter the commands exactly! Unintentionally set spaces can lead to bricking  of the unit! This note is  especially relevant for users who use a translator because it can insert unwanted spaces into the translated text..
+:::
 
 This script can be copied to SD card or just executed by typing
 
@@ -510,15 +505,13 @@ grep -v "MIBST" /extbin/apps/cfg/MHConfig.cfg > /tmp/MHConfig.cfg && cp /tmp/MHC
 ## delphibin.ifs (CP) patch
 
 
-!!! info
+:::info
+**This patch disables component protection check**
+:::
 
-    **This patch disables component protection check**
-
-
-!!! warning
-
-    Enter the commands exactly! Unintentionally set spaces can lead to bricking  of the unit! This note is  especially relevant for users who use a translator because it can insert unwanted spaces into the translated text.
-
+:::warning
+Enter the commands exactly! Unintentionally set spaces can lead to bricking  of the unit! This note is  especially relevant for users who use a translator because it can insert unwanted spaces into the translated text.
+:::
 
 1. Copy patched `delphibin.ifs` that corresponds to Train and unit type onto the root of SD card
 2. Insert SD card into `SD 1` slot of the unit.

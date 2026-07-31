@@ -1,18 +1,21 @@
-# MHI2 EU conversion
+---
+title: "MHI2 EU conversion"
+---
 
 # MHI2 EU conversion
 
-
-!!! tip
-
-    In this **example** an unit with US FW train `MHI2Q_US_AUG22_P4246` will be converted to EU FW train `MHI2Q_ER_AUG22_P5092`
+# MHI2 EU conversion
 
 
-!!! info
+:::tip
+In this **example** an unit with US FW train `MHI2Q_US_AUG22_P4246` will be converted to EU FW train `MHI2Q_ER_AUG22_P5092`
+:::
 
-    Select target FW based on the train on your non US unit.
+:::info
+Select target FW based on the train on your non US unit.
 
-    In case you are not sure which train is the fitting EU one, run "Change train to EU" function in M.I.B. and check the train that was chosen by the script. Download that FW and prepare SD card.
+In case you are not sure which train is the fitting EU one, run "Change train to EU" function in M.I.B. and check the train that was chosen by the script. Download that FW and prepare SD card.
+:::
 
 ## Preparation:
 
@@ -25,9 +28,9 @@
 ## Step 1 - change train to EU
 
 
-!!! tip
-
-    MIBSD is entered into SD1 slot
+:::tip
+MIBSD is entered into SD1 slot
+:::
 
 Enter GEM and use M.I.B to change train to EU version.
 
@@ -42,9 +45,9 @@ After reboot the menu will show the new EU train
 ## Step 2 - install EU FW
 
 
-!!! tip
-
-    MIBSD is entered into SD1 slot
+:::tip
+MIBSD is entered into SD1 slot
+:::
 
 ### Enter GEM and select "Enable user defined SWDL"
 
@@ -57,11 +60,11 @@ After reboot the menu will show the new EU train
 Exit GEM - NO reboot
 
 
-!!! tip
+:::tip
+remove MIBSD
 
-    remove MIBSD
-
-    insert FWSD into SD1 slot
+insert FWSD into SD1 slot
+:::
 
 ### Enter red menu
 
@@ -70,9 +73,9 @@ Exit GEM - NO reboot
 ## Step 3 - apply EU coding to Unit
 
 
-!!! tip
-
-    MIBSD is entered into SD1 slot
+:::tip
+MIBSD is entered into SD1 slot
+:::
 
 Enter GEM and select:
 

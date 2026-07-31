@@ -1,3 +1,7 @@
+---
+title: "5F - Vehicle Variants MIB2"
+---
+
 # 5F - Vehicle Variants MIB2
 
 This information is stored in module `5F`, long coding, bytes `00`, `01`, `02`.
@@ -139,9 +143,9 @@ This information is stored in module `5F`, long coding, bytes `00`, `01`, `02`.
 ## Porsche
 
 
-!!! info
-
-    Porsche does not fit into the body type template.
+:::info
+Porsche does not fit into the body type template.
+:::
 
 * `07 14 06` - Porsche Macan
 * `07 25 06` - Porsche Cayenne S e-Hybrid

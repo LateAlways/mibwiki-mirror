@@ -1,9 +1,12 @@
+---
+title: "GEM.jar - AppDevelopment.jar"
+---
+
 # GEM.jar - AppDevelopment.jar
 
-!!! info
-
-    Responsible for displaying GEM and building up menu structure from \*.esd files
-
+:::info
+Responsible for displaying GEM and building up menu structure from \*.esd files
+:::
 
 Both located in `/net/mmx/mnt/app/eso/hmi/lsd/jars`
 
@@ -43,12 +46,11 @@ Open \*.jar in e.g. 7zip - `\de\audi\gem\elements\`
 
 
 
-!!! info
+:::info
+"Bit-Elements" were only introduced with later GEM versions (starting 4.0). Only 4.11+ support Bitvalue (used a lot by M.I.B).
 
-    "Bit-Elements" were only introduced with later GEM versions (starting 4.0). Only 4.11+ support Bitvalue (used a lot by M.I.B).
-
-    GEM will fail loading \*.esd, as soon as an unknown element is parsed.
-
+GEM will fail loading \*.esd, as soon as an unknown element is parsed.
+:::
 
 ### M.I.B 3.0.0 BETA on GEM 3.6
 

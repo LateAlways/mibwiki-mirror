@@ -1,3 +1,7 @@
+---
+title: "Some notes about the executable files"
+---
+
 # Some notes about the executable files
 
 **Some references for the component protection:**

@@ -1,3 +1,7 @@
+---
+title: "MMX root passwords"
+---
+
 # MMX root passwords
 
 # MMX root passwords

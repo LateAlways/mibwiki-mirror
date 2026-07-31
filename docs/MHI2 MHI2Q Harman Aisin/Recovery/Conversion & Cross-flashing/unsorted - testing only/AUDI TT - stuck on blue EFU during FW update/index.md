@@ -1,3 +1,7 @@
+---
+title: "AUDI TT - stuck on blue EFU during FW update"
+---
+
 # AUDI TT - stuck on blue EFU during FW update
 
 ## This happens when you update MHI2_ER_AU43x_S1074_1 to MHI2_ER_AU43x_P5098

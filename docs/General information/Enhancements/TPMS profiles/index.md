@@ -1,3 +1,7 @@
+---
+title: "TPMS profiles"
+---
+
 # TPMS profiles
 
 Allows to create custom TPMS/RKDS profiles.

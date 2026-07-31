@@ -1,11 +1,14 @@
+---
+title: "Manual FW update /50/ vs /70/ folders"
+---
+
 # Manual FW update /50/ vs /70/ folders
 
-!!! info
+:::info
+While converting a DEV unit (MHI2_CN_AU57x_P0632 → MHI2_ER_SEG11_P4709) with H22 (manufactured in 2013) I noticed, that partitioning on MMX is different from what I have seen so far on G11 units.
 
-    While converting a DEV unit (MHI2_CN_AU57x_P0632 → MHI2_ER_SEG11_P4709) with H22 (manufactured in 2013) I noticed, that partitioning on MMX is different from what I have seen so far on G11 units.
-
-    Assumption is, that for this configuration `/50/` folders from FW update are needed to run.
-
+Assumption is, that for this configuration `/50/` folders from FW update are needed to run.
+:::
 
 Most (if not all) FW updates have two subfolders within the MMX2 update packages
 
@@ -55,11 +58,11 @@ e.g. eifs does not have a `70` folder and therefore `/50/` is used in all cases.
 
 
 
-!!! tip
+:::tip
+SWDL, SPLASH, SYSTEM and PERSIST have different offsets between these versions
 
-    SWDL, SPLASH, SYSTEM and PERSIST have different offsets between these versions
-
-    [ images.zip](attachments/f66cf523-bdcd-40a1-bc3d-d028a9103e16.zip)
+[ images.zip](attachments/f66cf523-bdcd-40a1-bc3d-d028a9103e16.zip)
+:::
 
 ## Manual FW restore commands for MHI2_CN_AU57x_P0632 or other `/50/` type units?
 
@@ -129,11 +132,11 @@ cat /net/mmx/fs/sda0/MMX2/app/50/default/app.img > /net/mmx/dev/mnand0t177
 ### How to prepare mifs-stage1.img and eifs.img for flashing
 
 
-!!! warning
+:::warning
+follow link above to edit images
 
-    follow link above to edit images
-
-    Stock FW update image will brick your unit!
+Stock FW update image will brick your unit!
+:::
 
 ### Run normal FW update
 

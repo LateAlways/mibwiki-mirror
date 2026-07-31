@@ -1,3 +1,7 @@
+---
+title: "Updating FW when the train is blocked"
+---
+
 # Updating FW when the train is blocked
 
 When you try to update to the latest FW version you will see:

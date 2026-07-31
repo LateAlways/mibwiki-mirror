@@ -1,3 +1,7 @@
+---
+title: "How to boot ifs-emergency.ifs via zmodem in CLI"
+---
+
 # How to boot ifs-emergency.ifs via zmodem in CLI
 
 If "boot -t emerg" from CLI does not run Emergency IFS as ifs-emergency.ifs partition in RCC NOR got corrupted you can use **zmodem** [CLI command](/MHI2 MHI2Q Harman Aisin/Recovery/RCC/How to stop IPL, enter CLI, boot ifs-emergency.ifs and restore ifs.root-stage2/) for uploading ifs-emergency.ifs to RAM and boot/ run from there.
@@ -5,11 +9,11 @@ If "boot -t emerg" from CLI does not run Emergency IFS as ifs-emergency.ifs part
 This will allow you to proceed with repairing of RCC flash but only if MMX is still OK as you need SD card to be accessible via **/net/mmx/fs/sda0**
 
 
-!!! info
+:::info
+When you stop IPL and enter CLI, you only have 30 seconds to enter commands. After 30 seconds IPL closes CLI and continues the booting process.
 
-    When you stop IPL and enter CLI, you only have 30 seconds to enter commands. After 30 seconds IPL closes CLI and continues the booting process.
-
-    As uploading of ifs-emergency.ifs over zmodem at 460800 bps requires about 90 seconds you need to slow down IPL to extend timeout to 150 seconds (also known as 2:30 IPL mode)
+As uploading of ifs-emergency.ifs over zmodem at 460800 bps requires about 90 seconds you need to slow down IPL to extend timeout to 150 seconds (also known as 2:30 IPL mode)
+:::
 
 ## Slowing down IPL (getting 2:30 IPL mode)
 

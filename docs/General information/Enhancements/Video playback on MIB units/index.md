@@ -1,3 +1,7 @@
+---
+title: "Video playback on MIB units"
+---
+
 # Video playback on MIB units
 
 ## Native video playback on MIB High

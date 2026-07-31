@@ -1,3 +1,7 @@
+---
+title: "MST2 EU PQ variant overview"
+---
+
 # MST2 EU PQ variant overview
 
 ## PQ Variants (cross flashing / conversation)

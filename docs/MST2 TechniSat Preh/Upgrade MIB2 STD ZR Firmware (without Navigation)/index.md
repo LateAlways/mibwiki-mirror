@@ -1,3 +1,7 @@
+---
+title: "Upgrade MIB2 STD ZR Firmware (without Navigation)"
+---
+
 # Upgrade MIB2 STD ZR Firmware (without Navigation)
 
 ## About

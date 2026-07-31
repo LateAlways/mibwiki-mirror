@@ -1,3 +1,7 @@
+---
+title: "MIB1 > MIB2 Upgrade Tutorial Quick Overview"
+---
+
 # MIB1 > MIB2 Upgrade Tutorial Quick Overview
 
 Thought you all may find this quick overview helpful of what is needed to upgrade from MIB1 > MIB2. 

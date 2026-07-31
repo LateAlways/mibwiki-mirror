@@ -1,9 +1,12 @@
+---
+title: "UART/serial to USB"
+---
+
 # UART/serial to USB
 
-!!! info
-
-    To make use of the UART converter you also have to get some [cables and breadboard](/General information/Bench Setup & Tools/UART serial to USB/Cables and Breadboard/)
-
+:::info
+To make use of the UART converter you also have to get some [cables and breadboard](/General information/Bench Setup & Tools/UART serial to USB/Cables and Breadboard/)
+:::
 
 Get a UART to USB converter like this one:      ![This one](attachments/3775b8be-ad2f-4bae-a51b-9feefd90be06.png " =320x155")
 
@@ -11,15 +14,13 @@ Get a UART to USB converter like this one:      ![This one](attachments/3775b8be
 
 
 
-!!! warning
+:::warning
+Note that converter has to be able to run at 3.3V
+:::
 
-    Note that converter has to be able to run at 3.3V
-
-
-!!! tip
-
-    Get minimum 2-3 as you might need to [connect to RCC and MMX](/MHI2 MHI2Q Harman Aisin/Shell access via telnet and UART/) at the same time
-
+:::tip
+Get minimum 2-3 as you might need to [connect to RCC and MMX](/MHI2 MHI2Q Harman Aisin/Shell access via telnet and UART/) at the same time
+:::
 
 ## Where to buy:
 
