@@ -50,7 +50,23 @@ const config = {
     ],
   ],
 
-  themes: ['@easyops-cn/docusaurus-search-local'],
+  themes: [
+    [
+      '@easyops-cn/docusaurus-search-local',
+      /** @type {import('@easyops-cn/docusaurus-search-local').PluginOptions} */
+      ({
+        hashed: true,
+        indexDocs: true,
+        indexBlog: false,
+        indexPages: false,
+        // The docs plugin is mounted at "/" (docs-only mode), not the
+        // default "/docs" — without this the indexer looks in the wrong
+        // place and the search bar silently returns nothing.
+        docsRouteBasePath: '/',
+        language: 'en',
+      }),
+    ],
+  ],
 
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
