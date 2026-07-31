@@ -1,0 +1,1 @@
+Shell access via telnet and UART

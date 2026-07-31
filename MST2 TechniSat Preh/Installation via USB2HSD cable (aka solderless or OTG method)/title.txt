@@ -1,0 +1,1 @@
+Installation via USB2HSD cable (aka solderless or OTG method)

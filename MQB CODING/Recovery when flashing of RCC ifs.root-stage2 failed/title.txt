@@ -1,0 +1,1 @@
+Recovery when flashing of RCC ifs.root-stage2 failed
