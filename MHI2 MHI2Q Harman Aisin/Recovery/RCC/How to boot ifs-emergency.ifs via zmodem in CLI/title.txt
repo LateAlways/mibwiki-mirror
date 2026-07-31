@@ -1,1 +1,0 @@
-How to boot ifs-emergency.ifs via zmodem in CLI

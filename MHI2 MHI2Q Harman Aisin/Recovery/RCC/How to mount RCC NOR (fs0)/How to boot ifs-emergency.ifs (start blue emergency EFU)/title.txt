@@ -1,1 +1,0 @@
-How to boot ifs-emergency.ifs (start blue emergency EFU)

@@ -1,1 +1,0 @@
-Extract apps folder from FW

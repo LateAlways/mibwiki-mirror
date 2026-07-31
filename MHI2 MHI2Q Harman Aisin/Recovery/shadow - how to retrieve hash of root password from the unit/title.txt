@@ -1,1 +1,0 @@
-shadow - how to retrieve hash of root password from the unit

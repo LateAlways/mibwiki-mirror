@@ -1,1 +1,0 @@
-SSH support - LAN and WLAN

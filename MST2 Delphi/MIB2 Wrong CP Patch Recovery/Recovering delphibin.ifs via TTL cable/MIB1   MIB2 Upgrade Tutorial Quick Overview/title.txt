@@ -1,1 +1,0 @@
-MIB1 > MIB2 Upgrade Tutorial Quick Overview

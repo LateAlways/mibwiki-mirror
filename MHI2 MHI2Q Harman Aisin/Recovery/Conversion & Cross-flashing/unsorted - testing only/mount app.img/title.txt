@@ -1,1 +1,0 @@
-mount app.img

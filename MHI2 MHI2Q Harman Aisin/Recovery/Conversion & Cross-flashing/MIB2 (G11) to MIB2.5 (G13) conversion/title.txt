@@ -1,1 +1,0 @@
-MIB2 (G11) to MIB2.5 (G13) conversion

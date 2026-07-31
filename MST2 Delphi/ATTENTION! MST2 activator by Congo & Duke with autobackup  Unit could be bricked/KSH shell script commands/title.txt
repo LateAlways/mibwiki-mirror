@@ -1,1 +1,0 @@
-KSH shell script commands

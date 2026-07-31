@@ -1,1 +1,0 @@
-How to stop IPL, enter CLI, boot ifs-emergency.ifs and restore ifs.root-stage2
